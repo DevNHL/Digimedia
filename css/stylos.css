@@ -1,0 +1,86 @@
+/* ------------- Mis variables----------- */
+:root{
+    --first-color:#6434d1;
+    --second-color:#9e7fe2;
+}
+/* ------------- Reseteo ---------------- */
+
+
+
+
+/* ---------------Stylos de Bootstrap ------------- */
+.bg-dark{
+    background: var(--first-color) !important;
+}
+.navbar-brand img{
+    height: 4rem;
+    width: auto;
+}
+.nav-link{
+    padding-left: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.dropdown-menu{
+    font-style: italic;
+}
+
+
+
+/* ----------------- Mis Stylos--------------------- */
+body{
+    background-color: var(--second-color)
+}
+.fa-comments{
+    font-size: 40px;
+}
+.hv:hover{
+    background: var(--second-color);
+    border-radius: 1rem;
+}
+footer a {
+    color: white;
+}
+footer a :hover{
+    color: #9e7fe2;
+}
+
+
+
+
+
+
+
+
+
+/* -------- Mediaquerys de Bootstrap ---------- 
+-------------------------------------------------*/
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .hv:hover{
+        background: transparent;
+    }
+    .nav-link{
+        margin-left: 1rem;
+    }
+}
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
