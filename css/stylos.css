@@ -48,7 +48,15 @@ footer a :hover{
     color: #9e7fe2;
 }
 
+/* =========== Stilos de Scrooll============= */
+body::-webkit-scrollbar{
+    width: 100px;
+    background-color: aqua;
+}
 
+body::-webkit-scrollbar-thumb{
+    background: black
+}
 
 
 
