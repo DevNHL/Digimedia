@@ -20,10 +20,10 @@
 </head>
 
 <body>
-    
+   <?php include 'header.html' ?> 
     <main class="pt-5">
         <div class="container">
-            <section class="row">
+            <section class="row bg-white">
                 <article class="col-12 col-lg-5">
                     <h2 class="fw-bold">¿Quienes somos?</h2>
                     <hr>
@@ -47,7 +47,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Marketing Digital</h5>
                                 <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales. </p>
-                                <a href="mk-gd.html">Mas informaci&oacute;n <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="mk-gd.php" class="btn btn-primary">Mas informaci&oacute;n</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Imagen Corporativa</h5>
                                 <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales. </p>
-                                <a href="img-corp.html">Mas informaci&oacute;n <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="img-corp.php" class="btn btn-primary">Mas informaci&oacute;n </a>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Gesti&oacute;n de Redes Sociales</h5>
                                 <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales. </p>
-                                <a href="rd-sociales.html">Mas informaci&oacute;n <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="rd-sociales.php" class="btn btn-primary">Mas informaci&oacute;n </a>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Crea tu marca</h5>
                                 <p class="card-text">En Digimedia te ayudamos a desarrollar tu marca desde cero, único y diferenciado para que tenga las máximas garantías de éxito, construimos la identidad visual de tu marca con el objetivo de proporcionarle alma propia, despertar sensaciones y crear conexiones</p>
-                                <a href="marca.html">Mas informaci&oacute;n <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="marca.php" class="btn btn-primary">Mas informaci&oacute;n </a>
                             </div>
                         </div>
                     </div>
@@ -88,18 +88,19 @@
                                 <h5 class="card-title">Dise&ntilde;o Web</h5>
                                 <p class="card-text">En Digimedia te ayudamos con el desarrollo del diseño web de tu marca. Digimedia, se especializa en el diseño de sitios web modernos, fáciles de usar y que reflejen la marca de su empresa. Trabajamos con usted para entender su negocio y lo que quiere lograr con su sitio web.
                                 </p>
-                                <a href="ds-web.html">Mas informaci&oacute;n <i class="fa-solid fa-chevron-right"></i></a>
+                                <a href="ds-web.php" class="btn btn-primary">Mas informaci&oacute;n</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
+                    <div class="col" >
+                        <div class="card" >
                             <img loading="lazy" src="img/grafico.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Dise&ntilde;o Gr&aacute;fico</h5>
-                                <p class="card-text">En Digimedia te ayudamos y  realizamos coaching en el diseño gráfico de las piezas publicitarias. Nuestro servicio de diseño gráfico publicitario y digital, se centra en buscar crear piezas que vallan acorde con la personalidad y el mensaje de tu marca.</p>
-                                <a href="ds-grafico.html">Mas informaci&oacute;n <i class="fa-solid fa-chevron-right"></i></a>
+                                <p class="card-text ">En Digimedia te ayudamos y  realizamos coaching en el diseño gráfico de las piezas publicitarias. Nuestro servicio de diseño gráfico publicitario y digital, se centra en buscar crear piezas que vallan acorde con la personalidad y el mensaje de tu marca.</p><br>
+                                <a href="ds-grafico.php" class="btn btn-primary">Mas informaci&oacute;n </a>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -107,29 +108,12 @@
         </div>
     </main>
 
-    <footer class="bg-dark text-white text-center p-2">
-        <div class="container">
-            <nav class="d-flex p-3 justify-content-around">
-                <a href="#"><i class="fa-brands fa-tiktok fs-3"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook fs-3"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram fs-3"></i></a>
-                <a href="#"><i class="fa-brands fa-github fs-3"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter fs-3"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube fs-3"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp fs-3"></i></a>
-            </nav>
-            <p>
-                &copy; 2023 Todos los derechos son Reservados | DigiMedia
-            </p>
-        </div>
-
-    </footer>
+    <?php include 'footer.html' ?>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-    <!-- JS propio -->
-    <script defer src="https://app.embed.im/snow.js"></script>
+    
     <script src="js/main.js"></script>
 
 </body>

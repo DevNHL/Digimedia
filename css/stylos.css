@@ -12,6 +12,9 @@
 .bg-dark{
     background: var(--first-color) !important;
 }
+.bg-darkss{
+    background: var(--second-color) !important;
+}
 .navbar-brand img{
     height: 4rem;
     width: auto;
@@ -31,9 +34,7 @@
 
 
 /* ----------------- Mis Stylos--------------------- */
-body{
-    background-color: var(--second-color)
-}
+
 .fa-comments{
     font-size: 40px;
 }
@@ -47,16 +48,12 @@ footer a {
 footer a :hover{
     color: #9e7fe2;
 }
+.colores{
+    color: white;
+}
 
 /* =========== Stilos de Scrooll============= */
-body::-webkit-scrollbar{
-    width: 100px;
-    background-color: aqua;
-}
 
-body::-webkit-scrollbar-thumb{
-    background: black
-}
 
 
 
