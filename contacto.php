@@ -22,8 +22,45 @@
 <body>
    
     <?php include 'header_buscador.html' ?>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 offset-md-3">
+                    <div class="card" style="">
+                      <div class="card-body ">
+                        <h4 class="card-title letra2" id="messageLabel">Contáctanos</h4>
+                        <p class="card-text">Nos motivan los nuevos retos ¡Agendemos una reunión!
+                        </p>
+                        
+                      </div>
+                    </div>
+                    <div class="pt-3"></div>
+                    <form class="">
+                            
+                            <div class="mb-3">
+                                <label  class="form-label">Nombres y Apellidos:</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Telefono:</label>
+                                <input type="number" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Mensaje:</label>
+                                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div class="pt-5"></div>
     <?php include 'footer.html' ?>
 </body>
-
+<script src="js/letra.js"></script>
 </html>
