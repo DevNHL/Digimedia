@@ -50,14 +50,19 @@ footer a :hover{
 
 /* =========== Stilos de Scrooll============= */
 body::-webkit-scrollbar{
-    width: 100px;
-    background-color: aqua;
+    /* width: 10px; */
+    background-color:  var(--second-color);
+    
 }
 
 body::-webkit-scrollbar-thumb{
-    background: black
+    background: var(--first-color);
+    border-radius: 5px;
 }
 
+body::-webkit-scrollbar-thumb:hover{
+    border-right: 3px solid black;
+}
 
 
 
