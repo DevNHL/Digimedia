@@ -17,7 +17,7 @@ function typeEffect(element, speed) {
 // application
 var speed = 65;
 var h1 = document.querySelector('h4');
-var p = document.querySelector('p');
+var h6 = document.querySelector('h6');
 var delay = h1.innerHTML.length * speed + speed;
 
 // type affect to header
@@ -26,6 +26,6 @@ typeEffect(h1, speed);
 
 // type affect to body
 setTimeout(function(){
-  p.style.display = "inline-block";
-  typeEffect(p, speed);
+  h6.style.display = "inline-block";
+  typeEffect(h6, speed);
 }, delay);

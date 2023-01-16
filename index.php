@@ -27,12 +27,12 @@
                 <article class="col-12 col-lg-5">
                     <h2 class="fw-bold">¿Quienes somos?</h2>
                     <hr>
-                    <p class="fs-5">
+                    <div class="fs-5">
                         Digimedia es una empresa de marketing digital, que se enfoca en potenciar tu emprendimiento a
                         nivel online. Digimedia, le brinda a tu emprendimiento estrategias que ayuden a cumplir los
                         objetivos de manera eficaz. Somos un grupo de personas comprometidas con el desarrollo de cada
                         marca que nos contacta.
-                    </p>
+                    </div>
                 </article>
                 <article class="col-12 col-lg-7">
                     <img loading="lazy" class="img-fluid" src="img/section.webp" alt="reunion">
