@@ -20,9 +20,9 @@
 </head>
 
 <body>
-    <?php include 'header_buscador.html' ?>
+    <?php include '../assets/header_view.html' ?>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <?php include 'footer.html' ?>
+    <?php include '../assets/footer.html' ?>
 
     
     <!-- JavaScript Bundle with Popper -->
