@@ -9,6 +9,8 @@ window.addEventListener('load',()=>{
     form.addEventListener('submit',(e)=>{
      e.preventDefault()
      validacampos()
+
+     
     })
  
     const validacampos =() =>{
@@ -54,6 +56,18 @@ window.addEventListener('load',()=>{
          validaok(mensaje )
  
         }
+
+
+        if((nombre || email || telefono || mensaje ).length=(nombr || co || tele || men )){
+            form.reset()
+            document.getElementById('alert').classList.add('ale-env')
+            setTimeout(()=>{
+                document.getElementById('alert').classList.remove('ale-env')
+            },5000)
+    
+         }
+
+        
     }
  
     const validafalla=(input,msje)=>{
@@ -81,6 +95,8 @@ window.addEventListener('load',()=>{
      const validanumeros2=(telefono)=>{
          return /^([0-9])*$/.test(telefono)
      }
+
+     
  
  
  })

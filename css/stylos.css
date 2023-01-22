@@ -122,7 +122,12 @@ small{
     padding: 8px;
     font-size: 18px;
 }
-
+.ale{
+    display:none !important;
+}
+.ale-env{
+    display:block !important;
+}
 /* -------- Mediaquerys de Bootstrap ---------- 
 -------------------------------------------------*/
 

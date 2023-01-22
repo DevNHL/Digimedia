@@ -68,6 +68,10 @@
                                 <small></small>
                             </div>
                             <button type="submit" >Enviar</button>
+                            <div class="pt-3"></div>
+                            <div class="alert alert-secondary ale" role="alert" id="alert">
+                                Datos enviados
+                            </div>
                     </form>
 
                     </div>
