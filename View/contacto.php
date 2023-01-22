@@ -28,8 +28,6 @@
 		}
         
 	</script>
-
-    
 </head>
 
 <body>
@@ -47,6 +45,13 @@
                         
                       </div>
                       <form id="formulario" class="card cards2" action="blog.php" >
+                            <div class="row">
+                                 <div class="col-md-12">
+                                    <div class="alert alert-warning  ale  text-center" role="alert" id="alert">
+                                         Datos enviados correctamente
+                                    </div>
+                                </div>
+                            </div>
                             <div class=" mb-3">
                                 <label for="nombre">Nombres y apellidos:</label><div class="pt-3"></div>
                                 <input type="text" class="form-control" id="nombre" >
@@ -69,9 +74,6 @@
                             </div>
                             <button type="submit" >Enviar</button>
                             <div class="pt-3"></div>
-                            <div class="alert alert-secondary ale" role="alert" id="alert">
-                                Datos enviados
-                            </div>
                     </form>
 
                     </div>

@@ -42,8 +42,6 @@ body, html {
     text-decoration: none;
 }
 
-
-
 /* ----------------- Mis Stylos--------------------- */
 
 .fa-comments{
@@ -124,10 +122,16 @@ small{
 }
 .ale{
     display:none !important;
+   
+   
 }
 .ale-env{
     display:block !important;
+    color: black;
+    font-size: 15px;
 }
+
+
 /* -------- Mediaquerys de Bootstrap ---------- 
 -------------------------------------------------*/
 

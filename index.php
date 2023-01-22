@@ -16,6 +16,7 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Stylos Css propios -->
     <link rel="stylesheet" href="css/stylos.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 </head>
 
