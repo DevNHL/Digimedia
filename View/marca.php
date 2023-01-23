@@ -22,7 +22,7 @@
 <body>
     <?php include '../assets/header_view.html' ?>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <?php include '../assets/footer.html' ?>
+    <?php include '../assets/foo.html' ?>
 
     
     <!-- JavaScript Bundle with Popper -->

@@ -36,7 +36,7 @@
     <div class="pt-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 offset-md-3">
+                <div class="col-md-8 offset-md-2">
                     <div class="card cards" style="">
                       <div class="card-body ">
                         <h4 class="card-title letra2 " id="messageLabel">CONT&Aacute;CTANOS</h4>
@@ -84,7 +84,7 @@
         </div>    
     </div>
     <div class="pt-5"></div>
-    <?php include '../assets/footer.html' ?>
+    <?php include '../assets/foo.html' ?>
 </body>
 <script src="../js/letra.js"></script>
 <script src="../js/formulalriovalidasegundo.js"></script>
