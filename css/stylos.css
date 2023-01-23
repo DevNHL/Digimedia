@@ -234,16 +234,16 @@ small{
 /* -------- Mediaquerys de Bootstrap ---------- 
 -------------------------------------------------*/
 
- /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
+ /* Small devices (landscape phones, 574px and up) */
+@media (max-width: 574px) { 
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
+/* Medium devices (tablets, 767px and up) */
+@media (max-width: 767px) {
     .footer-col{
         width: 100%;
     }
