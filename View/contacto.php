@@ -37,12 +37,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <div class="card cards" style="">
+                    <div class="card cards">
                       <div class="card-body ">
                         <h4 class="card-title letra2 " id="messageLabel">CONT&Aacute;CTANOS</h4>
                         <h6 class="card-text p-2">Nos motivan los nuevos retos ¡Agendemos una reunión!
                         </h6>
-                        
                       </div>
                       <form id="formulario" class="card cards2" action="blog.php" >
                             <div class="row">
@@ -84,7 +83,7 @@
         </div>    
     </div>
     <div class="pt-5"></div>
-    <?php include '../assets/foo.html' ?>
+    <?php include '../assets/foo.html'?>
 </body>
 <script src="../js/letra.js"></script>
 <script src="../js/formulalriovalidasegundo.js"></script>

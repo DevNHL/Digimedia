@@ -47,6 +47,8 @@ body, html {
     text-decoration: none;
 }
 
+
+
 /* ----------------- Mis Stylos--------------------- */
 
 .fa-comments{
@@ -258,6 +260,7 @@ small{
         margin-left: 1rem;
     }
 }
+
 
  /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
