@@ -118,7 +118,7 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum alias quam pariatur veniam aliquam voluptas, fugiat tempore possimus. Nostrum fuga natus dignissimos possimus officiis laudantium cumque eum, necessitatibus facere animi.
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi repudiandae neque perspiciatis sed quod consequuntur culpa consectetur? Dignissimos, accusamus quam, dolore laborum quae id eius quasi officia pariatur deserunt minima.
                     Asperiores labore aut tempore quas natus, numquam nesciunt laboriosam nostrum optio impedit commodi deleniti fugit, architecto quaerat aliquid eius recusandae exercitationem! Iusto, consequuntur. Ipsam architecto similique corporis iure repudiandae quod.
-                    lorem*2..
+                    lorem*2
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
