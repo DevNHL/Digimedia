@@ -13,6 +13,7 @@
     <!-- Stylos Css propios -->
     <link rel="stylesheet" href="css/stylos.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/stylos.css">
 </head>
 
 <body>
