@@ -14,7 +14,6 @@
     <!-- Stylos Css propios -->
     <link rel="stylesheet" href="../css/stylos.css">
     <link rel="stylesheet" href="../css/header.css">
-
 </head>
 
 <body>
