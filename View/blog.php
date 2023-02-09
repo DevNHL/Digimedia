@@ -20,7 +20,6 @@
     <?php include '../assets/header_view.html' ?>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <?php include '../assets/footer.html' ?>
-
 </body>
 
 </html>
