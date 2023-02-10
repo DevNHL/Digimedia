@@ -1,8 +1,7 @@
-
 a {
 
     text-decoration: none;
-    color: white;
+    color: #6434d1;
 }
 
 a:hover {
@@ -11,12 +10,14 @@ a:hover {
 }
 
 header {
+    width: 100%;
     height: 75px;
-    background-color: #6434d1;
+    background-color: white;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 25%);
     display: flex;
     align-items: center;
     color: white;
+
 }
 
 
@@ -246,6 +247,61 @@ header .mobile-toggler {
     text-align: center;
 }
 
+
+
+header.abajo .logo,
+header.abajo ul li a {
+    color: #000;
+}
+
+
+.banner-image {
+    background-image: url('../img/banner.webp');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.contenedor-principal{
+   width: 100%;
+   height: 100%;
+    background-color:black;
+    opacity: 0.2;
+}
+.contenedor-secundario{
+    background-color: #000;
+    width: 50%;
+    opacity: 0.3;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    
+}
+.banners-letra{
+    /*display: flex;
+    justify-content: left;
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    font-size: 5rem;*/position: relative;
+    left:0px;
+    top: -680px;
+    padding-left: 150px;
+    
+}
+.digimedia{
+    color: white;
+    font-size: 8rem;
+    font-weight: bold;
+}
+.creativa{
+    color:#FF0080 ;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
 @media(max-width:767px) {
 
     .section-1 p {
@@ -254,6 +310,13 @@ header .mobile-toggler {
         text-align: start;
         width: 70%;
         margin: auto;
+    }
+
+    #banner {
+
+        width: 100%;
+        background-position: top;
+
     }
 }
 
@@ -289,10 +352,6 @@ header .mobile-toggler {
         list-style: none;
         opacity: 0.9;
 
-
-
-
-
     }
 
     .menu__nesting .menu__inside a:hover {
@@ -306,9 +365,14 @@ header .mobile-toggler {
     }
 
 
+
 }
 
-header.abajo .logo,
-header.abajo ul li a {
-    color: #000;
+
+@media ((max-width: 1200px)) {
+    #banner {
+        width: 100%;
+        background-position: top;
+
+    }
 }
