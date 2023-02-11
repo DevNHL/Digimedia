@@ -18,7 +18,7 @@
 
 <body>
     <?php include 'assets/header.html' ?>
-    lorem*1200
+    
 
     <?php include 'assets/footer.html' ?>
     
