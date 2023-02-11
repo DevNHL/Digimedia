@@ -301,7 +301,6 @@ header.abajo ul li a {
     font-size: 3rem;
     font-weight: 600;
 }
-
 @media(max-width:767px) {
 
     .section-1 p {
@@ -374,5 +373,9 @@ header.abajo ul li a {
         width: 100%;
         background-position: top;
 
+    }
+
+    #banners-letra{
+        
     }
 }
