@@ -8,7 +8,8 @@
     <title>.:: DigiMedia ::.</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Stylos Css propios -->
     <link rel="stylesheet" href="../css/stylos.css">
     <script type="text/javascript">
@@ -24,7 +25,7 @@
             return false;
         }
     }
-</script>
+    </script>
 
 </head>
 
@@ -63,13 +64,15 @@
                             <div class=" mb-3">
                                 <label for="floatingInput">Telefono:</label>
                                 <div class="pt-3"></div>
-                                <input type="text" class="form-control" id="telefono" onkeypress="return valideKey(event);">
+                                <input type="text" class="form-control" id="telefono"
+                                    onkeypress="return valideKey(event);">
                                 <small></small>
                             </div>
                             <div class=" mb-3">
                                 <label for="floatingTextarea">Mensaje:</label>
                                 <div class="pt-3"></div>
-                                <textarea name="mensajes" class="form-control" id="mensaje" cols="30" rows="4" placeholder="......"></textarea>
+                                <textarea name="mensajes" class="form-control" id="mensaje" cols="30" rows="4"
+                                    placeholder="......"></textarea>
                                 <small></small>
                             </div>
                             <button type="submit">Enviar</button>
@@ -89,6 +92,8 @@
 <!--scripts-->
 <script src="../js/letra.js"></script>
 <script src="../js/formulalriovalidasegundo.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+</script>
 
 </html>

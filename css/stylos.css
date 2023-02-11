@@ -1,51 +1,60 @@
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-   
- }
-/* ------------- Mis variables----------- */
-:root{
-    --first-color:#6434d1;
-    --second-color:#9e7fe2;
+
+
 }
+
+/* ------------- Mis variables----------- */
+:root {
+    --first-color: #6434d1;
+    --second-color: #9e7fe2;
+}
+
 /* ------------- Reseteo ---------------- */
 
 
 
 
 /* ------------- estilos generales ---------------- */
-body, html {
+body,
+html {
     margin: 0;
     height: 100%;
-    
+
 }
 
 
 /* ---------------Stylos de Bootstrap ------------- */
-.bg-dark{
+.bg-dark {
     background: var(--first-color) !important;
 }
-.bg-darkss{
+
+.bg-darkss {
     background: var(--second-color) !important;
 }
-.navbar-brand img{
+
+.navbar-brand img {
     height: 4rem;
     width: auto;
 }
-.nav-link{
+
+.nav-link {
     padding-left: 0.5rem;
     transition: all 0.3s ease-in-out;
 }
-.nav-link{
+
+.nav-link {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     font-style: italic;
 }
-.text-reset{
+
+.text-reset {
     text-decoration: none;
 }
 
@@ -53,22 +62,26 @@ body, html {
 
 /* ----------------- Mis Stylos--------------------- */
 
-.fa-comments{
+.fa-comments {
     font-size: 40px;
 }
-.hv:hover{
+
+.hv:hover {
     background: var(--second-color);
     border-radius: 1rem;
 }
+
 footer a {
     color: white;
 }
-footer a :hover{
+
+footer a :hover {
     color: #9e7fe2;
 }
-.colores{
+
+.colores {
     color: white;
-    
+
 }
 
 .letra2 {
@@ -77,52 +90,60 @@ footer a :hover{
     margin-bottom: 15px;
     color: white;
 }
+
 h6 {
     text-align: center;
-    margin: 0;  
+    margin: 0;
     font-size: 10pt;
     width: 100%;
     display: none;
     color: white;
 }
-.cards{
+
+.cards {
     background-color: var(--first-color);
     border: none;
     border-radius: 0
 }
-.cards2{
+
+.cards2 {
     padding: 20px;
-    
+
     border-radius: 0;
 }
 
-.edicion:hover{
+.edicion:hover {
     color: var(--first-color);
 }
-.tamaño{
+
+.tamaño {
     font-size: 16px;
 }
-.exito input{
-    border:0.1px solid;
+
+.exito input {
+    border: 0.1px solid;
     border-color: #08ffc8;
 }
-.falla input{
-    border:0.1px solid;
+
+.falla input {
+    border: 0.1px solid;
     border-color: #fe5f55;
 }
-small{
+
+small {
     visibility: hidden;
     font-size: small;
 
 }
+
 .falla small {
     visibility: visible;
-    color:#e74c3c;
+    color: #e74c3c;
 }
 
 #formulario button {
     background: var(--first-color);
-    border:1px solid #fd5f00;
+    border: 1px solid #fd5f00;
     border-radius: 2px;
     color: #f6f6e9;
     display: block;
@@ -130,43 +151,49 @@ small{
     padding: 8px;
     font-size: 18px;
 }
-.ale{
-    display:none !important;
-   
-   
+
+.ale {
+    display: none !important;
+
+
 }
-.ale-env{
-    display:block !important;
+
+.ale-env {
+    display: block !important;
     color: black;
     font-size: 15px;
 }
 
 /*---estilos para el footer---*/
-.footer{
+.footer {
     background-color: var(--first-color);
     opacity: 0.7;
-    
+
 }
-.conta{
+
+.conta {
     max-width: 1170px;
     margin: auto;
     padding: 70px 0;
 }
-.ul{
+
+.ul {
     list-style: none;
 
 }
-.ro{
+
+.ro {
     display: flex;
     flex-wrap: wrap;
 }
-.footer-col{
+
+.footer-col {
     width: 25%;
     padding: 0 15px;
 
 }
 
-.footer-col h4{
+.footer-col h4 {
     font-size: 18px;
     color: #ffffff;
     text-transform: capitalize;
@@ -174,45 +201,52 @@ small{
     font-weight: 500;
     position: relative;
 }
-.p{
+
+.p {
     color: #ffffff;
     text-transform: capitalize;
     position: relative;
 }
-.footer-col h4::before{
+
+.footer-col h4::before {
     content: '';
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color:white;
+    background-color: white;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
 }
-.footer-col ul li:not(:last-child){
+
+.footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
 }
-.footer-col ,.ul li a{
+
+.footer-col,
+.ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color:  white;
+    color: white;
     display: block;
     transition: all 0.3s ease;
 }
-.footer-col .ul li a:hover{
+
+.footer-col .ul li a:hover {
     color: var(--second-color);
     padding-left: 8px;
 
 }
-.footer-col .social-links a{
+
+.footer-col .social-links a {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(255, 255,255, 0.2);
-    margin:0 10px 10px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -220,27 +254,29 @@ small{
     transition: all 0.5s ease;
 
 }
-.footer-col .social-links a:hover{
+
+.footer-col .social-links a:hover {
     color: #24262b;
     background-color: #ffffff;
 
 }
-.p{
+
+.p {
     font-size: 16px;
     text-transform: capitalize;
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color:  white;
+    color: white;
     display: block;
 }
 
 /* -------- Mediaquerys de Bootstrap ---------- 
 -------------------------------------------------*/
 
- /* Small devices (landscape phones, 574px and up) */
-@media (max-width: 574px) { 
-    .footer-col{
+/* Small devices (landscape phones, 574px and up) */
+@media (max-width: 574px) {
+    .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }
@@ -248,24 +284,25 @@ small{
 
 /* Medium devices (tablets, 767px and up) */
 @media (max-width: 767px) {
-    .footer-col{
+    .footer-col {
         width: 100%;
     }
 }
 
- /* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .hv:hover{
+    .hv:hover {
         background: transparent;
     }
-    .nav-link{
+
+    .nav-link {
         margin-left: 1rem;
     }
 }
 
 
- /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
 
- /* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {  }
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
