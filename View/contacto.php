@@ -14,20 +14,6 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
-    <script type="text/javascript">
-    function valideKey(evt) {
-
-        var code = (evt.which) ? evt.which : evt.keyCode;
-
-        if (code == 8) {
-            return true;
-        } else if (code >= 48 && code <= 57) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-</script>
 
 </head>
 
