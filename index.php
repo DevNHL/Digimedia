@@ -12,12 +12,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Stylos Css propios -->
     <link rel="stylesheet" href="css/stylos.css">
+    <link rel="stylesheet" href="css/header.css">
     
 
 </head>
 
 <body>
     <?php include 'assets/header.html' ?>
+    <!-- Banner Image  -->
+    <div class="banner-image  " id="banner">
+            <div class="contenedor-principal">
+            </div>
+                <div class="banners-letra" id="banners-letra">
+                    <div class="digimedia" id="digimedia">
+                        <p>DIGIMEDIA</p>
+                    </div>
+                    <div class="creativa" id="creativa">
+                        <p>Innovadora y creativa</p>
+                    </div>
+                    <div class="contenedor-secundario" id="contenedor-secundario">
+                        <p>Estamos enfocados a lograr <span class="text-primary">resultados comerciales</span> y de <span class="text-primary"> marketing</span> con <span class="text-primary"> creatividad</span> y <span class="text-primary"> estrategias.</span></p>
+                    </div>
+                    <div class="bt" id="bt">
+                        <input type="submit" class="boton"  value="Contactar" id="prima">
+                    </div>
+                </div>
+    </div>
     
 
     <?php include 'assets/footer.html' ?>

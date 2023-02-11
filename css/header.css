@@ -106,7 +106,7 @@ header .mobile-toggler {
 
 }
 
-@media(max-width: 450px) {
+@media((max-width: 450px)) {
 
     .modal-dialog {
 
@@ -119,7 +119,7 @@ header .mobile-toggler {
     border-radius: 0;
     height: 100vh;
     overflow-y: scroll;
-    background-color: #6434d1;
+    background-color:white;
 }
 
 .modal-header {
@@ -129,8 +129,8 @@ header .mobile-toggler {
     align-items: center;
     width: 88%;
     margin: 0 auto;
-    padding-bottom: 16px;
-    border-bottom: 2px solid #fefefe;
+    
+    border-bottom: 1px solid #6434d1  ;
 }
 
 .modal-header img {
@@ -148,8 +148,8 @@ header .mobile-toggler {
 
 .modal-header i {
 
-    color: #fefefe;
-    font-size: 30px;
+    color: #9e7fe2;
+    font-size: 30px;    
 }
 
 .modal-body {
@@ -175,8 +175,8 @@ header .mobile-toggler {
 
 .modal-body .modal-line {
 
-    color: #fefefe;
-    border-bottom: 1px solid #fefefe;
+    color: #6434d1;
+    border-bottom: 1px solid  #6434d1;
 }
 
 .modal-line a,
@@ -185,7 +185,7 @@ header .mobile-toggler {
     font-size: 17px;
 
     letter-spacing: 2.5px;
-    color: #fefefe;
+    color: #9e7fe2;
 }
 
 
@@ -204,11 +204,6 @@ header .mobile-toggler {
     transition: all .5s ease;
 }
 
-.navb-button:hover {
-
-    background-color: #274d8a;
-    color: #fefefe;
-}
 
 .mobile-modal-footer {
 
@@ -287,19 +282,35 @@ header.abajo ul li a {
     top: 100px;
     font-size: 5rem;*/position: relative;
     left:0px;
-    top: -680px;
+    top: -600px;
     padding-left: 150px;
     
 }
 .digimedia{
     color: white;
-    font-size: 8rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 .creativa{
     color:#FF0080 ;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
+}
+
+.bt{
+    padding: 0;
+    margin: 0;
+    margin-top: 13px;
+}
+
+.boton{
+    background-color: #9e7fe2;
+    color:white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    width: 250px;
+    height: 40px;
 }
 @media(max-width:767px) {
 
@@ -319,7 +330,7 @@ header.abajo ul li a {
     }
 }
 
-@media (max-width:800px) {
+@media ((max-width:800px)  and (min-width:1020px)){
 
 
     .menu__item {
@@ -367,15 +378,76 @@ header.abajo ul li a {
 
 }
 
+@media ((max-width: 767px) and  (max-width: 660px)) {
+    #banner{
+        height: 75%;
+    }
+    #prima{
+        width: 150px;
+    }
+    .banners-letra{
+        position: absolute;
+        margin: 0;
+        margin-top: 115px;
+        
+    }
+    
+}
+@media ((min-width:590px)) {
+    .banners-letra{
+        position: relative;
+        margin: 0;
+        margin-top: 150px;
+    }
 
+}
+
+@media ((max-width:1150px)) {
+    #banner{
+        height: 54%;
+         
+    }
+    .banners-letra{
+        position: relative;
+        padding: 0;
+        padding-top: 10px;
+        
+    }
+    #prima{
+        width: 100px;
+    }
+}
 @media ((max-width: 1200px)) {
     #banner {
         width: 100%;
         background-position: top;
-
-    }
-
-    #banners-letra{
         
     }
+    #banners-letra{
+        position: relative;
+        left:0px;
+        top: -440px;
+        padding-left: 50px;
+    }
+
+    #digimedia{
+        font-size: 2rem;
+    }
+    #creativa{
+        font-size: 1.5rem;
+    }
+    #contenedor-secundario{
+        width: 70%;
+        font-size: 1rem;
+    }
+    #bt{
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .boton{
+        width: 465px;
+    }
+
+   
 }
