@@ -1,3 +1,10 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+ }
 /* ------------- Mis variables----------- */
 :root{
     --first-color:#6434d1;
@@ -8,9 +15,20 @@
 
 
 
+/* ------------- estilos generales ---------------- */
+body, html {
+    margin: 0;
+    height: 100%;
+    
+}
+
+
 /* ---------------Stylos de Bootstrap ------------- */
 .bg-dark{
     background: var(--first-color) !important;
+}
+.bg-darkss{
+    background: var(--second-color) !important;
 }
 .navbar-brand img{
     height: 4rem;
@@ -27,13 +45,14 @@
 .dropdown-menu{
     font-style: italic;
 }
+.text-reset{
+    text-decoration: none;
+}
 
 
 
 /* ----------------- Mis Stylos--------------------- */
-body{
-    background-color: var(--second-color)
-}
+
 .fa-comments{
     font-size: 40px;
 }
@@ -47,39 +66,191 @@ footer a {
 footer a :hover{
     color: #9e7fe2;
 }
-
-/* =========== Stilos de Scrooll============= */
-body::-webkit-scrollbar{
-    /* width: 10px; */
-    background-color:  var(--second-color);
+.colores{
+    color: white;
     
 }
 
-body::-webkit-scrollbar-thumb{
+.letra2 {
+    text-align: center;
+    font-size: 20pt;
+    margin-bottom: 15px;
+    color: white;
+}
+h6 {
+    text-align: center;
+    margin: 0;  
+    font-size: 10pt;
+    width: 100%;
+    display: none;
+    color: white;
+}
+.cards{
+    background-color: var(--first-color);
+    border: none;
+    border-radius: 0
+}
+.cards2{
+    padding: 20px;
+    
+    border-radius: 0;
+}
+
+.edicion:hover{
+    color: var(--first-color);
+}
+.tamaño{
+    font-size: 16px;
+}
+.exito input{
+    border:0.1px solid;
+    border-color: #08ffc8;
+}
+.falla input{
+    border:0.1px solid;
+    border-color: #fe5f55;
+}
+small{
+    visibility: hidden;
+    font-size: small;
+
+}
+.falla small {
+    visibility: visible;
+    color:#e74c3c;
+}
+
+#formulario button {
     background: var(--first-color);
-    border-radius: 5px;
+    border:1px solid #fd5f00;
+    border-radius: 2px;
+    color: #f6f6e9;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+}
+.ale{
+    display:none !important;
+   
+   
+}
+.ale-env{
+    display:block !important;
+    color: black;
+    font-size: 15px;
 }
 
-body::-webkit-scrollbar-thumb:hover{
-    border-right: 3px solid black;
+/*---estilos para el footer---*/
+.footer{
+    background-color: var(--first-color);
+    opacity: 0.7;
+    
+}
+.conta{
+    max-width: 1170px;
+    margin: auto;
+    padding: 70px 0;
+}
+.ul{
+    list-style: none;
+
+}
+.ro{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+
 }
 
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.p{
+    color: #ffffff;
+    text-transform: capitalize;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:white;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ,.ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:  white;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col .ul li a:hover{
+    color: var(--second-color);
+    padding-left: 8px;
 
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255,255, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
 
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
 
-
+}
+.p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:  white;
+    display: block;
+}
 
 /* -------- Mediaquerys de Bootstrap ---------- 
 -------------------------------------------------*/
 
- /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-    
+ /* Small devices (landscape phones, 574px and up) */
+@media (max-width: 574px) { 
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    
+/* Medium devices (tablets, 767px and up) */
+@media (max-width: 767px) {
+    .footer-col{
+        width: 100%;
+    }
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -91,6 +262,7 @@ body::-webkit-scrollbar-thumb:hover{
         margin-left: 1rem;
     }
 }
+
 
  /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
