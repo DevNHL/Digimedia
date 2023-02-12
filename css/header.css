@@ -260,8 +260,8 @@ header.abajo ul li a {
 .contenedor-principal{
    width: 100%;
    height: 100%;
-    background-color:black;
-    opacity: 0.2;
+   background-color:black;
+   opacity: 0.3;
 }
 .contenedor-secundario{
     background-color: #000;
@@ -327,6 +327,8 @@ header.abajo ul li a {
 .boton-card:hover{
     color: white;
 }
+
+
 @media(max-width:767px) {
 
     .section-1 p {
