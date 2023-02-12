@@ -141,6 +141,8 @@ small{
     font-size: 15px;
 }
 
+
+
 /*---estilos para el footer---*/
 .footer{
     background-color: var(--first-color);
@@ -234,6 +236,7 @@ small{
     color:  white;
     display: block;
 }
+
 
 /* -------- Mediaquerys de Bootstrap ---------- 
 -------------------------------------------------*/
