@@ -278,6 +278,10 @@ small {
 /*sub titulos*/
 .letra-sub {
     color: blueviolet;
+    font-weight: bold;
+    opacity: 0.4;
+    font-size: 35px;
+    
 }
 
 .colors {
