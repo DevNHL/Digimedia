@@ -289,33 +289,30 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="card">
-                            <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                            <div class="img-wrapper"><img src="img/lapto.webp" class="d-block w-100" id="img-fluid" alt="Marketing Digital"> </div>
                             <div class="card-body">
-                                <h5 class="card-title">Card title 1</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                    card's content.</p>
+                                <h5 class="card-title">Marketing Digital</h5>
+                                <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="card">
-                            <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                            <div class="img-wrapper"><img id="img-fluid1" alt="Imagen corporativa" src="img/imagen_coorporativa.webp"  class="d-block w-100" > </div>
                             <div class="card-body">
-                                <h5 class="card-title">Card title 2</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                    card's content.</p>
+                                <h5 class="card-title">Imagen Corporativa</h5>
+                                <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="card">
-                            <div class="img-wrapper"><img src="..." class="d-block w-100" alt="..."> </div>
+                            <div class="img-wrapper"><img id="img-fluid2" alt="Gesti&oacute;n de Redes Sociales" src="img/redes sociales gestiones.webp" class="d-block w-100"> </div>
                             <div class="card-body">
-                                <h5 class="card-title">Card title 3</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                    card's content.</p>
+                                <h5 class="card-title">Gesti&oacute;n de Redes Sociales</h5>
+                                <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
@@ -334,6 +331,297 @@
         </div>
     </main>
 
+
+
+    <div class="pt-4"></div>
+    <div class="container">
+        <h4 class="letra-sub">Servicios para  tu Marca</h4>
+    </div>
+    <main class="container">
+        <!--carrosel-->
+        <!--carrosel para deskoot pantalla completa-->
+        <div class="d-none d-lg-block">
+            <div class="col-12 d-none d-md-block" id="carro">
+                <div id="carouselExampleControls" class="carousel slide  d-none d-sm-block" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" id="img-fluid" alt="Marketing digital" src="img///diseño_web.webp" style="height: 250px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Marketing Digital</h5>
+                                            <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" id="img-fluid1" alt="Imagen corporativa" src="img//crea tu marca.webp" style="height: 250px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Imagen Corporativa</h5>
+                                            <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" id="img-fluid2" alt="Gesti&oacute;n de Redes Sociales" src="img//diseño grafico.webp" style="height: 250px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Gesti&oacute;n de Redes Sociales</h5>
+                                            <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" id="img-fluid3" alt="Marketing digital" src="img//diseño_web.webp" style="height: 250px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Marketing Digital</h5>
+                                            <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" id="img-fluid4" alt="Imagen corporativa" src="img//crea tu marca.webp" style="height: 250px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Imagen Corporativa</h5>
+                                            <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" id="img-fluid5" alt="Gesti&oacute;n de Redes Sociales" src="img//diseño grafico.webp" style="height: 250px;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Gesti&oacute;n de Redes Sociales</h5>
+                                            <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="d-lg-none">
+            <div class="col-12 d-none d-md-block" id="carro">
+                <div id="carouselExampleControla" class="carousel slide  d-none d-sm-block" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card" style="height: 517px;">
+                                        <img class="img-fluid" id="img-fluid" alt="Marketing digital" src="img/lapto.webp" style="height: 121px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="font-size: 15px;font-weight: 700;">Marketing Digital</p>
+                                            <p class="card-text" style="font-size: 14px;">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                            <div class="pt-4"></div>
+                                            <a type="button" class="boton-card " href="">Ver m&aacute;s</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card" style="height: 517px;">
+                                        <img class="img-fluid" id="img-fluid1" alt="Imagen corporativa" src="img/imagen_coorporativa.webp" style="height: 121px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="font-size: 15px;font-weight: 700;">Imagen Corporativa</p>
+                                            <p class="card-text" style="font-size: 14px;">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                            <div class="pt-4"></div>
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card" style="height: 517px;">
+                                        <img class="img-fluid" id="img-fluid2" alt="Gesti&oacute;n de Redes Sociales" src="img/redes sociales gestiones.webp" style="height: 150px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="font-size: 15px;font-weight: 700;">Gesti&oacute;n de Redes Sociales</p>
+                                            <p class="card-text" style="font-size: 14px;">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card" style="height: 517px;">
+                                        <img class="img-fluid" id="img-fluid3" alt="Marketing digital" src="img/lapto.webp" style="height: 150px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="font-size: 15px;font-weight: 700;">Marketing Digital</p>
+                                            <p class="card-text" style="font-size: 14px;">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                            <div class="pt-4"></div>
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card" style="height: 517px;">
+                                        <img class="img-fluid" id="img-fluid4" alt="Imagen corporativa" src="img/imagen_coorporativa.webp" style="height: 150px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="font-size: 15px;font-weight: 700;">Imagen Corporativa</p>
+                                            <p class="card-text" style="font-size: 14px;">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                            <div class="pt-4"></div>
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card" style="height: 517px;">
+                                        <img class="img-fluid" id="img-fluid5" alt="Gesti&oacute;n de Redes Sociales" src="img/redes sociales gestiones.webp" style="height: 150px;">
+                                        <div class="card-body">
+                                            <p class="card-title" style="font-size: 15px;font-weight: 700;">Gesti&oacute;n de Redes Sociales</p>
+                                            <p class="card-text" style="font-size: 14px;">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+
+                                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControla" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControla" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--carrosel para movil-->
+
+        <div id="carouselExampleControlss" class="carousel slide d-sm-none" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <img class="img-fluid" alt="Marketing digital" src="img/lapto.webp">
+                        <div class="card-body">
+                            <h5 class="card-title">Marketing Digital</h5>
+                            <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img class="img-fluid" alt="Imagen corporativa" src="img//img-corp.webp">
+                        <div class="card-body">
+                            <h5 class="card-title">Imagen Corporativa</h5>
+                            <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <img class="img-fluid" alt="Gesti&oacute;n de Redes Sociales" src="img//redes sociales gestiones.webp">
+                        <div class="card-body">
+                            <h5 class="card-title">Gesti&oacute;n de Redes Sociales</h5>
+                            <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                            <a type="button" class="boton-card" href="">Ver m&aacute;s</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlss" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlss" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--carrossel para deskot media pantalla-->
+        <div class="d-none d-sm-block">
+            <div id="carouselExampleControlsss" class="carousel slide d-md-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card">
+                            <div class="img-wrapper"><img src="img/lapto.webp" class="d-block w-100" id="img-fluid" alt="Marketing Digital"> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Marketing Digital</h5>
+                                <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img id="img-fluid1" alt="Imagen corporativa" src="img/imagen_coorporativa.webp"  class="d-block w-100" > </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Imagen Corporativa</h5>
+                                <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card">
+                            <div class="img-wrapper"><img id="img-fluid2" alt="Gesti&oacute;n de Redes Sociales" src="img/redes sociales gestiones.webp" class="d-block w-100"> </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Gesti&oacute;n de Redes Sociales</h5>
+                                <p class="card-text">En Digimedia te ayudamos con el desarrollo de tu página web, con una estrategia de marketing digital que encaje con el rubro de tu negocio y los objetivos de este, con el posicionamiento en el mundo online, y con el control que debes tener en tus redes sociales.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsss" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsss" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </main>
 
     <?php include 'assets/footer.html' ?>
 
