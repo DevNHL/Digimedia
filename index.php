@@ -12,7 +12,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Stylos Css propios -->
-    <link rel="stylesheet" href="css/stylos.css?130225">
+    <link rel="stylesheet" href="css/stylos.css?15000">
     <link rel="stylesheet" href="css/carrosel.css">
 </head>
 
@@ -628,7 +628,7 @@
             <p class="texto"><span class="negrita">EN DIGIMEDIA</span> te brindamos asesor&iacute;a personalizada para emprender o hacer crecer tu negocio</p>
         </div>
         <div class="bota">
-            <a href="View//contacto.php" class="boton__">Contactanos</a>
+            <a href="View/contacto.php" class="boton__" id="be">Contactanos</a>
         </div>
     </div>
     <div class="pt-4"></div>
@@ -641,7 +641,7 @@
             <p class="infer">Haz clic en el boton "Ver preguntas Frecuentes" para acceder a esta informaci&oacute;n valiosa.</p>
         </div>
         <div class="bota1">
-            <a href="View//contacto.php" class="boton__1">Preguntas Frecuentes</a>
+            <a href="" class="boton__1">Preguntas Frecuentes</a>
         </div>
     </div>
     <div class="pt-5"></div>
