@@ -396,9 +396,23 @@ small {
     border-radius: 50px;
     width: 150px;
 }
-
-
-
+#img-fluid{
+    height: 400px;
+}
+.card-body{
+    padding: 0;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 90px;
+}
+.divbut{
+    margin-top: 20px;
+    margin-left: 240px;   
+}
+#botons1{
+    width: 50%;
+}
 
 /* -------- Mediaquerys de Bootstrap ---------- 
 -------------------------------------------------*/
