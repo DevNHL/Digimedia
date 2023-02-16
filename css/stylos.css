@@ -176,13 +176,13 @@ small {
 
 /*---estilos para el footer---*/
 .footer {
-    background-color: var(--first-color);
+    background-color:#F2EFEF;
     opacity: 0.7;
 
 }
 
 .conta {
-    max-width: 1170px;
+    max-width: 1250px;
     margin: auto;
     padding: 70px 0;
 }
@@ -194,7 +194,37 @@ small {
 
 .ro {
     display: flex;
-    flex-wrap: wrap;
+    
+    
+}
+@media (max-width:540px) {
+    .ro{
+        flex-wrap: wrap;
+        margin-top: -45px;
+    }   
+    
+    .conta{
+        text-align: center;
+    }
+    .ul{
+        padding: 0;
+        
+    }
+    .footer-col h4::before {
+        content: '';
+        position: absolute;
+        left: 3;
+        bottom: -10px;
+        background-color: black;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    .divim{
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+   
 }
 
 .footer-col {
@@ -205,7 +235,7 @@ small {
 
 .footer-col h4 {
     font-size: 18px;
-    color: #ffffff;
+    color:black;
     text-transform: capitalize;
     margin-bottom: 30px;
     font-weight: 500;
@@ -213,21 +243,12 @@ small {
 }
 
 .p {
-    color: #ffffff;
+    color:black;
     text-transform: capitalize;
     position: relative;
 }
 
-.footer-col h4::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: white;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
+
 
 .footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
@@ -240,14 +261,15 @@ small {
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color: white;
+    color: black;
     display: block;
     transition: all 0.3s ease;
 }
 
 .footer-col .ul li a:hover {
-    color: var(--second-color);
+    color: var(--shadow-color);
     padding-left: 8px;
+    
 
 }
 
@@ -255,12 +277,12 @@ small {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
+    
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #ffffff;
+    color: #24262b;
     transition: all 0.5s ease;
 
 }
@@ -277,7 +299,7 @@ small {
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color: white;
+    color: black;
     display: block;
 }
 
@@ -304,6 +326,23 @@ small {
     opacity: 0.7;
 
 }
+.primas{
+    width: 747px;
+    background-color: var(--second-color);
+    color: white;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.primas:hover{
+    background-color: var(--second-color);
+    color: white;
+}
+.fond{
+    padding-top: 25px;
+}
+
+
 
 @keyframes neon {
     0% {
@@ -326,94 +365,72 @@ small {
 }
 
 
+
+#img-fluid{
+    height: 280px;
+}
+#card-body{
+    padding: 0;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 50px;
+}
+
+#botons1{
+    width: 50%;
+}
+.s{
+    display: none;
+}
+.qw{
+    width: 1250px;
+}
+.qs{
+    width: 900px;
+}
 .con-anun{
     background-color: var(--color_banner_primero);
-    height: 40%;
+    height: 24%;
     color: white;
     text-align: center;
+    
 }
 .parrafos{
     padding: 0;
     padding-top: 70px;
-    
-}
-
-.titulo{
-    font-size: 2rem;
-}
-.texto{
-    padding: 0;
-    padding-top: 15px;
-    font-size: 1.3rem;
-}
-.negrita{
-    font-weight: bold;
 }
 .bota{
-    padding: 0;
-    padding-top:17px;
+    padding-top: 15px;
 }
-
 .boton__{
     background-color: white;
-    color: var(--color_banner_primero);
-    text-align: center;
     padding: 10px;
     border-radius: 50px;
-    width: 150px;
+    
 }
 
 .con-anun1{
     background-color: var(--second-color);
-    height: 53%;
+    height: 40%;
     color: white;
     text-align: center;
 }
 .parrafos1{
     padding: 0;
-    padding-top:75px ;
-}
-.titulo1{
-    font-size: 2rem;
-}
-.ten,.texto1,.infer{
-    font-size: 1.3rem
-}
-.ten{
-    padding: 0;
-    padding-top: 18px;
-}
-
-.bota1{
-    padding: 0;
-    padding-top: 15px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .boton__1{
     background-color: white;
-    color: var(--color_banner_primero);
-    text-align: center;
     padding: 10px;
     border-radius: 50px;
-    width: 150px;
 }
-#img-fluid{
-    height: 400px;
-}
-.card-body{
+.bota1{
     padding: 0;
-    margin: 0;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 90px;
+    padding-top: 20px;
 }
-.divbut{
-    margin-top: 20px;
-    margin-left: 240px;   
-}
-#botons1{
-    width: 50%;
-}
-
 /* -------- Mediaquerys de Bootstrap ---------- 
 -------------------------------------------------*/
 
@@ -425,11 +442,11 @@ small {
     }
 
     .con-anun{
-        height: 35%;
+        height: 32%;
     }
     .parrafos{
         padding: 0;
-        padding-top: 50px;
+        padding-top: 30px;
     }
     .titulo{
         font-size: 1.2rem;
@@ -437,21 +454,36 @@ small {
     .texto{
         font-size: 1rem;
         padding-left: 10px;
+        padding-right: 10px;
     }
     .bota{
         padding: 0;
+        margin-top: 30px;
        
     }
     .boton__{
         width: 5500px;
     }
-
-    /**/
-
+    .boton__{
+        background-color: white;
+        color: var(--color_banner_primero);
+        text-align: center;
+        padding: 10px;
+        border-radius: 50px;
+        
+    }
+    
+    .boton__1{
+        background-color: white;
+        color: var(--color_banner_primero);
+        text-align: center;
+        padding: 10px;
+        border-radius: 50px;
+    }
     
     .parrafos1{
         padding: 0;
-        padding-top: 35px;
+        padding-top: 30px;
     }
     .titulo1{
         font-size: 1.2rem;
@@ -464,16 +496,15 @@ small {
         padding: 0;
        
     }
-    .boton__{
-        width: 5500px;
-    }
     .ten,.texto1,.infer{
         font-size: 1rem;
         padding: 0;
         padding-left: 15px;
         padding-right: 10px;
     }
-    
+   .con-anun1{
+    height: 50%;
+   }
 }
 
 /* Medium devices (tablets, 767px and up) */
@@ -481,7 +512,6 @@ small {
     .footer-col {
         width: 100%;
     }
-
     
 }
 
@@ -498,8 +528,135 @@ small {
 }
 
 
+
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .con-anun{
+    
+        height: 40%;
+        color: white;
+        text-align: center;
+    }
+    .parrafos{
+        padding: 0;
+        padding-top: 70px;
+        
+    }
+    
+    .titulo{
+        font-size: 2rem;
+    }
+    .texto{
+        padding: 0;
+        padding-top: 15px;
+        font-size: 1.3rem;
+    }
+    .negrita{
+        font-weight: bold;
+    }
+    .bota{
+        padding: 0;
+        padding-top:17px;
+    }
+    
+    .boton__{
+        background-color: white;
+        color: var(--color_banner_primero);
+        text-align: center;
+        padding: 10px;
+        border-radius: 50px;
+        width: 150px;
+    }
+    
+    .con-anun1{
+    
+        height: 53%;
+        color: white;
+        text-align: center;
+    }
+    .parrafos1{
+        padding: 0;
+        padding-top:45px ;
+    }
+    .titulo1{
+        font-size: 2rem;
+    }
+    .ten,.texto1,.infer{
+        font-size: 1.3rem
+    }
+    .ten{
+        padding: 0;
+        padding-top: 18px;
+    }
+    
+    .bota1{
+        padding: 0;
+        padding-top: 15px;
+    }
+    .boton__1{
+        background-color: white;
+        color: var(--color_banner_primero);
+        text-align: center;
+        padding: 10px;
+        border-radius: 50px;
+        width: 150px;
+    }
+    .footer-col h4::before {
+        content: '';
+        position: absolute;
+        left: 3;
+        bottom: -10px;
+        background-color: black;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+}
+
+/*x-large devices (large deskots ,599px and up)*/
+@media (max-width:1280px) {
+    .m{
+        display: none;
+    }
+    .s{
+        display: block;
+    }
+    .qs{
+        width: 1070px;
+    }
+    .qt{
+        width: 1070px;
+    }
+    .fond{
+        padding-top: 10px;
+    }
+    .primas{
+        font-size: 15px;
+        height: 40px;
+        width: 150px;
+    }
+    .ji{
+        background-color: var(--second-color);
+        color: white;
+        width: 100%;
+    }
+    .ji:hover{
+        background-color: var(--second-color);
+        color: white;
+    }
+    .ki{
+        background-color: var(--second-color);
+        color: white;
+        width: 100%;
+    }
+    .ki:hover{
+        background-color: var(--second-color);
+        color: white;
+    }
+  
+}
+
+
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {}
