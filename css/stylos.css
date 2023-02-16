@@ -84,7 +84,7 @@ footer a :hover {
 }
 
 .colores {
-    color: white;
+    color: black;
 
 }
 
@@ -181,11 +181,6 @@ small {
 
 }
 
-.conta {
-    max-width: 1250px;
-    margin: auto;
-    padding: 70px 0;
-}
 
 .ul {
     list-style: none;
@@ -194,9 +189,29 @@ small {
 
 .ro {
     display: flex;
+   
+    
+}
+.conta {
+    max-width: 1000px;
+    margin: auto;
+    padding:25px 0px;
+    
     
     
 }
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 3;
+    bottom: -10px;
+    background-color: black;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+
 @media (max-width:540px) {
     .ro{
         flex-wrap: wrap;
@@ -205,6 +220,7 @@ small {
     
     .conta{
         text-align: center;
+        
     }
     .ul{
         padding: 0;
@@ -224,7 +240,17 @@ small {
         margin-left: 50px;
         margin-right: 20px;
     }
-   
+    .conta {
+        max-width: 1250px;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    .divim,.d{
+        width: 250px;
+        padding-top: 50px;
+    }
+    
+    
 }
 
 .footer-col {
@@ -272,7 +298,9 @@ small {
     
 
 }
-
+.ul{
+    padding-left: 20px;
+}
 .footer-col .social-links a {
     display: inline-block;
     height: 40px;
@@ -282,17 +310,65 @@ small {
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #24262b;
-    transition: all 0.5s ease;
+    /*color: #24262b;
+    transition: all 0.5s ease;*/
 
 }
-
-.footer-col .social-links a:hover {
-    color: #24262b;
-    background-color: #ffffff;
-
+#fa-facebook-f{
+    text-align: center;
+    color: white;
+    background-color: #3b5998;
+    /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
+    padding: 9px;
+    width:35px;
+    border-radius: 35%;
+    font-weight: 900;
+}
+#fa-facebook-f:hover{
+    background-color: #3b5998;
+    color: white;
+    border-radius: 50px;
+}
+#fa-linkedin-in{
+    color: white;
+    background-color:#3b83bd ;
+    padding: 9px;
+    font-weight: bold;
+    width: 35px;
+    border-radius: 35%;
+    /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
+}
+#fa-linkedin-in:hover{
+    color: white;
+    background-color:#3b83bd ;
+    border-radius: 50px;
 }
 
+#fa-instagram{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
+    padding: 9px;
+    width: 35px;
+    border-radius: 35%;
+    
+}
+#fa-instagram:hover{
+    color: white;
+    border-radius: 50px;
+}
+#fa-tiktok{
+    background-color: black;
+    /*box-shadow: 0px 3px 10px rgba(0,0,0,.25);*/
+    padding: 9px;
+    width: 35px;
+    border-radius: 35%;
+}
+#fa-tiktok:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
 .p {
     font-size: 16px;
     text-transform: capitalize;
@@ -440,6 +516,7 @@ small {
         width: 57%;
         margin-bottom: 30px;
     }
+    
 
     .con-anun{
         height: 32%;
@@ -513,6 +590,7 @@ small {
         width: 100%;
     }
     
+    
 }
 
 
@@ -525,6 +603,7 @@ small {
     .nav-link {
         margin-left: 1rem;
     }
+    
 }
 
 
@@ -611,7 +690,22 @@ small {
         box-sizing: border-box;
         width: 50px;
     }
+    .conta {
+        max-width: 1300px;
+        margin: auto;
+        padding: 55px 0;
+    }
+    .divim,.d{
+        width: 250px;
+        padding-top: 15px;
+        
+    }
+    
+    #divim1{
+        display: none;
+    }
 }
+
 
 /*x-large devices (large deskots ,599px and up)*/
 @media (max-width:1280px) {
@@ -653,7 +747,7 @@ small {
         background-color: var(--second-color);
         color: white;
     }
-  
+    
 }
 
 
