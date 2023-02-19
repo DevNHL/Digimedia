@@ -385,7 +385,7 @@
 
     <div class="pt-3"></div>
     <div class="container">
-        <h4 class="letra-sub">Servicios para tu Marca</h4>
+        <h4 class="letra-subs">Servicios para tu Marca</h4>
     </div>
     <!--carrosel secundario -->
     <div class="container m">

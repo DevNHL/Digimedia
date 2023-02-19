@@ -267,7 +267,6 @@ small {
     font-weight: 500;
     position: relative;
 }
-
 .p {
     color:black;
     text-transform: capitalize;
@@ -278,6 +277,13 @@ small {
 
 .footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
+}
+.letra-subs{
+    color: var(--color_banner_primero);
+
+    font-weight: bold;
+    opacity: 0.4;
+    font-size: 35px;
 }
 
 .footer-col,
