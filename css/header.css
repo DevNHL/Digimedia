@@ -257,12 +257,36 @@ header.abajo ul li a {
     height: 100%;
 
 }
-.contenedor-principal{
-   width: 100%;
-   height: 100%;
-   background-color:black;
-   opacity: 0.3;
+
+.banner-image2 {
+    background-image: url('../img/banner_preugntas.webp');
+    background-size: cover;
+    
 }
+.banner-image2{
+    width: 100%;
+    height: 35%;
+      
+
+}
+ .letraxx{
+    float: left;
+    padding:0 502px;
+    margin-top: 167px;
+    color: #9e7fe2;
+    
+}
+.fa{
+    font-size:30px;
+    font-weight:900;
+    
+ }
+
+.contenedor-principal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41,41,41,0.5) ; color: #efefef ;
+ }
 .contenedor-secundario{
     background-color: #000;
     width: 50%;
@@ -392,6 +416,31 @@ header.abajo ul li a {
 
 
 }
+@media (min-width:1300px) {
+    .banner-image2{
+        width: 100%;
+        height: 79%;
+          
+    
+    }
+    .contenedor-principal2{
+        width: 100%;
+        height: 79%;
+        
+     }
+     .letraxx{
+        float: right;
+        padding:0 410px;
+        margin-top: 250px;
+        color: #9e7fe2;
+        
+    }
+    .fa{
+        font-size:40px;
+        font-weight:900;
+        
+     }
+}
 
 @media ((max-width: 767px) and  (max-width: 660px)) {
     #banner{
@@ -406,7 +455,23 @@ header.abajo ul li a {
         margin-top: 115px;
         
     }
+    #banner2{
+      
+        height: 24%;
+    }
     
+    
+    .letraxx{
+        margin-top: 98px;
+        padding:0;
+        color: #9e7fe2;
+        padding-left: 250px;
+        
+        
+    }
+    .fa{
+        font-size: 23px;
+    }
 }
 @media ((min-width:590px)) {
     .banners-letra{
@@ -431,6 +496,7 @@ header.abajo ul li a {
     #prima{
         width: 100px;
     }
+    
 }
 @media ((max-width: 1200px)) {
     #banner {
@@ -463,7 +529,8 @@ header.abajo ul li a {
     .boton{
         width: 465px;
     }
-
+    
+    
    
 }
 

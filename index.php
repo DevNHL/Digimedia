@@ -14,6 +14,7 @@
     <!-- Stylos Css propios -->
     <link rel="stylesheet" href="css/stylos.css?ssxx52">
     <link rel="stylesheet" href="css/carrosel.css">
+    
 </head>
 
 <body>
@@ -755,7 +756,7 @@
             <p class="infer">Haz clic en el boton "Ver preguntas Frecuentes" para acceder a esta informaci&oacute;n valiosa.</p>
         </div>
         <div class="bota1">
-            <a href="" class="boton__1">Preguntas Frecuentes</a>
+            <a href="View/preguntas.php" class="boton__1">Preguntas Frecuentes</a>
         </div>
     </div>
     <div class="pt-5"></div>
