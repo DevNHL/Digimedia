@@ -337,7 +337,9 @@ header.abajo ul li a {
     height: 40px;
 }
 
-
+.boton:hover{
+    color:white;
+}
 
 @media(max-width:767px) {
     
@@ -533,4 +535,3 @@ header.abajo ul li a {
     
    
 }
-
