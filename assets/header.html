@@ -1,9 +1,28 @@
- <header>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylos Css propios -->
+    <link rel="stylesheet" href="css/header.css?1501023">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <header>
         <nav class="container-fluid">
 
             <div>
                 <a class="navbar-brand" href="index.php">
-                    <img src="img/logo.png" alt="Logo">
+                    <img src="img/logo_header.svg" class="logoimagen"  alt="Logo">
                 </a>
             </div>
 
@@ -13,31 +32,16 @@
                     <a href="index.php">Inicio</a>
                 </div>
                 <div class="item">
-                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Servicios
+                    <a href="View/nosotros.php" role="button" >
+                        Nosotros
                     </a>
-
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="View/mk-gd.php">Marketing Digital</a></li>
-                        <li><a class="dropdown-item" href="View/img-corp.php">Imagen Corporativa</a></li>
-                        <li><a class="dropdown-item" href="View/rd-sociales.php">Redes Sociales</a></li>
-                        <li><a class="dropdown-item" href="View/marca.php">Crea tu marca</a></li>
-                        <li><a class="dropdown-item" href="View/ds-web.php">Dise&ntilde;o Web</a></li>
-                        <li><a class="dropdown-item" href="View/ds-grafico.php">Dise&ntilde;o Gr&aacute;fico</a>
-                        </li>
-                    </ul>
                 </div>
 
                 <div class="item">
-                    <a href="View/blog.php">Blog</a>
+                    <a href="View/servicios.php">Servicios</a>
                 </div>
                 <div class="item">
                     <a href="View/contacto.php">Cont&aacute;ctanos</a>
-                </div>
-                <div class="navbar-nav ">
-                    <div class="">
-                        <a class="" href="View/preguntas.php"><i class="fa-solid fa-comments"></i></a>
-                    </div>
                 </div>
             </div>
 
@@ -54,7 +58,7 @@
                     <div class="modal-content" id="modal-content">
 
                         <div class="modal-header" id="modal-header">
-                            <img src="img/logo.png" alt="Logo" style="width: 60px;">
+                            <img src="img/logo_header.svg" alt="Logo" style="width: 150px;">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                                     class="fa-solid fa-xmark"></i></button>
                         </div>
@@ -66,53 +70,17 @@
                             </div>
 
                             <div class="modal-line">
-                                <li class="menu__item menu__item--show">
-                                    <a href="#" class="menu__link">Servicios <img src="img/arrow.svg"
-                                            class="menu__arrow"></a>
-
-                                    <ul class="menu__nesting">
-                                        <li class="menu__inside">
-                                            <a href="View/mk-gd.php" class="menu__link menu__link--inside"
-                                                style="font-size: 14px;">Marketing Digital</a>
-                                        </li>
-                                        <hr>
-                                        <li class="menu__inside">
-                                            <a href="View/img-corp.php" class="menu__link menu__link--inside"
-                                                style="font-size: 14px;">Imagen Corporativa</a>
-                                        </li>
-                                        <hr>
-                                        <li class="menu__inside">
-                                            <a href="View/rd-sociales.php" class="menu__link menu__link--inside"
-                                                style="font-size: 14px;">Redes Sociales</a>
-                                        </li>
-                                        <hr>
-                                        <li class="menu__inside">
-                                            <a href="View/marca.php" class="menu__link menu__link--inside"
-                                                style="font-size: 14px;">Crea tu Marca</a>
-                                        </li>
-                                        <hr>
-                                        <li class="menu__inside">
-                                            <a href="View/ds-web.php" class="menu__link menu__link--inside"
-                                                style="font-size: 14px;">Diseño Web</a>
-                                        </li>
-                                        <hr>
-                                        <li class="menu__inside">
-                                            <a href="View/ds-grafico.php" class="menu__link menu__link--inside"
-                                                style="font-size: 14px;">Dise&ntilde;o Gr&aacute;fico</a>
-                                        </li>
-                                    </ul>
-                                </li>
+            
+                                    <a href="#" >Nosotros</a>
+                               
                             </div>
 
                             <div class="modal-line">
-                                <a href="View/blog.php">Blog</a>
+                                <a href="View/blog.php">Servicios</a>
                             </div>
 
                             <div class="modal-line">
                                 <a href="View/contacto.php">Cont&aacute;ctanos</a>
-                            </div>
-                            <div class="modal-line">
-                                <a href="View/preguntas.php">Ayuda</a>
                             </div>
                         </div>
 
@@ -128,5 +96,6 @@
             </div>
 
         </nav>
+        
     </header>
-
+</body>

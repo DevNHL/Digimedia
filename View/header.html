@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylos Css propios -->
+    <link rel="stylesheet" href="css/header.css?1501023">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <header>
+        <nav class="container-fluid">
+
+            <div>
+                <a class="navbar-brand" href="../index.php">
+                    <img src="../img/logo_header.svg" class="logoimagen"  alt="Logo">
+                </a>
+            </div>
+
+            <div class="navb-items d-none d-xl-flex">
+
+                <div class="item">
+                    <a href="../index.php">Inicio</a>
+                </div>
+                <div class="item">
+                    <a href="nosotros.php" role="button" >
+                        Nosotros
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="servicios.php">Servicios</a>
+                </div>
+                <div class="item">
+                    <a href="contacto.php">Cont&aacute;ctanos</a>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <div class="mobile-toggler d-lg-none">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" id="ventanaemergente">
+                    <div class="modal-content" id="modal-content">
+
+                        <div class="modal-header" id="modal-header">
+                            <img src="../img/logo_header.svg" alt="Logo" style="width: 150px;">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                                    class="fa-solid fa-xmark"></i></button>
+                        </div>
+
+                        <div class="modal-body" id="modal-body">
+
+                            <div class="modal-line sa">
+                                <a href="../index.php">Inicio</a>
+                            </div>
+
+                            <div class="modal-line">
+            
+                                    <a href="nosotros.php" >Nosotros</a>
+                               
+                            </div>
+
+                            <div class="modal-line">
+                                <a href="blog.php">Servicios</a>
+                            </div>
+
+                            <div class="modal-line">
+                                <a href="contacto.php">Cont&aacute;ctanos</a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-modal-footer">
+
+                            <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        
+    </header>
+</body>
+
+</html>
