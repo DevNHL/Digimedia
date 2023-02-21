@@ -23,9 +23,9 @@ const maquinaEscribir = (text = '',tiempo = 200, etiqueta = '') => {
   
   maquinaEscribir("GESTIÓN DE REDES  SOCIALES.  ",100, maquina)
 
-  const maquina1=document.getElementById("maquina1")
+  const maquina=document.getElementById("maquina1")
 
-const maquinaEscribir1 = (text = '',tiempo = 200, etiqueta = '') => {
+const maquinaEscribir = (text = '',tiempo = 200, etiqueta = '') => {
     let arrayCaracteres = text.split('')
     etiqueta.innerHTML = ''
     let i = 0
@@ -46,4 +46,4 @@ const maquinaEscribir1 = (text = '',tiempo = 200, etiqueta = '') => {
     }, tiempo)
   }
   
-  maquinaEscribir1("DISEÑO WEB. ",100, maquina1)
+  maquinaEscribir("maquina1",100, maquina)
