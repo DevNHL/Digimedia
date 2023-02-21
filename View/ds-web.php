@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Stylos Css propios -->
 
-    <link rel="stylesheet" href="../css/diseño_web.css?2002e23">
+    <link rel="stylesheet" href="../css/diseno_web.css?2002e23">
 
 </head>
 
@@ -22,11 +22,12 @@
         <div class="padre">
         <div class="contenedors">
             <div class="ckjb">
-            <div class="tit" id="maquina">DISEÑO WEB .</div>
+            <div class="tit" id="maquina1">DISEÑO WEB.</div>
             </div>
             
-            <p class="sub">En Digimedia ayudaremos a mejorar la imagen de tu marca. Asimismo, a incrementar y conquistar <br>   
-            los corazones de tu target.</p>
+            <p class="sub">En Digimedia, construimos contigo la presencia de tu empresa en internet. Enfocados en el <br>
+            marketing digital, buscamos que tu web esté enfocada en tus visitantes y optimizada para <br>
+            Google (SEO).</p>
             <div class="con">
                 <a href="contacto.php" class="boton_con">Contactar</a>
             </div>
