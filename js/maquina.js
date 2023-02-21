@@ -21,4 +21,4 @@ const maquinaEscribir = (text = '',tiempo = 200, etiqueta = '') => {
     }, tiempo)
   }
   
-  maquinaEscribir("DISEÑO WEB. ",100, maquina)
+  maquinaEscribir("DISEÑO WEB . ",100, maquina)
