@@ -17,9 +17,103 @@
 </head>
 
 <body>
-    <?php include '../assets/header_view.html' ?>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <?php include '../assets/footer.html' ?>
+    <?php include 'header.html' ?>
+    <div class="banerprincipal" >
+        <div class="padre">
+        <div class="contenedors">
+            <div class="ckjb">
+                <div class="tit" id="maquina">GESTI&Oacute;N DE REDES  SOCIALES.</div>
+            </div>
+            
+            <p class="sub">En Digimedia ayudaremos a mejorar la imagen de tu marca. Asimismo, a incrementar y conquistar <br>   
+            los corazones de tu target.</p>
+            <div class="con">
+                <a href="contacto.php" class="boton_con">Contactar</a>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    <div class="pt-5"></div>
+
+    <div class="bannersec">
+        <div class="conrs">
+            <div class="cont">
+                <div class="titulo"><p class="tes">Servicio de Social Media</p></div>
+                <p class="parrafo">Crearemos y gestionaremos el perfil de tu empresa, orientada a resultados en plazos establecidos. Con nuestra gesti&oacute;n de redes sociales ayudaremos a mejorar la imagen corporativa de tu empresa o
+                negocio y conquistaremos los corazones de tu
+                target.
+                </p>
+            </div> 
+        </div>
+        
+    </div>
+
+    <div class="pt-5"></div>
+
+    <div class="bannersec3">
+        <div class="conrs2">
+            <div class="cont2">
+                <div class="titulo2"><p class="tes">Conoce nuestro servicio de gesti&oacute;n de redes sociales para tu empresa</p></div>
+                <p class="parrafo">Sabemos que las redes sociales son herramientas potenciales para
+                una marca y una de las formas más poderosas del Marketing digital, diseñado para mejorar la visibilidad de tu marca, incrementar el engagement, conseguir los KPI’ claves y mejorar tu ROI.
+                Indudablemente una de las formas m&aacute;s efectivas de lograr sus objetivos es crear una buena estrategia y gestión de Redes Sociales.
+                </p>
+            </div> 
+        </div>
+        
+    </div>
+
+    <div class="pt-5"></div>
+
+    <div class="bannersec4">
+        <div class="conrs">
+            <div class="cont">
+                <div class="titulo"><p class="tes">Creaci&oacute;n del Social Profile</p></div>
+                <p class="parrafo">Determinaremos las redes sociales con las que deber&iacute;a contar tu marca, nos encargaremos de darle color, forma y vida al perfil social de tu empresa o negocio, y lograremos que tus
+                seguidores perciban en sus redes una imagen
+                fresca y din&aacute;mica con la que deseen interactuar
+                target.
+                </p>
+            </div> 
+        </div>
+        
+    </div>
+
+    <div class="pt-5"></div>
+
+    <div class="bannersec5">
+        <div class="conrs">
+            <div class="cont">
+                <div class="titulo2"><p class="tes">Creaci&oacute;n de Contenido para Redes Sociales</p></div>
+                <p class="parrafo">Creamos una estrategia a la medida de tu empresa, considerando el tipo de contenido, formato y medios que
+                realmente te aporten beneficios y resultados. Asimismo, se asigna a profesionales encargados de gestionar, crear y moderar las acciones de tu comunidad digital.
+                </p>
+            </div> 
+        </div>
+        
+    </div>
+
+    
+    <div class="pt-5"></div>
+
+    <div class="bannersec6">
+        <div class="conrs">
+            <div class="cont">
+                <div class="titulo"><p class="tes">Monitoreo de Redes Sociales</p></div>
+                <p class="parrafo">Monitoreamos tu marca en las redes sociales con el objetivo de
+                saber lo que las personas dicen de tu marca, productos o servicios.
+                Las redes sociales generan datos que deben ser medidos para
+                sacar conclusiones sobre la gestión realizada y saber si se están cumpliendo los objetivos o si es necesario hacer un cambio de
+                estrategia.
+                </p>
+            </div> 
+        </div>
+        
+    </div>
+
+    <div class="pt-5"></div>
+    <?php include 'footer.html' ?>
 
 
 </body>
@@ -27,7 +121,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <!-- JS propio -->
 <!--<script defer src="https://app.embed.im/snow.js"></script>
-    <script src="js/main.js"></script>-->
+<script src="js/main.js"></script>-->
 
 <script src="../js/maquina.js"></script>
 
