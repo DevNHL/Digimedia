@@ -22,7 +22,7 @@
         <div class="padre">
         <div class="contenedors">
             <div class="ckjb">
-            <div class="tit" id="maquina1">DISEÑO WEB.</div>
+            <div class="tit" id="maquina">DISEÑO WEB.</div>
             </div>
             
             <p class="sub">En Digimedia, construimos contigo la presencia de tu empresa en internet. Enfocados en el <br>
@@ -40,10 +40,9 @@
     <div class="bannersec">
         <div class="conrs">
             <div class="cont">
-                <div class="titulo"><p class="tes">Servicio de Social Media</p></div>
-                <p class="parrafo">Crearemos y gestionaremos el perfil de tu empresa, orientada a resultados en plazos establecidos. Con nuestra gesti&oacute;n de redes sociales ayudaremos a mejorar la imagen corporativa de tu empresa o
-                negocio y conquistaremos los corazones de tu
-                target.
+                <div class="titulo"><p class="tes">Servicio de Diseño Web</p></div>
+                <p class="parrafo">Implementar tu plataforma web para tu negocio ayudará,a que muchos procesos internos y externos sean optimizados. <br>
+                Empieza con tu plan de diseño de páginas web y dale a tu marca un lugar único en internet para llegar a más personas y brindarles una experiencia cómoda, amigable y sorprendente. 
                 </p>
             </div> 
         </div>
@@ -95,24 +94,6 @@
         
     </div>
 
-    
-    <div class="pt-5"></div>
-
-    <div class="bannersec6">
-        <div class="conrs">
-            <div class="cont">
-                <div class="titulo"><p class="tes">Monitoreo de Redes Sociales</p></div>
-                <p class="parrafo">Monitoreamos tu marca en las redes sociales con el objetivo de
-                saber lo que las personas dicen de tu marca, productos o servicios.
-                Las redes sociales generan datos que deben ser medidos para
-                sacar conclusiones sobre la gestión realizada y saber si se están cumpliendo los objetivos o si es necesario hacer un cambio de
-                estrategia.
-                </p>
-            </div> 
-        </div>
-        
-    </div>
-
     <div class="pt-5"></div>
     <?php include 'footer.html' ?>
 
@@ -124,6 +105,6 @@
 <!--<script defer src="https://app.embed.im/snow.js"></script>
 <script src="js/main.js"></script>-->
 
-<script src="../js/maquina.js"></script>
+<script src="../js/maquina_dw.js"></script>
 
 </html>

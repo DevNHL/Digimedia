@@ -22,7 +22,7 @@
         <div class="padre">
         <div class="contenedors">
             <div class="ckjb">
-                <!-- <div class="tit" id="maquina">GESTI&Oacute;N DE REDES  SOCIALES.</div> -->
+                <div class="tit" id="maquina">lol</div>
             </div>
             
             <p class="sub">En Digimedia ayudaremos a mejorar la imagen de tu marca. Asimismo, a incrementar y conquistar <br>   

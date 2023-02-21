@@ -8,7 +8,7 @@
     --second-color: #9e7fe2;
     --shadow-color: #FF9E9E;
     --shadow-color-light: white;
-    --color_banner_primero:#169ff4;
+    --color_banner_primero1:#169ff4;
 }
 /*********************************************/*
 .banerprincipal{
@@ -33,7 +33,7 @@
  .tit{
     font-size: 4rem;
     font-weight: 800;
-    color:var(--color_banner_primero);
+    color:var(--color_banner_primero1);
     
  }
  .sub{
@@ -41,7 +41,7 @@
     color: white;
  }
  .boton_con{
-    background-color: var(--color_banner_primero);
+    background-color: var(--color_banner_primero1);
     text-align: center;
     color: white;
     padding: 12px;
@@ -50,7 +50,7 @@
  }
  .boton_con:hover{
     background-color: white;
-    color: var(--color_banner_primero);
+    color: var(--color_banner_primero1);
     
  }
  .con{
@@ -66,7 +66,7 @@
 }
 
 .bannersec{
-    background-image: url('../img/servicio\ social\ de\ media.webp');
+    background-image: url('../img/servicio\ de\ diseno\ web.webp');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -102,7 +102,7 @@
 
 
 .bannersec3{
-    background-image: url('../img/servicios\ de\ gestio.webp');
+    background-image: url('../img/dw\ lima\ peru.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -130,7 +130,7 @@
    
 }
 .bannersec4{
-    background-image: url('../img/creacion\ social.webp');
+    background-image: url('../img/tecnica\ de\ trabajo.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -140,17 +140,7 @@
 }
 
 .bannersec5{
-    background-image: url('../img/creacion\ de\ contenido.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    width: 100%;
-    height: 82%;
-    
-}
-
-.bannersec6{
-    background-image: url('../img/monitoreo\ de\ redes\ sociales.webp');
+    background-image: url('../img/importancia\ diseno\ web.webp');
     background-size: cover;
     background-repeat: no-repeat;
     
