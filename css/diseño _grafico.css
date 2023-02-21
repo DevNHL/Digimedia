@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --first-color: #6434d1;
+    --second-color: #9e7fe2;
+    --shadow-color: #FF9E9E;
+    --shadow-color-light: white;
+    --color_banner_primero:#FF0080;
+}
+.banner{
+    background-image: url('../img/redes\ sociales\ gestiones.webp');
+    background-size: cover;
+    width: 100%;
+    height: 100%; 
+}
+.con{
+    background-color: rgba(41,41,41,0.2) ;
+    width: 100%;
+    height: 100%;
+    
+}
+.textos{
+    padding-top: 210px;
+    padding-left: 150px;
+    
+}
+.text{
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--second-color);
+
+}
+.parrafo{
+    font-size: 1.5rem;
+    color: white;
+}
+.btnx{
+    background-color: var(--second-color);
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btnx:hover{
+    color: var(--second-color);
+    background-color: white;
+}
