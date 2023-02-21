@@ -12,15 +12,15 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Stylos Css propios -->
-    <link rel="stylesheet" href="css/stylos.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/stylos.css">
+    <link rel="stylesheet" href="../css/diseño _grafico.css">
+
 </head>
 
 <body>
     <?php include '../assets/header_view.html' ?>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <?php include '../assets/footer.html' ?>
+
 </body>
 
 </html>

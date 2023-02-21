@@ -37,7 +37,7 @@
 
             </div>
             <div class="bt" id="bt">
-                <input type="submit" class="boton" value="Contactar" id="prima">
+                <a href="View/contacto.php" class="boton" id="prima">Conctactar</a>
             </div>
         </div>
     </div>
