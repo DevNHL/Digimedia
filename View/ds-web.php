@@ -55,26 +55,7 @@
         <div class="conrs2">
             <div class="cont2">
                 <div class="titulo2"><p class="tes">Diseño de página web en Lima - Perú</p></div>
-                <p class="parrafo1">Crear tu página web te permite transmitir una correcta información sobre los productos o servicios de tu marca basada en la experiencia de usuario (UX). Nuestro servicio incluye:<br>
-                .Análisis de competencia <br>
-                .UX/UI <br>
-                .Diseño Responsive <br>
-                .Chat integrado  <br>
-                .Sitio web administrable <br>
-                .Data Estructurada <br>
-                .Optimización SEO
-                </p>
-            </div> 
-        </div>
-        
-    </div>
-
-    <div class="pt-5"></div>
-    <div class="banner3">
-        <div class="conrs" id="conrs">
-            <div class="cont">
-                <div class="titulo1"><p class="tes">Diseño de página web en Lima - Perú</p></div>
-                <p class="parrafo1">Crear tu página web te permite transmitir una correcta información sobre los productos o servicios de tu marca basada en la experiencia de usuario (UX). Nuestro servicio incluye:<br>
+                <p class="parrafo">Crear tu página web te permite transmitir una correcta información sobre los productos o servicios de tu marca basada en la experiencia de usuario (UX). Nuestro servicio incluye:<br>
                 .Análisis de competencia <br>
                 .UX/UI <br>
                 .Diseño Responsive <br>
@@ -93,11 +74,14 @@
     <div class="bannersec4">
         <div class="conrs">
             <div class="cont">
-                <div class="titulo"><p class="tes">Creaci&oacute;n del Social Profile</p></div>
-                <p class="parrafo">Determinaremos las redes sociales con las que deber&iacute;a contar tu marca, nos encargaremos de darle color, forma y vida al perfil social de tu empresa o negocio, y lograremos que tus
-                seguidores perciban en sus redes una imagen
-                fresca y din&aacute;mica con la que deseen interactuar
-                target.
+                <div class="titulo"><p class="tes">Nuestra técnica de trabajo</p></div>
+                <p class="parrafo">En Digimedia disponemos de un equipo de profesionales desarrolladores , los cuales se enfocaran en la planificación y desarrollo de páginas web, con la finalidad de responder a las necesidades de la empresa y la de los usuarios.<br>
+                .Análisis e investigación <br>
+                .Experiencia de usuario y diseño de interfaces.<br>
+                .Ejecución de desarrollo web. <br>
+                .User testing.  <br>
+                .Optimización del sitio web (SEO on page). <br>
+                .Entrega del sitio web.
                 </p>
             </div> 
         </div>
@@ -109,9 +93,12 @@
     <div class="bannersec5">
         <div class="conrs">
             <div class="cont">
-                <div class="titulo2"><p class="tes">Creaci&oacute;n de Contenido para Redes Sociales</p></div>
-                <p class="parrafo">Creamos una estrategia a la medida de tu empresa, considerando el tipo de contenido, formato y medios que
-                realmente te aporten beneficios y resultados. Asimismo, se asigna a profesionales encargados de gestionar, crear y moderar las acciones de tu comunidad digital.
+                <div class="titulo2"><p class="tes">La Importancia de Diseño Web para tu Marca</p></div>
+                <p class="parrafo">.Permite tener presencia de marca en diferentes canales digitales de comunicación <br>
+                .Incrementa la visibilidad de tu negocio<br>
+                .Origina credibilidad y confianza en tu público objetivo <br>
+                .Permite obtener datos y analizar el comportamiento e intereses de tus visitantes <br>
+                .Posiciona tu marca frente a tus competidores en motores de búsqueda
                 </p>
             </div> 
         </div>
