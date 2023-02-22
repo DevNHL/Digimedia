@@ -30,6 +30,29 @@
 </head>
 
 <body>
+    <?php include 'assets/header.html' ?>
+    <div class="banner-image " id="banner">
+        <div class="contenedor-principal">
+        </div>
+        <div class="banners-letra" id="banners-letra">
+            <div class="digimedia" id="digimedia">
+                <p class="digimedias" id="dige">DIGIMEDIA</p>
+            </div>
+            <div class="">
+                <div class="creativa" id="creativa">
+                    <p>Innovadora y creativa</p>
+                </div>
+
+                <div class="contenedor-secundario" id="contenedor-secundario">
+                    <p>Estamos enfocados a lograr <span class="text-primary">resultados comerciales</span> y de <span class="text-primary"> marketing</span> con <span class="text-primary"> creatividad</span> y <span class="text-primary"> estrategias.</span></p>
+                </div>
+
+            </div>
+            <div class="bt" id="bt">
+                <input type="submit" class="boton" value="Contactar" id="prima">
+            </div>
+        </div>
+    </div>
     <?php include 'header.html' ?>
     <div class="pt-5">
         <div class="container">
