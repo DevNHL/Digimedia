@@ -50,11 +50,7 @@
         <div class="d-none d-lg-block">
             <div class="d-none d-md-block ">
                 <div id="carouselExampleCaptionss" class="carousel slide d-none d-sm-block">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
+                    
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card mb-3" style="width: 1250px;" id="respo">
@@ -130,11 +126,7 @@
         <div class="d-none d-lg-block">
             <div class="d-none d-md-block ">
                 <div id="carouselExampleCaptions42" class="carousel slide d-none d-sm-block">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
+                    
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="card mb-3 qs" id="respo">
@@ -393,11 +385,7 @@
         <div class="d-none d-lg-block">
             <div class="d-none d-md-block">
                 <div id="carouselExampleCaptionsss" class="carousel slide d-none d-sm-block">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
+                    
                     <div class="carousel-inner">
                         <div class="carousel-item active ">
                             <div class="card mb-3 qw">
@@ -477,11 +465,7 @@
         <div class="d-none d-lg-block">
             <div class="d-none d-md-block">
                 <div id="carouselExampleCaptionsss" class="carousel slide d-none d-sm-block">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
+                    
                     <div class="carousel-inner">
                         <div class="carousel-item active ">
                             <div class="card mb-3 qt">

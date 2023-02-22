@@ -1,5 +1,6 @@
 const maquina=document.getElementById("maquina")
 
+
 const maquinaEscribir = (text = '',tiempo = 200, etiqueta = '') => {
     let arrayCaracteres = text.split('')
     etiqueta.innerHTML = ''
@@ -21,4 +22,6 @@ const maquinaEscribir = (text = '',tiempo = 200, etiqueta = '') => {
     }, tiempo)
   }
   
+  
   maquinaEscribir("GESTIÓN DE REDES  SOCIALES.  ",100, maquina)
+

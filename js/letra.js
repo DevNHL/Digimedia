@@ -1,31 +1,24 @@
-function typeEffect(element, speed) {
-	var text = element.innerHTML;
-	element.innerHTML = "";
-	
-	var i = 0;
-	var timer = setInterval(function() {
-    if (i < text.length) {
-      element.append(text.charAt(i));
-      i++;
+//maquina escribir 
+const maquina2s=document.getElementById("ma")
+const maquinaEscribir2 = (text = '',tiempo = 200, etiqueta = '') => {
+  let arrayCaracteres = text.split('')
+  etiqueta.innerHTML = ''
+  let i = 0
+  let j = text.length
+  let escribir = setInterval(function(){
+    if (i === arrayCaracteres.length) {
+      etiqueta.innerHTML = text.substring(0,j)
+      j--
+      if (j === 0) {
+        etiqueta.innerHTML = ''
+        i = 0
+        j = text.length
+      }
     } else {
-      clearInterval(timer);
+      etiqueta.innerHTML += arrayCaracteres[i]
+      i++
     }
-  }, speed);
+  }, tiempo)
 }
 
-
-// application
-var speed = 65;
-var h1 = document.querySelector('h4');
-var h6 = document.querySelector('h6');
-var delay = h1.innerHTML.length * speed + speed;
-
-// type affect to header
-typeEffect(h1, speed);
-
-
-// type affect to body
-setTimeout(function(){
-  h6.style.display = "inline-block";
-  typeEffect(h6, speed);
-}, delay);
+maquinaEscribir2("DISEÑO GRÁFICO.  ",100, maquina2s)
