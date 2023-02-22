@@ -54,10 +54,18 @@
     <div class="bannersec3">
         <div class="conrs2">
             <div class="cont2">
-                <div class="titulo2"><p class="tes">Conoce nuestro servicio de gesti&oacute;n de redes sociales para tu empresa</p></div>
-                <p class="parrafo">Sabemos que las redes sociales son herramientas potenciales para
-                una marca y una de las formas más poderosas del Marketing digital, diseñado para mejorar la visibilidad de tu marca, incrementar el engagement, conseguir los KPI’ claves y mejorar tu ROI.
-                Indudablemente una de las formas m&aacute;s efectivas de lograr sus objetivos es crear una buena estrategia y gestión de Redes Sociales.
+                <div class="titulo2"><p class="tes">Diseño de página web<br>
+                en Lima - Perú</p></div>
+                <p class="parrafo">Crear tu página web te permite transmitir una correcta información sobre los productos o servicios de tu marca basada en la experiencia de usuario (UX).<br><br>
+                Nuestro servicio incluye:<br>
+                .Eres altamente reconocido y tus consumidores recordarán fácilmente tu marca. <br>
+                 .Hace más fácil el proceso de ventas. <br>
+                 .Fidelizas a tus clientes. Facilidad de captación de clientes. <br>
+                 . Mayor confianza entre el cliente, tu empresa y tu marca.  <br>
+                 .Generar valor a tu marca a través del tiempo. <br>
+                .Imagen sólida de empresa. <br>
+                .Credibilidad ante todos tus clientes y proveedores. <br>
+                .Correcta presentación y mayor impacto en cualquier entorno de negocios.
                 </p>
             </div> 
         </div>
