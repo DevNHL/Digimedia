@@ -70,14 +70,6 @@
         </div>
     </div>
 
-<div class="pt-5"></div>
-
-                </p>
-            </div> 
-        </div>
-        
-    </div>
-
     <div class="pt-5"></div>
 
     <div class="bannersec4">
@@ -85,12 +77,14 @@
             <div class="cont">
                 <div class="titulo"><p class="tes">Nuestra técnica de trabajo</p></div>
                 <p class="parrafo">En Digimedia disponemos de un equipo de profesionales desarrolladores , los cuales se enfocaran en la planificación y desarrollo de páginas web, con la finalidad de responder a las necesidades de la empresa y la de los usuarios.<br>
-                .Análisis e investigación <br>
-                .Experiencia de usuario y diseño de interfaces.<br>
-                .Ejecución de desarrollo web. <br>
-                .User testing.  <br>
-                .Optimización del sitio web (SEO on page). <br>
-                .Entrega del sitio web.
+                     <ul class="parrafo">
+                         <li type="disc">Análisis e investigación</li>
+                         <li type="disc">Experiencia de usuario y diseño de interfaces</li>
+                         <li type="disc">Ejecución de desarrollo web</li>
+                         <li type="disc">User testing</li>
+                         <li type="disc">Optimización del sitio web (SEO on page)</li>
+                         <li type="disc">Entrega del sitio web</li>
+                     </ul>
                 </p>
             </div> 
         </div>
@@ -103,11 +97,14 @@
         <div class="conrs">
             <div class="cont">
                 <div class="titulo2"><p class="tes">La Importancia de Diseño Web para tu Marca</p></div>
-                <p class="parrafo">.Permite tener presencia de marca en diferentes canales digitales de comunicación <br>
-                .Incrementa la visibilidad de tu negocio<br>
-                .Origina credibilidad y confianza en tu público objetivo <br>
-                .Permite obtener datos y analizar el comportamiento e intereses de tus visitantes <br>
-                .Posiciona tu marca frente a tus competidores en motores de búsqueda
+                <p class="parrafo">
+                     <ul class="parrafo">
+                         <li type="disc">Permite tener presencia de marca en diferentes canales digitales de comunicación</li>
+                         <li type="disc">Incrementa la visibilidad de tu negocio </li>
+                         <li type="disc">Origina credibilidad y confianza en tu público objetivo</li>
+                         <li type="disc">Permite obtener datos y analizar el comportamiento e intereses de tus visitantes </li>
+                         <li type="disc">Posiciona tu marca frente a tus competidores en motores de búsqueda</li>
+                     </ul>
                 </p>
             </div> 
         </div>
