@@ -111,9 +111,7 @@
     </div>
 
     <div class="pt-5"></div>
-    <div class="pt-5"></div>
     <?php include 'footer.html' ?>
-
 
 </body>
 <!-- JavaScript Bundle with Popper -->
@@ -121,7 +119,6 @@
 <!-- JS propio -->
 <!--<script defer src="https://app.embed.im/snow.js"></script>
 <script src="js/main.js"></script>-->
-
 <script src="../js/maquina_dw.js"></script>
 
 </html>
