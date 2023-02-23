@@ -56,13 +56,22 @@
             <div class="cont2">
                 <div class="titulo2"><p class="tes">Diseño de página web en Lima - Perú</p></div>
                 <p class="parrafo">Crear tu página web te permite transmitir una correcta información sobre los productos o servicios de tu marca basada en la experiencia de usuario (UX). Nuestro servicio incluye:<br>
-                .Análisis de competencia <br>
-                .UX/UI <br>
-                .Diseño Responsive <br>
-                .Chat integrado  <br>
-                .Sitio web administrable <br>
-                .Data Estructurada <br>
-                .Optimización SEO
+                     <ul class="parrafo">
+                         <li type="disc">Análisis de competencia </li>
+                         <li type="disc">UX/UI </li>
+                         <li type="disc">Diseño Responsive .</li>
+                         <li type="disc">Chat integrado  </li>
+                         <li type="disc">Sitio web administrable </li>
+                         <li type="disc">Data Estructurada </li>
+                         <li type="disc">Optimización SEO</li>
+                     </ul>
+                </p>
+            </div> 
+        </div>
+    </div>
+
+<div class="pt-5"></div>
+
                 </p>
             </div> 
         </div>
