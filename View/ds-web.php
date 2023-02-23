@@ -108,9 +108,9 @@
                 </p>
             </div> 
         </div>
-        
     </div>
 
+    <div class="pt-5"></div>
     <div class="pt-5"></div>
     <?php include 'footer.html' ?>
 
