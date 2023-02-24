@@ -12,21 +12,7 @@
     <!-- Stylos Css propios -->
     <link rel="stylesheet" href="../css/stylos.css?130220">
     <link rel="stylesheet" href="../css/header.css">
-    <script type="text/javascript">
-        function valideKey(evt) {
-
-            var code = (evt.which) ? evt.which : evt.keyCode;
-
-            if (code == 8) {
-                return true;
-            } else if (code >= 48 && code <= 57) {
-                return true;
-            } else {
-                return false;
-            }
-        }
-    </script>
-
+    
 </head>
 
 <body>
@@ -78,8 +64,5 @@
     <div class="pt-5"></div>
     <?php include 'footer.html' ?>
 </body>
-<!--scripts-->
-<script src="../js/formulalriovalidasegundo.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </html>

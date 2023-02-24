@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <?php include 'header.html' ?>
+     <?php include 'header.html' ?>
     <div class="banerprincipal" >
         <div class="padre">
         <div class="contenedors">

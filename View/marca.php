@@ -18,9 +18,9 @@
 </head>
 
 <body>
-    <?php include '../assets/header_view.html' ?>
+    <?php include 'header.html' ?>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <?php include '../assets/footer.html' ?>
+    <?php include 'footer.html' ?>
 </body>
 
 </html>
