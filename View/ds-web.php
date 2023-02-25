@@ -114,5 +114,5 @@
     <?php include 'footer.html' ?>
 
 </body>
-
+<script src="../js/maquina_dw.js"></script> 
 </html>

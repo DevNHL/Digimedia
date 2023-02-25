@@ -21,29 +21,4 @@ const maquinaEscribir = (text = '',tiempo = 200, etiqueta = '') => {
     }, tiempo)
   }
   
-  maquinaEscribir("GESTIÓN DE REDES  SOCIALES.  ",100, maquina);
-
-  const maquina1=document.getElementById("maquina1")
-
-const maquinaEscribir1 = (text1 = '',tiempo = 200, etiqueta = '') => {
-    let arrayCaracteres1 = text1.split('')
-    etiqueta.innerHTML = ''
-    let a = 0
-    let b = text.length
-    let escribir = setInterval(function(){
-      if (a === arrayCaracteres.length) {
-        etiqueta.innerHTML = text.substring(0,b)
-        b--
-        if (b === 0) {
-          etiqueta.innerHTML = ''
-          a = 0
-          b = text.length
-        }
-      } else {
-        etiqueta.innerHTML += arrayCaracteres[a]
-        a++
-      }
-    }, tiempo)
-  }
-  
-  maquinaEscribir1 ("xddddf ",100, maquina1)
+  maquinaEscribir("GESTIÓN DE REDES  SOCIALES.  ",100, maquina)

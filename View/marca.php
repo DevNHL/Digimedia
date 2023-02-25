@@ -22,7 +22,7 @@
         <div class="padre">
         <div class="contenedors">
             <div class="ckjb">
-                <div class="tit" id="maquina1">xdd</div>
+                <div class="tit" id="maquina1">CREA TU MARCA.</div>
             </div>
             
             <p class="sub">En Digimedia ayudaremos a mejorar la imagen de tu marca. Asimismo, a incrementar y conquistar <br>   
@@ -117,11 +117,6 @@
 
 
 </body>
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-<!-- JS propio -->
-<!--<script defer src="https://app.embed.im/snow.js"></script>
-<script src="js/main.js"></script>-->
 
 <script src="../js/maquina_marca.js"></script>
 

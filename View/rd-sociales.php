@@ -117,5 +117,5 @@
 
 
 </body>
-
+<script src="../js/maquina.js"></script>
 </html>
