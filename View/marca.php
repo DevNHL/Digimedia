@@ -25,8 +25,7 @@
                 <div class="tit" id="maquina">CREA TU MARCA.</div>
             </div>
             
-            <p class="sub">En Digimedia ayudaremos a mejorar la imagen de tu marca. Asimismo, a incrementar y conquistar <br>   
-            los corazones de tu target.</p>
+            <p class="sub">Te asesoramos en la creación de tu marca, trabajamos conceptos creativos, diseño de logotipos, creación de tu manual de marca y presentamos diseños de aplicaciones de marca.</p>
             <div class="con">
                 <a href="contacto.php" class="boton_con">Contactar</a>
             </div>
