@@ -22,7 +22,7 @@
         <div class="padre">
         <div class="contenedors">
             <div class="ckjb">
-            <div class="tit" id="maquina">DISEÑO WEB.</div>
+            <div class="tit" id="maquina">CREA TU MARCA.</div>
             </div>
             
             <p class="sub">Te asesoramos en la creación de tu marca, trabajamos conceptos creativos, diseño de logotipos, <br>
