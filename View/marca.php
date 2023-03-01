@@ -96,23 +96,6 @@
 
     
     <div class="pt-5"></div>
-
-    <div class="bannersec6">
-        <div class="conrs">
-            <div class="cont">
-                <div class="titulo"><p class="tes">Monitoreo de Redes Sociales</p></div>
-                <p class="parrafo">Monitoreamos tu marca en las redes sociales con el objetivo de
-                saber lo que las personas dicen de tu marca, productos o servicios.
-                Las redes sociales generan datos que deben ser medidos para
-                sacar conclusiones sobre la gestión realizada y saber si se están cumpliendo los objetivos o si es necesario hacer un cambio de
-                estrategia.
-                </p>
-            </div> 
-        </div>
-        
-    </div>
-
-    <div class="pt-5"></div>
     <?php include 'footer.html' ?>
 
 

@@ -103,7 +103,7 @@
 
 
 .bannersec3{
-    background-image: url('../img/servicios\ de\ gestio.webp');
+    background-image: url('../img/servicio\ creacion\ de\ marca.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -131,7 +131,7 @@
    
 }
 .bannersec4{
-    background-image: url('../img/creacion\ social.webp');
+    background-image: url('../img/hacer\ digimedia\ por\ ti.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -141,7 +141,7 @@
 }
 
 .bannersec5{
-    background-image: url('../img/creacion\ de\ contenido.webp');
+    background-image: url('../img/naming.webp');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -149,15 +149,4 @@
     height: 82%;
     
 }
-
-.bannersec6{
-    background-image: url('../img/monitoreo\ de\ redes\ sociales.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    width: 100%;
-    height: 82%;
-    
-}
-
 /*medias querys*/
