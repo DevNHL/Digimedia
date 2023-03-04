@@ -39,11 +39,9 @@
     <div class="bannersec">
         <div class="conrs">
             <div class="cont">
-                <div class="titulo"><p class="tes">Servicio de Social Media</p></div>
-                <p class="parrafo">Crearemos y gestionaremos el perfil de tu empresa, orientada a resultados en plazos establecidos. Con nuestra gesti&oacute;n de redes sociales ayudaremos a mejorar la imagen corporativa de tu empresa o
-                negocio y conquistaremos los corazones de tu
-                target.
-                </p>
+                <div class="titulo"><p class="tes">Somos la Agencia que tu Marca necesita</p></div>
+                <p class="parrafo">Nos encargaremos de crear tu marca, aquello que te hará diferente a tu competencia. Y si ya tienes una marca, le daremos valor, a través de ideas y estrategias creativas para posicionar en la mente de tu consumidor, con las mejores herramientas de comunicación digital y tradicional. <br><br>
+                En Digimedia estamos orientados a darte creatividad e innovación, te ofrecemos una estrategia clara, impactante y a la medida para obtener resultados .</p>
             </div> 
         </div>
         
@@ -53,12 +51,9 @@
 
     <div class="bannersec3">
         <div class="conrs2">
-            <div class="cont2">
-                <div class="titulo2"><p class="tes">Conoce nuestro servicio de gesti&oacute;n de redes sociales para tu empresa</p></div>
-                <p class="parrafo">Sabemos que las redes sociales son herramientas potenciales para
-                una marca y una de las formas más poderosas del Marketing digital, diseñado para mejorar la visibilidad de tu marca, incrementar el engagement, conseguir los KPI’ claves y mejorar tu ROI.
-                Indudablemente una de las formas m&aacute;s efectivas de lograr sus objetivos es crear una buena estrategia y gestión de Redes Sociales.
-                </p>
+            <div class="cont">
+                <div class="titulo2"><p class="tes">Servicio de Creación de Marca</p></div>
+                <p class="parrafo">Con nuestro servicio de crea tu marca, lograremos que tu marca hable por sí sola. Para hacer real este objetivo , detectaremos la forma en que tu público objetivo quiere interactuar contigo; por ello es de importancia manejar una estrategia adecuada. En Digimedia trabajamos de manera apasionada para lograr darle una personalidad auténtica a tu empresa.</p>
             </div> 
         </div>
         
@@ -68,12 +63,18 @@
 
     <div class="bannersec4">
         <div class="conrs">
-            <div class="cont">
-                <div class="titulo"><p class="tes">Creaci&oacute;n del Social Profile</p></div>
-                <p class="parrafo">Determinaremos las redes sociales con las que deber&iacute;a contar tu marca, nos encargaremos de darle color, forma y vida al perfil social de tu empresa o negocio, y lograremos que tus
-                seguidores perciban en sus redes una imagen
-                fresca y din&aacute;mica con la que deseen interactuar
-                target.
+            <div class="cont2">
+                <div class="titulo"><p class="tes">¿Qué puede hacer Digimedia por ti?</p></div>
+                <p class="parrafo">Como Agencia nos enfocamos en mejorar la percepción de tu marca y a conseguir<br>
+                     <ul class="parrafo">
+                         <li type="disc">El ADN de tu marca</li>
+                         <li type="disc">Un estudio de la Psicología del color </li>
+                         <li type="disc">El desarrollo de tres opciones de logotipo para tu empresa</li>
+                         <li type="disc">Diseño de Brandboard</li>
+                         <li type="disc">Estrategias de marca</li>
+                         <li type="disc">Incremento del reconocimiento de tu marca</li>
+                         <li type="disc">Comunicación efectiva de tu producto o servicio</li>
+                     </ul>
                 </p>
             </div> 
         </div>
@@ -85,10 +86,8 @@
     <div class="bannersec5">
         <div class="conrs">
             <div class="cont">
-                <div class="titulo2"><p class="tes">Creaci&oacute;n de Contenido para Redes Sociales</p></div>
-                <p class="parrafo">Creamos una estrategia a la medida de tu empresa, considerando el tipo de contenido, formato y medios que
-                realmente te aporten beneficios y resultados. Asimismo, se asigna a profesionales encargados de gestionar, crear y moderar las acciones de tu comunidad digital.
-                </p>
+                <div class="titulo2"><p class="tes">Naming</p></div>
+                <p class="parrafo">Crearemos un naming ideal para atraer a todo público, generando en ellos una conexión de recordación y emocional de tu marca. Con una investigación de mercado detallado y creatividad desarrollaremos el nombre de tu marca, con el objetivo de posicionarse en la mente y corazon del consumidor. <br><br> ¿Listo para ser una marca reconocida?</p>
             </div> 
         </div>
         
