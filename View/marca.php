@@ -101,5 +101,4 @@
 </body>
 
 <script src="../js/maquina_marca.js"></script>
-
 </html>
