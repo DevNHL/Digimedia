@@ -4,7 +4,7 @@
 }
 /* ------------- Mis variables----------- */
 :root {
-    --first-color: #9241d5;
+    --first-color3: #99009b;
     --second-color2: #FF0080;
     --shadow-color: #FF9E9E;
     --shadow-color-light: white;
@@ -33,7 +33,7 @@
  .tit{
     font-size: 4rem;
     font-weight: 800;
-    color:var(--first-color);
+    color:var(--first-color3);
     
  }
  .sub{
@@ -41,7 +41,7 @@
     color: white;
  }
  .boton_con{
-    background-color: var(--color_banner_primero2);
+    background-color: var(--first-color3);
     text-align: center;
     color: white;
     padding: 12px;
