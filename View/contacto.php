@@ -39,25 +39,37 @@
                             <input type="email" class="form-control" id="email" placeholder="email">
                             <small></small>
                         </div>
-                        <div class=" mb-3">
+                        <div class="mb-3">
+                            <div class="pt-3"></div>
+                            <select class="form-control" id="servicio">
+                                <option>--Servicio--</option>
+                                <option value="#">1</option>
+                                <option value="#">2</option>
+                            </select>
+                            <small></small>
+                        </div>
+                        <div class="mb-3">
                             <div class="pt-3"></div>
                             <input type="text" class="form-control" id="telefono" onkeypress="return valideKey(event);" placeholder="Telefono">
                             <small></small>
                         </div>
-                        <div class=" mb-3">
+                        <div class="mb-3">
                             <div class="pt-3"></div>
-                            <textarea name="mensajes" class="me" id="mensaje" cols="30" rows="4" placeholder="Mensaje"></textarea>
+                            <textarea name="mensajes" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje"></textarea>
                             <small></small>
                         </div>
+                        <div class="mb-3">
+                            <div class="pt-3"></div>
+                            <input type="checkbox" name="Email Marketing" value="Marketing" id="check"> Email Marketing
+                            <div class="pt-3"></div>
+                            <input type="checkbox" name="Email Marketing" value="Marketing" id="check"> News & Updates Emails
+                            <div class="pt-3"></div>
+                            <input type="checkbox" name="Email Marketing" value="Marketing" id="check"> Production Process Emails
+                        </div>
                         <button type="submit">Enviar</button>
-                        <div class="pt-3"></div>
                     </form>
 
                 </div>
-
-
-
-                <div class="pt-3"></div>
             </div>
         </div>
     </div>

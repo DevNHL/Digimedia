@@ -4,6 +4,7 @@ window.addEventListener('load',()=>{
     const telefono=document.getElementById('telefono')
     const email= document.getElementById('email')
     const mensaje= document.getElementById('mensaje')
+    const servicio= document.getElementById('servicio')
     
  
     form.addEventListener('submit',(e)=>{
@@ -19,12 +20,14 @@ window.addEventListener('load',()=>{
         const tele=telefono.value.trim()
         const co=email.value.trim()
         const men=mensaje.value.trim()
+        const ser=servicio.value.trim()
 
         const campos={
             nombr:false,
             tele:false,
             co:false,
             men:false,
+            ser:false,
 
         }
         //validando nombre y apellidos
@@ -55,7 +58,14 @@ window.addEventListener('load',()=>{
          campos['co']=false
          
         }
- 
+        //validar servicio
+        if(ser=='--Servicio--'){
+            validafalla(servicio,'Seleccione un servicio')
+            campos['ser']=true
+        } else{
+            validaok(servicio)
+            campos['ser']=false
+        }
         //validacion de numero de telefono
         if(!tele){
          validafalla(telefono,'Campo vacio')
@@ -87,7 +97,7 @@ window.addEventListener('load',()=>{
          campos['men']=false
  
         }
-       
+    
         if((nombr && tele && co && men )){
             form.reset()
             document.getElementById('alert').classList.add('ale-env')
