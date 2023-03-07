@@ -4,7 +4,7 @@
 }
 /* ------------- Mis variables----------- */
 :root {
-    --first-color: #6434d1;
+    --first-color: #9241d5;
     --second-color2: #FF0080;
     --shadow-color: #FF9E9E;
     --shadow-color-light: white;
@@ -12,7 +12,7 @@
 }
 /*********************************************/*
 .banerprincipal{
-    background-image: url('../img/baner\ marketing\ digital.webp');
+    background-image: url('../img/banner\ imagen\ corporativa.webp');
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -33,7 +33,7 @@
  .tit{
     font-size: 4rem;
     font-weight: 800;
-    color:var(--color_banner_primero2);
+    color:var(--first-color);
     
  }
  .sub{
@@ -66,7 +66,7 @@
 }
 
 .bannersec{
-    background-image: url('../img/servicios\ de\ marketing\ digital.webp');
+    background-image: url('../img/servicio\ de\ imagen.webp');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -102,7 +102,7 @@
 
 
 .bannersec3{
-    background-image: url('../img/estrategia\ de\ marketing.webp');
+    background-image: url('../img/refiere\ la\ imagen.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -141,32 +141,12 @@
    
 }
 .bannersec4{
-    background-image: url('../img/plan\ de\ marketing.webp');
+    background-image: url('../img/beneficios\ buena\ imagen.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     height: 85%;
-    
-}
-
-.bannersec5{
-    background-image: url('../img/creacion\ de\ contenido.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    width: 100%;
-    height: 82%;
-    
-}
-
-.bannersec6{
-    background-image: url('../img/monitoreo\ de\ redes\ sociales.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    width: 100%;
-    height: 82%;
     
 }
 
