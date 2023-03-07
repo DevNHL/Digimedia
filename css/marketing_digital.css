@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --first-color: #6434d1;
+    --second-color: #9e7fe2;
+    --shadow-color: #FF9E9E;
+    --shadow-color-light: white;
+    --color_banner_primero:#FF0080;
+}
+.banner{
+    background-image: url('../img/redes\ sociales\ gestiones.webp');
+    background-size: cover;
+    width: 100%;
+    height: 100%; 
+}
+
+.banner2{
+    background-image: url('../img/servicio\ de\ desarrollo.webp ');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 64%; 
+}
+
+.banner3{
+    background-image: url('../img/beneficios\ de\ contar\ con\ un\ servicio.webp ');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70%; 
+}
+
+.banner4{
+    background-image: url('../img/potenciamos\ tu\ diseño.webp ');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70%; 
+}
+.con1{
+    background-color: rgba(41,41,41,0.2) ;
+    width: 100%;
+    height: 100%;
+}
+.textos{
+    padding-top: 210px;
+    padding-left: 150px;
+    
+}
+.text{
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--second-color);
+
+}
+.parrafo{
+    font-size: 1.5rem;
+    color: white;
+}
+.btnx{
+    background-color: var(--second-color);
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btnx:hover{
+    color: var(--second-color);
+    background-color: white;
+}
+.conrs{
+    padding-top: 70px;
+    padding-left: 80px;
+    height: 100%;
+}
+.cont{
+    background-color: rgba(41,41,41,0.5) ;
+    width: 80%;
+    height: 87%;
+    padding: 52px;
+}
+.cont1{
+    background-color: rgba(41,41,41,0.5) ;
+    width: 55%;
+    height: 87%;
+    padding: 58px;
+}
+.titulo{
+    color: var(--color_banner_primero);
+    font-weight: 900;
+}
+.titulo1{
+    color: var(--second-color);
+    font-weight: 900;
+}
+.tes{
+    font-size: 2rem;
+}
+.parrafo1{
+    font-size: 1.2rem;
+    color: white;
+}
+.ted{
+    padding-top: 60px;
+}
+#ma{
+    display: inline;
+    border-right: 2px solid white;
+}
+
+/*medias queriys*/
+/*************movil******************/
+@media screen and (max-width:450px) {
+    .banner{
+        height:60%;
+        width: 100%;
+        background-position: center;
+        
+    }
+    .con{
+        background-color: rgba(41,41,41,0.4) ;
+        height: 100%;
+        width: 100%;
+    }
+    .textos{
+        padding: 0;
+        padding: 15px;
+        padding-top: 120px;
+        margin-left: 15px;
+        margin-right: 10px;
+       
+    }
+    .text{
+        font-size: 2rem;
+    }
+    .parrafo{
+        font-size: 1rem;
+    }
+
+    .btnx{
+        padding: 0;
+        padding: 5px;
+    }
+
+    .banner2{
+        background-position: center;
+        width: 100%;
+        height: 55%;
+    }
+    .conrs{
+        padding: 0;
+        margin: 0;
+        margin-left: 15px;
+        padding-top: 20px;
+        
+        
+    }
+    .cont{
+        
+        padding: 0;
+        padding: 20px;
+        height: 95%;
+    }
+    .tes{
+        
+        font-size:20px;
+    }
+    .parrafo1{
+        font-size: 13px;
+    }
+    .cont1{
+        background-color: rgba(41,41,41,0.5) ;
+        width: 80%;
+        height: 60%;
+        padding: 0;
+        padding:15px;
+        
+    }
+    .banner4{
+        height: 45%;
+    }
+    .ted{
+        padding: 0  ;
+    }
+    
+}
+
+@media screen and (min-height: 980px){
+    .banner{
+        height: 50%;
+    }
+    .con{
+        background-color: rgba(41,41,41,0.4) ;
+        height: 100%;
+        width: 100%;
+    }
+    .textos{
+        padding: 0;
+        padding: 15px;
+        padding-top: 120px;
+        margin-left: 15px;
+        margin-right: 10px;
+       
+    }
+    .text{
+        font-size: 3rem;
+    }
+    .parrafo{
+        font-size: 1.2rem;
+    }
+
+    .btnx{
+        padding: 0;
+        padding: 8px;
+    }
+    .banner2{
+        height: 38%;
+    }
+    #conrs{
+        padding: 0;
+        padding-top: 30px;
+        padding-left: 35px;
+    }
+    .cont{
+       height: 90%;
+       padding: 0;
+       padding: 15px;
+    }
+    .tes{
+        font-size: 1.6rem;
+    }
+    .parrafo1{
+        font-size: 1rem;
+    }
+
+    .banner3{
+        height: 45%;
+    }
+    .banner4{
+        height: 41%;
+    }
+    .ted{
+        padding: 0;
+    }
+}
+
