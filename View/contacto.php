@@ -45,18 +45,25 @@
                         </div>
                         <div class=" mb-3">
                             <div class="pt-3"></div>
+                            <p>Nombres y Apellidos:</p>
                             <input type="text" class="form-control" id="nombre" placeholder="Nombres y Apellidos">
                             <small></small>
                         </div>
                         <div class="mb-3">
                             <div class="pt-3"></div>
+                            <p>Email:</p>
                             <input type="email" class="form-control" id="email" placeholder="email">
                             <small></small>
                         </div>
                         <div class=" mb-3">
                             <div class="pt-3"></div>
+                            <p>Telefono:</p>
                             <input type="text" class="form-control" id="telefono" onkeypress="return valideKey(event);" placeholder="Telefono">
                             <small></small>
+                        </div>
+                        <div class="mb-3">
+                            
+
                         </div>
                         <div class=" mb-3">
                             <div class="pt-3"></div>
