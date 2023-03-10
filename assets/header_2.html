@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylos Css propios -->
+    <link rel="stylesheet" href="../css/header.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <header>
+        <nav class="container-fluid">
+
+            <div>
+                <a class="navbar-brand " href="../index.php" >
+                    <img src="../img/logo_footer.svg" alt="">
+                </a>
+            </div>
+
+            <div class="navb-items d-none d-xl-flex">
+
+                <div class="item">
+                    <a href="../index.php">Inicio</a>
+                </div>
+                <div class="item">
+                    <a href="View/nosotros.php" role="button" >
+                        Nosotros
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="View/servicios.php">Servicios</a>
+                </div>
+                <div class="item">
+                    <a href="View/contacto.php">Cont&aacute;ctanos</a>
+                </div>
+            </div>
+
+            <!-- Button trigger modal -->
+            <div class="mobile-toggler d-lg-none">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" id="ventanaemergente">
+                    <div class="modal-content" id="modal-content">
+
+                        <div class="modal-header" id="modal-header">
+                            <img src="img/logo_header.svg" alt="Logo" style="width: 150px;">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                                    class="fa-solid fa-xmark"></i></button>
+                        </div>
+
+                        <div class="modal-body" id="modal-body">
+
+                            <div class="modal-line ">
+                                
+                                <a href="index.php" class="n" id="s"><span>Inicio</span>  </a>
+                            </div>
+                            
+                            <div class="modal-line ">
+            
+                                    <a href="#" class="n" ><span>Nosotros</span></a>
+                               
+                            </div>
+
+                            <div class="modal-line">
+                                <a href="View/blog.php"  class="n"><span>Servicios</span></a>
+                            </div>
+
+                            <div class="modal-line">
+                                <a href="View/contacto.php" class="n"><span>Cont&aacute;ctanos</span></a>
+                            </div>
+                        </div>
+
+                        <div class="mobile-modal-footer">
+                            <a href="https://www.instagram.com/digimediamkt/"  target="_blank"><i class="fab fa-instagram" id="fa-instagrawm"></i></a>
+                            <a href=""><i class="fab fa-facebook-f" id="fa-facebook-fs"></i></a>
+                            <a href="https://www.tiktok.com/@digimediamkt?lang=es"  target="_blank"><i class="fab fa-tiktok" id="fa-tiktoks"></i> </a>
+                            <a href=""><i class="fa-brands fa-linkedin-in" id="fa-linkedin-ins"></i></a>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        
+    </header>
+</body>
+
+</html>
