@@ -12,7 +12,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Stylos Css propios -->
-    <link rel="stylesheet" href="../css/servicios.css?secwc">
+    <link rel="stylesheet" href="../css/servicios.css?100323">
     
     
 
@@ -39,7 +39,7 @@
         <div class="ser">
         <h4>Servicios de Marketing</h4>
         </div>
-        <div class="co">
+        <div class="co" id="">
             <div class="mar">
                
                 <a href="#" class="hover">
@@ -64,7 +64,7 @@
         </div>
         <div class="cx">
             <div class="mar">
-            <a href="#" class="hover">
+            <a href="#" class="hover"> 
                     <p>Diseño Web</p>
                     <img src="../img/dw.webp" alt="">
                 </a>

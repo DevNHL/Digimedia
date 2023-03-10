@@ -13,8 +13,8 @@
 .principal{
    
     height: 80%;
-    float: right;
-    margin-top: 120px;
+    padding-left: 850px;
+    padding-top: 150px;
     
     
 }
@@ -33,7 +33,7 @@
 .info{
     margin-top: 120px;
 
-    width: 50%;
+    width: 60%;
     padding: 10px;
     
 }
@@ -50,6 +50,7 @@
     background-color: #6434d1;
     color: white;
     padding: 9px;
+    border: none;
     border-radius: 50px;
     width: 155px;
 }
@@ -144,19 +145,19 @@
 }
 
 .hover:before{
-    transform: rotate(45deg) translateY(-550px) translateX(0px);
+    transform: rotate(45deg) translateY(-850px) translateX(0px);
 }
 
 .hover:after{
-    transform: rotate(45deg) translateY(550px) translateX(-60px);
+    transform: rotate(45deg) translateY(850px) translateX(-60px);
 }
 
 .hover:hover:before{
-    transform: rotate(45deg) translateY(-240px) translateX(0px);
+    transform: rotate(45deg) translateY(-205px) translateX(-50px);
 }
 
 .hover:hover:after{
-    transform: rotate(45deg) translateY(180px) translateX(-80px);
+    transform: rotate(45deg) translateY(205px) translateX(-70px);
 }
 
 
@@ -214,4 +215,151 @@
 }
 .btr2{
     padding-top: 15px;
+}
+
+/*medias querys*/
+/*celular*/
+@media (max-width:700px) {
+    .banner{
+        width: 100%;
+        height: 55%;
+    }
+    
+    .principal{
+        padding: 0;
+        height: 50%;
+        float: left;
+        margin-top: 120px;
+        margin-left: 50px;
+        margin-right: 20px;
+        
+        
+    }
+    .d{
+        
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .creativas{
+       
+        font-weight: 700;
+        margin: 0;
+        font-size: 1rem;
+    }
+    .info{
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        padding-top: 15px;
+        
+    }
+    .es{
+        text-align: left;
+        font-size: 15px;
+        font-weight: 550;
+        
+    }
+    .btu{
+        margin: 0;
+    }
+    .con{
+        background-color: #6434d1;
+        color: white;
+        padding: 9px;
+        border: none;
+        border-radius: 50px;
+        width: 155px;
+    }
+    .con{
+        background-color: #6434d1;
+        color: white;
+        padding: 7px;
+        border: none;
+        border-radius: 50px;
+        width: 135px;
+    }
+    .ser{
+        padding: 0;
+        padding: 15px;
+        padding-left: 40px;
+        
+    }
+    .co{
+        background-color: #6434d1;
+        width: 100%;
+        height: 800px;
+    }
+    .cx{
+        width: 100%;
+        height:800px;
+    }
+    .hover{
+        width: 100%;
+        height: 30%;
+    }
+    .mar{
+        padding: 40px;
+    }
+
+    .tx{
+        height: 0;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+
+    }
+    .tx2{
+        padding: 0;
+        margin: 0;
+        
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .texg{
+        width: 100%;
+    }
+    .no,.no2{
+        font-size: 1.2rem;
+        
+    }
+    .parr,.texte2r,.parr2,.saxc2{
+        font-size: 0.8rem;
+    }
+    .btr{
+       margin: 0;
+      
+    }
+    .b{
+        padding: 5px;
+    }
+    .cpx{
+        width: 100%;
+        height: 400px;
+        background-color: #FF0080;
+    }
+    .sssa{
+        text-align: center;
+        padding: 0;
+        padding-top: 58px;
+    }
+
+
+}
+
+
+/*****/
+/**tablet**/
+@media (min-height:1180px) {
+    .banner{
+        height: 35%;
+    }
+    .principal{
+        padding: 0;
+        height: 50%;
+        
+        margin: 0;
+        
+        
+    }
 }
