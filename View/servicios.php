@@ -44,15 +44,15 @@
 
                 <a href="#" class="hover">
                     <p>Marketing Digital</p>
-                    <img src="../img/md.webp" alt="">
+                    <img src="../img/servicio_marketing_digital.webp" alt="">
                 </a>
                 <a class="hover">
                     <p>Imagen Corporativa</p>
-                    <img src="../img/cor.webp" alt="">
+                    <img src="../img/servicio_imagen_corporativa.webp" alt="">
                 </a>
                 <a class="hover">
                     <p>Gesti&oacute; de Redes Sociales</p>
-                    <img src="../img/so.webp" alt="">
+                    <img src="../img/servicio_de_getion_de_redes_sociales.webp" alt="">
                 </a>
             </div>
         </div>
@@ -66,15 +66,15 @@
             <div class="mar">
             <a href="#" class="hover">
                     <p>Diseño Web</p>
-                    <img src="../img/dw.webp" alt="">
+                    <img src="../img/servicio_de_diseño_web.webp" alt="">
                 </a>
                 <a class="hover">
                     <p>Crear tu Marca</p>
-                    <img src="../img/ct.webp" alt="">
+                    <img src="../img/servicio_cambiar_tu_marca.webp" alt="">
                 </a>
                 <a class="hover">
                     <p>Diseño Grafico</p>
-                    <img src="../img/dg.webp" alt="">
+                    <img src="../img/servicio_diseño_grafico.webp" alt="">
                 </a>
             </div>
         </div>
