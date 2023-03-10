@@ -36,7 +36,8 @@
       }
 
       .contenedor-imagen {
-        background-color:rgb(175, 36, 157);
+        
+        background-color: rgba(241, 8, 117, 0.959);
         width: 100%;
         height: 500px;
         margin: 0;
