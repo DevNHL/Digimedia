@@ -12,6 +12,7 @@
     <!-- Stylos Css propios -->
     <link rel="stylesheet" href="../css/stylos.css?130220">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/contactanos.css">
     
 </head>
 
