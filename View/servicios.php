@@ -66,7 +66,7 @@
             <div class="mar">
             <a href="#" class="hover">
                     <p>Diseño Web</p>
-                    <img src="../img/servicio_de_diseño_web.webp" alt="">
+                    <img src="../img/servicio_de_diseno_web.webp" alt="">
                 </a>
                 <a class="hover">
                     <p>Crear tu Marca</p>
@@ -74,7 +74,7 @@
                 </a>
                 <a class="hover">
                     <p>Diseño Grafico</p>
-                    <img src="../img/servicio_diseño_grafico.webp" alt="">
+                    <img src="../img/servicio_diseno_grafico.webp" alt="">
                 </a>
             </div>
         </div>
