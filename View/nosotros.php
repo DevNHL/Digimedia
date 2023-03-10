@@ -22,7 +22,7 @@
     <?php include 'header.html' ?>
 
     <div class="contenedor-imagen">
-      <img src="../img/Nos_imagen.webp" alt="Imagen con transparencia completa">
+      <img src="../img/Nos_juntos.webp" alt="Imagen con transparencia completa">
       <div class="contenedor-texto">
         QUIÉNES SOMOS
       </div>
@@ -87,7 +87,7 @@
     <h1>NOSOTROS</h1>
     <p>Digimedia es una empresa de marketing digital, que se enfoca en potenciar tu emprendimiento a nivel online. Digimedia, le brinda a tu emprendimiento estrategias que ayuden a cumplir los objetivos de manera eficaz. Somos un grupo de personas comprometidas con el desarrollo de cada marca que nos contacta.</p>
   </div>
-  <img src="../img/Nos_imagen2.webp" alt="Descripción de la imagen">
+  <img src="../img/Nos_viendo.webp" alt="Descripción de la imagen">
 </div>
 <div class="pt-5"></div>
 
