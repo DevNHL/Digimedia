@@ -626,7 +626,7 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-8">
-                                    <img class="img-fluid" alt="Diseno" src="img//diseno.webp">
+                                    <img class="img-fluid" alt="Diseno" src="img//d_web.webp">
                                     <div class="card-body">
                                         <h5 class="card-title">Dise&ntilde;o Web</h5>
                                         <p class="card-text">En Digimedia te ayudamos con el desarrollo del diseño web de tu marca. Digimedia, se especializa en el diseño de sitios web modernos, fáciles de usar y que reflejen la marca de su empresa. Trabajamos con usted para entender su negocio y lo que quiere lograr con su sitio web.</p>
@@ -654,7 +654,7 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-8">
-                                    <img class="img-fluid" alt="Grafico" src="img//grafico.webp">
+                                    <img class="img-fluid" alt="Grafico" src="img//d_grafico.webp">
                                     <div class="card-body">
                                         <h5 class="card-title">Dise&ntilde;o Gr&aacute;fico</h5>
                                         <p class="card-text">En Digimedia te ayudamos y realizamos coaching en el diseño gráfico de las piezas publicitarias. Nuestro servicio de diseño gráfico publicitario y digital, se centra en buscar crear piezas que vallan acorde con la personalidad y el mensaje de tu marca.</p>
