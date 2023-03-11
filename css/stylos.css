@@ -165,14 +165,16 @@ small {
 
 
 #formulario button {
-    background: var(--first-color);
-    border: 1px solid #fd5f00;
-    border-radius: 2px;
+    background: #7ac2f1;
+    border: none;
+    border-radius: 5px;
     color: #f6f6e9;
+    position: relative;
     display: block;
-    width: 100%;
-    padding: 8px;
-    font-size: 18px;
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+    left: 40%;
 }
 
 .ale {
