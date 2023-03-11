@@ -35,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                <form id="formulario" class="card cards2" action="blog.php">
+                <form id="formulario" class="card cards2" method="post" action="blog.php">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="alert alert-warning  ale  text-center" role="alert" id="alert">
@@ -46,19 +46,19 @@
                         <div class=" mb-3">
                             <div class="pt-3"></div>
                             <p>Nombres y Apellidos:</p>
-                            <input type="text" class="form-control" id="nombre" placeholder="Nombres y Apellidos">
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombres y Apellidos">
                             <small></small>
                         </div>
                         <div class="mb-3">
                             <div class="pt-3"></div>
                             <p>Email:</p>
-                            <input type="email" class="form-control" id="email" placeholder="email">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="email">
                             <small></small>
                         </div>
                         <div class=" mb-3">
                             <div class="pt-3"></div>
                             <p>Telefono:</p>
-                            <input type="text" class="form-control" id="telefono" onkeypress="return valideKey(event);" placeholder="Telefono">
+                            <input type="text" class="form-control" id="telefono" name="te" onkeypress="return valideKey(event);" placeholder="Telefono">
                             <small></small>
                         </div>
                         <div class="mb-3">
@@ -86,7 +86,7 @@
     <?php include 'footer.html' ?>
 </body>
 <!--scripts-->
-<script src="../js/formulalriovalidasegundo.js"></script>
+<script src="../js/formulalriovalidasegundo.js?123"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </html>

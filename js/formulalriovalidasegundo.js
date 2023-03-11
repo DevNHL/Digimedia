@@ -5,21 +5,29 @@ window.addEventListener('load',()=>{
     const email= document.getElementById('email')
     const mensaje= document.getElementById('mensaje')
     
- 
-    form.addEventListener('submit',(e)=>{
-     e.preventDefault()
-     validacampos()
-    })
+    //sss
+    const nom= nombre.value.trim()
+    const te=telefono.value.trim()
+    const c=email.value.trim()
+    const m=mensaje.value.trim()
+   
+    
+        form.addEventListener('submit',(e)=>{
+                e.preventDefault()
+                validacampos()
+        })
+   
+    
+    
+    
     
 
     const validacampos =() =>{
         //capturando los valores ingresados
-        
         const nombr= nombre.value.trim()
         const tele=telefono.value.trim()
         const co=email.value.trim()
         const men=mensaje.value.trim()
-
         const campos={
             nombr:false,
             tele:false,
@@ -61,12 +69,7 @@ window.addEventListener('load',()=>{
          validafalla(telefono,'Campo vacio')
          campos['tele']=true
          
-        }else if(!validanumeros2(tele)){
-            validafalla(telefono,'No tiene el formato correcto porfavor de corregir') 
-            campos['tele']=true
-            
-        }
-        else if(!validamumeros(tele)){
+        }else if(!validamumeros(tele)){
              validafalla(telefono,'Debes de tener 9 caracteres')
              campos['tele']=true
              
@@ -125,9 +128,6 @@ window.addEventListener('load',()=>{
          return /^\d{9}$/.test(telefono)
      }
  
-     const validanumeros2=(telefono)=>{
-         return /^([0-9])*$/.test(telefono)
-     }
 
 
      
