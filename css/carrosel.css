@@ -1,7 +1,7 @@
 
 #img-fluid,#img-fluid1,#img-fluid2,#img-fluid3,#img-fluid4,#img-fluid5{
     transition: 0.5s all; 
-    background-color:black;
+   
     transition: all 0.50s linear;
 }
 
