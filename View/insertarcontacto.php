@@ -26,7 +26,7 @@
 
     // Comprobar si los datos se han insertado correctamente
     if ($resultado) {
-        echo "Los datos se han insertado correctamente";
+        header("Location: contacto.php");
     } else {
         echo "Ha habido un error al insertar los datos: " . mysqli_error($conn);
     }

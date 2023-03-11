@@ -43,7 +43,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Nombre</div>
-                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombres y Apellidos">
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombres y Apellidos" required>
                             <small></small>
                         </div>
                         </div>
@@ -51,7 +51,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Email</div>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="email">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="email" required>
                             <small></small>
                         </div>
                         </div>
@@ -61,7 +61,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Servicio</div>
-                            <select class="form-control" name="servicio" id="servicio">
+                            <select class="form-control" name="servicio" id="servicio" required>
                                 <option hidden>--Servicio--</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -73,7 +73,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Numero</div>
-                            <input type="text" class="form-control" name="numero" id="telefono" onkeypress="return valideKey(event);" placeholder="Telefono">
+                            <input type="text" class="form-control" name="numero" id="telefono" onkeypress="return valideKey(event);" placeholder="Telefono" required>
                             <small></small>
                         </div>
                         </div>
@@ -82,7 +82,7 @@
 
                         <div class="mb-3">
                             <div class="pt-3">Mensaje</div>
-                            <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje"></textarea>
+                            <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje" required></textarea>
                             <small></small>
                         </div>
                         
