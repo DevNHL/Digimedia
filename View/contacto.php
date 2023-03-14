@@ -63,8 +63,12 @@
                             <div class="pt-3">Servicio</div>
                             <select class="form-control" name="servicio" id="servicio" required>
                                 <option hidden>--Servicio--</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
+                                <option value="Marketing Digital">Marketing Digital</option>
+                                <option value="Imagen Corporativa">Imagen Corporativa</option>
+                                <option value="Gestión De Redes Sociales">Gestión De Redes Sociales</option>
+                                <option value="Crea Tu Marca">Crea Tu Marca</option>
+                                <option value="Diseño web">Diseño web</option>
+                                <option value="Diseño Grafico">Diseño Grafico</option>
                             </select>
                             <small></small>
                         </div>
