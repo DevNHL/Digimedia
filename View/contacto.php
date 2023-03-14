@@ -29,7 +29,7 @@
         <div class="pt-5"></div>
             <div class="container">
                 <div class="col-md-10 offset-md-1">
-                <form id="formulario" class="" action="blog.php">
+                <form action="insertarcontacto.php" method="post" id="formulario">
                     
                         <div class="row">
                             <div class="col-md-12">
@@ -43,7 +43,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Nombre</div>
-                            <input type="text" class="form-control" id="nombre" placeholder="Nombres y Apellidos">
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombres y Apellidos" required>
                             <small></small>
                         </div>
                         </div>
@@ -51,7 +51,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Email</div>
-                            <input type="email" class="form-control" id="email" placeholder="email">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="email" required>
                             <small></small>
                         </div>
                         </div>
@@ -61,10 +61,14 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Servicio</div>
-                            <select class="form-control" id="servicio">
+                            <select class="form-control" name="servicio" id="servicio" required>
                                 <option hidden>--Servicio--</option>
-                                <option value="#">1</option>
-                                <option value="#">2</option>
+                                <option value="Marketing Digital">Marketing Digital</option>
+                                <option value="Imagen Corporativa">Imagen Corporativa</option>
+                                <option value="Gestión De Redes Sociales">Gestión De Redes Sociales</option>
+                                <option value="Crea Tu Marca">Crea Tu Marca</option>
+                                <option value="Diseño web">Diseño web</option>
+                                <option value="Diseño Grafico">Diseño Grafico</option>
                             </select>
                             <small></small>
                         </div>
@@ -73,25 +77,31 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Numero</div>
-                            <input type="text" class="form-control" id="telefono" onkeypress="return valideKey(event);" placeholder="Telefono">
+                            <input type="text" class="form-control" name="numero" id="telefono" onkeypress="return valideKey(event);" placeholder="Telefono" required>
                             <small></small>
                         </div>
                         </div>
                     </div>
+                    <div class="pt-5"></div>
 
                         <div class="mb-3">
                             <div class="pt-3">Mensaje</div>
-                            <textarea name="mensajes" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje"></textarea>
+                            <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje" required></textarea>
                             <small></small>
                         </div>
+                        
                         <div class="mb-3">
+                            <div class="pt-5">Opt-in</div>
+                            <input type="hidden" name="emailMarck" value="no" id="email">
+                            <input type="checkbox" name="emailMarck" value="si" id="email"> Email Marketing
                             <div class="pt-3"></div>
-                            <input type="checkbox" name="Email Marketing" value="Marketing" id="check"> Email Marketing
+                            <input type="hidden" name="new" value="no" id="new">
+                            <input type="checkbox" name="new" value="si" id="new"> News & Updates Emails
                             <div class="pt-3"></div>
-                            <input type="checkbox" name="Email Marketing" value="Marketing" id="check"> News & Updates Emails
-                            <div class="pt-3"></div>
-                            <input type="checkbox" name="Email Marketing" value="Marketing" id="check"> Production Process Emails
+                            <input type="hidden" name="production" value="no" id="production">
+                            <input type="checkbox" name="production" value="si" id="production"> Production Process Emails
                         </div>
+                        <div class="pt-5"></div>
                         <button type="submit">Enviar</button>
                         
                 </form>
