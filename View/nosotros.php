@@ -22,63 +22,72 @@
     <?php include 'header.html' ?>
 
     <div class="contenedor-imagen">
-      <img src="../img/Nos_juntos.webp" alt="Imagen con transparencia completa">
-      <div class="contenedor-texto">
-        QUIÉNES SOMOS
-      </div>
-    </div>
+  <img src="../img/Nos_juntos.webp" alt="Imagen con transparencia completa">
+  <div class="contenedor-texto">
+    QUIÉNES SOMOS
+  </div>
+</div>
 
-    <style>
+<style>
+  .contenedor-imagen {
+    background-color: rgba(241, 8, 117, 0.959);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-      body {
-        margin: 0;
-      }
+  .contenedor-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
 
-      .contenedor-imagen {
-        
-        background-color: rgba(241, 8, 117, 0.959);
-        width: 100%;
-        height: 500px;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+  .contenedor-texto {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 110px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+    text-decoration: underline;
+    text-decoration-color: #ffff;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 20px;
+    transition: text-decoration 0.3s ease-in-out;
+  }
 
-      .contenedor-imagen img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        opacity: 0.5;
-      }
+  /* Estilos para pantallas pequeñas */
+  @media only screen and (max-width: 767px) {
+    .contenedor-texto {
+      font-size: 50px;
+    }
+ 
+  }
 
-      .contenedor-texto {
-        position: absolute;
-        top: 58%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        color: #fff;
-         font-size: 110px;
-         width: 100%;
-        margin: 0;
-        font-family: 'Fredoka One', cursive;
+  /* Estilos para tabletas */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .contenedor-texto {
+      font-size: 80px;
+    }
+  }
 
-      }
+  /* Estilos para computadoras de escritorio */
+  @media only screen and (min-width: 1025px) {
+    .contenedor-texto {
+      font-size: 110px;
+    }
+  }
+</style>
 
-      .contenedor-texto{
-  text-decoration: underline;
-  text-decoration-color: #ffff;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 20px;
-  transition: text-decoration 0.3s ease-in-out; /* establece la transición */
-}
 
-.contenedor-texto:hover {
-  text-decoration: none; /* quita el subrayado cuando se pasa el mouse por encima */
-}
-
-    </style>
 </body>
 <div class="pt-5"></div>
 
@@ -105,6 +114,7 @@
 <div class="pt-5"></div>
 
 
+
 <section id="valores">
   <article class="valores1">
     <h1><img src="../img/brazos.svg" alt="Icono" class="icono">NUESTROS VALORES</h1>
@@ -113,6 +123,7 @@
 </section>
 
 <div class="pt-5"></div>
+
 
 
 <div class="contenedor9">
@@ -136,6 +147,7 @@
 
 
 
+
     <div class="items"> 
     <h2>Compromiso</h2>
     <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
@@ -148,8 +160,10 @@
 
 
 
+
     <br><br><br>
     <?php include 'footer.html' ?>
 </body>
+
 
 </html>
