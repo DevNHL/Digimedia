@@ -12,7 +12,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Stylos Css propios -->
-    <link rel="stylesheet" href="css/stylos.css?ssxx52"> 
+    <link rel="stylesheet" href="css/stylos.css?ssxx52">
     <link rel="stylesheet" href="css/carrosel.css">
     
 </head>
@@ -403,7 +403,7 @@
                             <div class="card mb-3 qw">
                                 <div class="row g-0 ">
                                     <div class="col-md-4">
-                                        <img class="img-fluid rounded-start" id="img-fluid" style="width: 400px;" alt="Diseño web" src="img//diseño_web.webp">
+                                        <img class="img-fluid rounded-start" id="img-fluid" style="width: 400px;" alt="Diseño web" src="img//d_web.webp">
                                     </div>
                                     <div class="col-md-8 ">
                                         <div class="card-body " id="card-body">
@@ -443,7 +443,7 @@
                             <div class="card mb-3 qw">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img class="img-fluid rounded-start" id="img-fluid" style="width: 400px;" alt="Diseño Gr&aacute;fico" src="img//diseño grafico.webp">
+                                        <img class="img-fluid rounded-start" id="img-fluid" style="width: 400px;" alt="Diseño Gr&aacute;fico" src="img//d_grafico.webp">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body" id="card-body">
@@ -487,7 +487,7 @@
                             <div class="card mb-3 qt">
                                 <div class="row g-0 ">
                                     <div class="col-md-4">
-                                        <img class="img-fluid rounded-start" id="img-fluid" style="width: 400px;" alt="Diseño web" src="img//diseño_web.webp">
+                                        <img class="img-fluid rounded-start" id="img-fluid" style="width: 400px;" alt="Diseño web" src="img//d_web.webp">
                                     </div>
                                     <div class="col-md-8 ">
                                         <div class="card-body " id="card-body">
@@ -524,7 +524,7 @@
                             <div class="card mb-3 qt">
                                 <div class="row g-0">
                                     <div class="col-md-4">
-                                        <img class="img-fluid rounded-start" id="img-fluid" style="width: 400px;" alt="Diseño Gr&aacute;fico" src="img//diseño grafico.webp">
+                                        <img class="img-fluid rounded-start" id="img-fluid" style="width: 400px;" alt="Diseño Gr&aacute;fico" src="img//d_grafico.webp">
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body" id="card-body">
@@ -561,7 +561,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-8">
-                                <img class="img-fluid" alt="Diseño Web" src="img//diseño_web.webp">
+                                <img class="img-fluid" alt="Diseño Web" src="img//d_web.webp">
                                 <div class="card-body">
                                     <h5 class="card-title">Diseño Web</h5>
                                     <p class="card-text">En Digimedia te ayudamos con el desarrollo del diseño web de tu marca. Digimedia, se especializa en el diseño de sitios web modernos, fáciles de usar y que reflejen la marca de su empresa. Trabajamos con usted para entender su negocio y lo que quiere lograr con su sitio web.</p>
@@ -593,7 +593,7 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-8">
-                                <img class="img-fluid" alt="Diseño Grafico" src="img//diseño grafico.webp">
+                                <img class="img-fluid" alt="Diseño Grafico" src="img//d_grafico.webp">
                                 <div class="card-body">
                                     <h5 class="card-title">Diseño Grafico</h5>
                                     <p class="card-text">En Digimedia te ayudamos y realizamos coaching en el diseño gráfico de las piezas publicitarias. Nuestro servicio de diseño gráfico publicitario y digital, se centra en buscar crear piezas que vallan acorde con la personalidad y el mensaje de tu marca.</p>
@@ -714,7 +714,7 @@
                     <div class="card mb-3" style="max-width: 740px;">
                             <div class="row g-0">
                                 <div class="">
-                                    <img class="img-fluid" alt="Dise&ntilde;o Gr&aacute;fico" src="img//diseño grafico.webp" id="img-fluid" style="width: 100%;">
+                                    <img class="img-fluid" alt="Dis" src="img//d_grafico.webp" id="img-fluid" style="width: 100%;">
                                     <div class="card-body">
                                         <h5 class="card-title">Dise&ntilde;o Gr&aacute;fico</h5>
                                         <p class="card-text">En Digimedia te ayudamos y realizamos coaching en el diseño gráfico de las piezas publicitarias. Nuestro servicio de diseño gráfico publicitario y digital, se centra en buscar crear piezas que vallan acorde con la personalidad y el mensaje de tu marca.</p>
