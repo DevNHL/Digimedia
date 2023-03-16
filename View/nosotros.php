@@ -22,7 +22,7 @@
     <?php include 'header.html' ?>
 
     <div class="contenedor-imagen">
-  <img src="../img/Nos_juntos.webp" alt="Imagen con transparencia completa">
+  <img src="../img/Nos_imagen.webp" alt="Imagen con transparencia completa">
   <div class="contenedor-texto">
     QUIÉNES SOMOS
   </div>
@@ -30,7 +30,7 @@
 
 <style>
   .contenedor-imagen {
-    background-color: rgba(241, 8, 117, 0.959);
+    background-color:  rgba(238, 9, 104, 0.945);
     width: 100%;
     height: 100%;
     margin: 0;
@@ -100,6 +100,8 @@
 </div>
 <div class="pt-5"></div>
 
+
+
 <div class="container2">
   <div class="left">
     <h2><img src="../img/mirador.svg" alt="Icono" class="icono" style="width: 3.5rem; height: 3.5rem; margin-right: 0.8rem;">Misión</h2>
@@ -110,14 +112,15 @@
     <p style="font-size: 1.3rem; line-height: 1.6; text-align: justify; margin-top: 2rem;">Liderar la transformación digital de las PYME en el Perú; estableciendo vínculos sólidos entre nuestros clientes y sus respectivas audiencias.</p>
   </div>
 </div>
+<br>
 
-<div class="pt-5"></div>
 
-
+<section id="titulo">
+  <h1><img src="../img/brazos.svg" alt="Icono" class="icono">NUESTROS VALORES</h1>
+</section>
 
 <section id="valores">
   <article class="valores1">
-    <h1><img src="../img/brazos.svg" alt="Icono" class="icono">NUESTROS VALORES</h1>
     <p>En nuestra DigiMedia, creemos que nuestros valores son la clave de nuestro éxito y nos guían en todas nuestras decisiones y acciones.</p>
   </article>
 </section>
