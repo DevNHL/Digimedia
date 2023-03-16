@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -6,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.:: DigiMedia ::.</title>
-    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Stylos Css propios -->
@@ -21,6 +25,13 @@
 </head>
 
 <body>
+    <br><br>
+    <center>
+    <form action="admin/logout.php">
+		<input type="submit" class="btn btn-primary" value="Cerrar sesión">
+	</form>
+    <a type="button" class="btn btn-primary" href="admin/usuarios/index.php">Usuarios</a>
+    </center>
     <br><br>
     <h1 class="text-center">Contactos Lista</h1>
 

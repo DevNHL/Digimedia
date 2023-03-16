@@ -1,107 +1,36 @@
-window.addEventListener('load',()=>{
-    const form = document.getElementById('formulario')
-    const nombre = document.getElementById('nombre')
-    const telefono = document.getElementById('telefono')
-    const email = document.getElementById('email')
-    const mensaje = document.getElementById('mensaje')
-    const servicio = document.getElementById('servicio')
-    
- 
-    form.addEventListener('submit',(e)=>{
-     e.preventDefault()
-     validacampos()
-    })
-    
 
-    const validacampos =() =>{
-        //capturando los valores ingresados
-        
-        const nombr= nombre.value.trim()
-        const tele=telefono.value.trim()
-        const co=email.value.trim()
-        const men=mensaje.value.trim()
-        const ser=servicio.value.trim()
+const formulario = document.getElementById('formulario');
+const numero = document.getElementById('numero');
 
-        //validando nombre y apellidos
-        if(nombr === '' ){
-         //console.log('campo vacio')
-         validafalla(nombre,'Campo vacio')
-        }else{
-          //console.log(nombr)
-          validaok(nombre)
-        }
+formulario.addEventListener('submit',e => {
+    e.preventDefault();
+    check();
+});
 
-        //validando correo
-        if(!co){
-         validafalla(email,'Campo vacio')
-         
-        }else if(!validaemail(co)){
-             validafalla(email,'El e-mail no es valido')
-        }else{
-         validaok(email)
-        }
+function check(){
+    const numeroValue = numero.value.trim();
 
-        //validar servicio
-        if(ser ==='--Servicio--'){
-            validafalla(servicio,'Seleccione un servicio')
-        } else{
-            validaok(servicio)
-        }
-
-        //validacion de numero de telefono
-        if(!tele){
-         validafalla(telefono,'Campo vacio')
-        }else if(!validanumeros2(tele)){
-            validafalla(telefono,'No tiene el formato correcto porfavor de corregir') 
-        }
-        else if(!validamumeros(tele)){
-             validafalla(telefono,'Debes de tener 9 caracteres')
-        }else{
-         validaok(telefono)
-        }
- 
-        //validacion para el mensajee
-        if(!men){
-         validafalla(mensaje,'Campo vacio')
-        }else{
-         validaok(mensaje )
-        }
-    
-        if((nombr || tele || co || men || ser)){
-            
-            document.getElementById('alert').classList.add('ale-env')
-            setTimeout(()=>{
-                document.getElementById('alert').classList.remove('ale-env')
-            },5000)
-            
-            document.querySelectorAll('.exito').forEach((icono)=>{
-                icono.classList.remove('exito')
-            })
-        }
+    if(numeroValue === ''){
+        setErrorFor(numero,'Campo vacio');
+    }else if(!isNumero(numero)){
+        setErrorFor(numero,'Debes de tener 9 digitos');
+    }else{
+        setSuccessFor(numero);
     }
- 
-    const validafalla=(input,msje)=>{
-     const formcontrol =input.parentElement
-     const aviso= formcontrol.querySelector('small')
-     aviso.innerText=msje
-     formcontrol.className='falla'
-     }
- 
-     const validaok=(input,msje)=>{
-         const formcontrol =input.parentElement
-         formcontrol.className='exito'
-     }
- 
-     const validaemail=(email)=>{
-        return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
-     }
- 
-     const validamumeros=(telefono)=>{
-         return /^\d{9}$/.test(telefono)
-     }
- 
-     const validanumeros2=(telefono)=>{
-         return /^([0-9])*$/.test(telefono)
-     }
+}
 
- })
+function setErrorFor(input, mensaje){
+    const formcontrol = input.parentElement;
+    const small = formcontrol.querySelector('small');
+    formcontrol.className = 'falla';
+    small.innerText = mensaje;
+}
+
+function setSuccessFor(input){
+    const formcontrol = input.parentElement;
+    formcontrol.className = 'exito';
+}
+
+function isNumero(numero){
+    return /^\d{9}$/.test(numero)
+}

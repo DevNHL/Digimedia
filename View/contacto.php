@@ -12,6 +12,7 @@
     <!-- Stylos Css propios -->
     <link rel="stylesheet" href="../css/stylos.css?130220">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/validar.css">
     
 </head>
 
@@ -30,14 +31,6 @@
             <div class="container">
                 <div class="col-md-10 offset-md-1">
                 <form action="insertarcontacto.php" method="post" id="formulario">
-                    
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="alert alert-warning  ale  text-center" role="alert" id="alert">
-                                    Datos enviados correctamente
-                                </div>
-                            </div>
-                        </div>
 
                     <div class="row">    
                         <div class="col-md-6">
@@ -62,7 +55,7 @@
                         <div class="mb-3">
                             <div class="pt-3">Servicio</div>
                             <select class="form-control" name="servicio" id="servicio" required>
-                                <option hidden>--Servicio--</option>
+                                <option selected disabled value="">--Selecciona--</option>
                                 <option value="Marketing Digital">Marketing Digital</option>
                                 <option value="Imagen Corporativa">Imagen Corporativa</option>
                                 <option value="Gestión De Redes Sociales">Gestión De Redes Sociales</option>
@@ -77,7 +70,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Numero</div>
-                            <input type="text" class="form-control" name="numero" id="telefono" onkeypress="return valideKey(event);" placeholder="Telefono" required>
+                            <input type="text" class="form-control" name="numero" id="numero" onkeypress="return valideKey(event);" placeholder="Telefono(9 dígitos)" required>
                             <small></small>
                         </div>
                         </div>
@@ -101,16 +94,18 @@
                             <input type="hidden" name="production" value="no" id="production">
                             <input type="checkbox" name="production" value="si" id="production"> Production Process Emails
                         </div>
+
                         <div class="pt-5"></div>
                         <button type="submit">Enviar</button>
-                        
+                        </div>
                 </form>
 
                 </div>
             </div>
         </div>
-    
+        
     <div class="pt-5"></div>
+    
     <?php include 'footer.html' ?>
 </body>
 
