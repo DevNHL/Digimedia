@@ -52,7 +52,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Email</div>
-                            <input type="email" class="form-control" id="email" placeholder="email">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
                             <small></small>
                         </div>
                         </div>

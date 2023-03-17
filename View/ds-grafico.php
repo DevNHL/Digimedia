@@ -57,7 +57,7 @@
                 <p class="parrafo1">.Eres altamente reconocido y tus consumidores recordarán fácilmente tu marca. <br>
                  .Hace más fácil el proceso de ventas. <br>
                  .Fidelizas a tus clientes. Facilidad de captación de clientes. <br>
-                 . Mayor confianza entre el cliente, tu empresa y tu marca.  <br>
+                 .Mayor confianza entre el cliente, tu empresa y tu marca.  <br>
                  .Generar valor a tu marca a través del tiempo. <br>
                 .Imagen sólida de empresa. <br>
                 .Credibilidad ante todos tus clientes y proveedores. <br>

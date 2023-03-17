@@ -22,7 +22,7 @@
     <?php include 'header.html' ?>
 
     <div class="contenedor-imagen">
-  <img src="../img/Nos_juntos.webp" alt="Imagen con transparencia completa">
+    <img src="../img/Nos_juntos.webp" alt="Imagen con transparencia completa">
   <div class="contenedor-texto">
     QUIÉNES SOMOS
   </div>

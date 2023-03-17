@@ -40,7 +40,7 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Estamos convencidos que los principales prop&oacute;sitos de una agencia de marketing digital son: mejorar el posicionamiento de una marca y aumentar la rentabilidad , haciendo uso de diferentes herramientas y estrategias de comunicaci&oacute;n , diseño y contenido eligiendo los canales correctos para su difusión y efectividad.
+                            Estamos convencidos que los principales prop&oacute;sitos de una agencia de marketing digital son: mejorar el posicionamiento de una marca, aumentar la rentabilidad, haciendo uso de diferentes herramientas, estrategias de comunicaci&oacute;n, diseño de contenido eligiendo los canales correctos para su difusión y efectividad.
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            La diferencia entre diseño y desarrollo web puede ser confusa, pero en resumen, el desarrollo web se refiere a la creación de sitios y aplicaciones web, mientras el diseño web es responsable de la est&eacute;tica y la usabilidad del sitio, ambas se
+                            La diferencia entre diseño y desarrollo web puede ser confusa, pero en resumen, el desarrollo web se refiere a la creación de sitios y aplicaciones web, mientras el diseño web es responsable de la est&eacute;tica, la usabilidad del sitio, ambas se
                             complementan para crear un sitio web exitoso que atraiga tr&aacute;fico y generen
                             conversiones.
                         </div>
@@ -81,7 +81,7 @@
                     </h2>
                     <div id="cs" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            Una agencia de marketing digital ofrece un servicio m&aacute;s integral, as&iacute; como la de producci&oacute;n en diferentes canales de comunicaci&oacute;n digital. Entre los servicios que destacan est&aacute;n, el diseño, branding, gesti&oacute;n de redes sociales, posicionamiento web entre otros. Mientras una agencia de publicidad tiene como finalidad el desarrollo de una campaña de comunicaci&oacute;n con un objetivo espec&iacute;fico, marcando una ruta de acci&oacute;n que no solo indique la idea y mensaje creativo sino
+                            Una agencia de marketing digital ofrece un servicio m&aacute;s integral, as&iacute; como la de producci&oacute;n en diferentes canales de comunicaci&oacute;n digital. Entre los servicios que destacan est&aacute;n, el diseño, branding, gesti&oacute;n de redes sociales, posicionamiento web entre otros. Mientras una agencia de publicidad tiene como finalidad el desarrollo de una campaña de comunicaci&oacute;n con un objetivo espec&iacute;fico, marcando una ruta de acci&oacute;n que no solo indique la idea de mensaje creativo sino
                             tambi&eacute;n los canales de comunicación para su correcta difusi&oacute;n y efectividad.
 
                         </div>
@@ -141,16 +141,16 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cs4" aria-expanded="false" aria-controls="collapseThree">
-                            8.¿Con que frecuencia debo publicar en redes sociales?
+                            8.¿Con qu&eacute; frecuencia debo publicar en redes sociales?
                         </button>
                     </h2>
                     <div id="cs4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             La frecuencia con la que debes publicar en las redes sociales depende de varios
                             factores, incluyendo el tipo de red social, el objetivo de la campaña de marketing
-                            digital y el publico objetivo, pero hay que tener en cuenta que publicar con
+                            digital para el público objetivo, pero hay que tener en cuenta que publicar con
                             demasiada frecuencia puede resultar en un alto nivel de engagement, mientras que publicar con poca frecuencia puede hacer que se pierda la oportunidad de
-                            llegar a un numero significativo de personas.
+                            llegar a un número significativo de personas.
 
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cs5" aria-expanded="false" aria-controls="collapseThree">
-                            9.¿Cu&aacute;es son las herramientas de Marketing en las redes sociales?
+                            9.¿Cu&aacute;les son las herramientas de Marketing en las redes sociales?
                         </button>
                     </h2>
                     <div id="cs5" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -200,8 +200,8 @@
                         <div class="accordion-body">
                             La publicidad online ofrece una serie de ventajas sobre otros medios publicitarios convencionales, como la televisi&oacute;n, la radio o el peri&oacute;dico. Pero las principales son:
                             .Es m&aacute;s econ&oacute;mica la publicidad online.
-                            .Permite llevar a clientes potencialmente m&aacute;s eficientemente.
-                            .Puedes medir el impacto de las campañas y ajustarlas en funci&oacute;n de los resultados.
+                            Permite llevar a clientes potencialmente m&aacute;s eficientemente.
+                            Puedes medir el impacto de las campañas y ajustarlas en funci&oacute;n de los resultados.
 
                         </div>
                     </div>
