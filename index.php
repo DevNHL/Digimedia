@@ -32,7 +32,13 @@
                 </div>
 
                 <div class="contenedor-secundario" id="contenedor-secundario">
-                    <p>Estamos enfocados a lograr <span class="text-primary">resultados comerciales</span> y de <span class="text-primary"> marketing</span> con <span class="text-primary"> creatividad</span> y <span class="text-primary"> estrategias.</span></p>
+                    <p> <!--modificar esto no se ve el texto --> 
+                    Estamos enfocados a lograr
+                    <span class="text-primary">resultados comerciales</span> 
+                    y de <span class="text-primary"> marketing</span> 
+                    con <span class="text-primary"> creatividad</span> 
+                    y <span class="text-primary"> estrategias.</span>
+                    </p>
                 </div>
 
             </div>
