@@ -288,9 +288,9 @@ header.abajo ul li a {
     background-color: rgba(41,41,41,0.4) ;
  }
 .contenedor-secundario{
-    background-color: #000;
+    background-color: 0;
     width: 50%;
-    opacity: 0.3;
+    opacity: 1;
     color:white;
     padding: 10px;
     border-radius: 5px;
