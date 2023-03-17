@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -16,8 +17,8 @@
   <main>
       <h1 class="text-center">Listado de Usuarios</h1>
     </header>
-    <center><a type="button" class="btn btn-primary" onclick="window.history.back()">Regresar</a>
-    <a type="button" class="btn btn-primary" href="registrar.php">Registrar</a>         
+    <center><a type="button" class="btn btn-primary" href="http://localhost/Digimedia/intranet.php">Regresar</a>
+    <a type="button" class="btn btn-primary" href="registrar.php">Registrar Usuario</a>         
     </center>
     <br>
     
@@ -25,7 +26,7 @@
     <table class="table table-striped table-bordered">
       <thead>
         <tr>
-            <th scope="col">CODIGO</th>
+            <th scope="col">ID</th>
             <th scope="col">USUARIO</th>
             <th scope="col">CONTRASEÑA</th>
             <th scope="col">NOMBRE</th>
@@ -80,8 +81,8 @@
             <td><?php echo $data['nombre']?></td>
             
             <td style="text-align: center">
-              <form action="deleteUser" method="POST">
-                <input type="hidden" name="idUsuario" value="<?php echo $data ['id']?>">
+              <form action="delete.php" method="POST">
+                <input type="hidden" name="id" value="<?php echo $data ['id']?>">
                 <button type="submit" class="btn btn-danger" onclick="return confirm('¿Está seguro de que desea eliminar este usuario?');">Eliminar</button>
               </form>
             </td>

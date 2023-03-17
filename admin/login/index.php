@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,12 +26,12 @@
             <form action="ingresar.php" method="post">
 
               <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="usuario" name="usuario" required autofocus>
+                <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuario" required autofocus>
                 <label for="usuario">USUARIO</label>
               </div>
 
               <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="contrasena" name="contrasena" required>
+                <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="Contraseña" required>
                 <label for="password">CONTRASEÑA</label>
               </div>
 

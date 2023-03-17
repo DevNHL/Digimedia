@@ -1,4 +1,5 @@
 <?php
+session_start();
     // Datos para la conexión
   $server = 'localhost';
   $user = 'root';
@@ -24,6 +25,7 @@ if ($result->num_rows > 0) {
     header("Location: ../../intranet.php");
 } else {
     // Credenciales inválidas, mostrar un mensaje de error
+    header("Location: index.php");
     echo "Nombre de usuario o contraseña inválidos";
 }
 

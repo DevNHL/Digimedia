@@ -30,7 +30,7 @@ session_start();
     <form action="admin/logout.php">
 		<input type="submit" class="btn btn-primary" value="Cerrar sesión">
 	</form>
-    <a type="button" class="btn btn-primary" href="admin/usuarios/index.php">Usuarios</a>
+    <a type="button" class="btn btn-primary" href="admin/usuarios/index.php">Lista Usuarios</a>
     </center>
     <br><br>
     <h1 class="text-center">Contactos Lista</h1>
