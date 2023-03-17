@@ -288,9 +288,9 @@ header.abajo ul li a {
     background-color: rgba(41,41,41,0.4) ;
  }
 .contenedor-secundario{
-    background-color: #000;
+    background-color: rgba(41,41,41,0.4) ;
     width: 50%;
-    opacity: 0.3;
+    opacity: 1.0;
     color:white;
     padding: 10px;
     border-radius: 5px;
@@ -328,11 +328,11 @@ header.abajo ul li a {
 }
 
 .boton{
-    background-color: #9e7fe2;
+    background-color: #7F29A8;
     color:white;
     border: none;
     border-radius: 8px;
-    padding: 6px;
+    padding: 13px;
     width: 250px;
     height: 40px;
 }
