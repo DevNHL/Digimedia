@@ -76,7 +76,7 @@
         <div class="conrs">
             <div class="cont">
                 <div class="titulo"><p class="tes">Nuestra técnica de trabajo</p></div>
-                <p class="parrafo">En Digimedia disponemos de un equipo de profesionales desarrolladores , los cuales se enfocaran en la planificación y desarrollo de páginas web, con la finalidad de responder a las necesidades de la empresa y la de los usuarios.<br>
+                <p class="parrafo">En Digimedia disponemos de un equipo de profesionales desarrolladores, los cuales se enfocaran en la planificación y desarrollo de páginas web, con la finalidad de responder a las necesidades de la empresa y la de los usuarios.<br>
                      <ul class="parrafo">
                          <li type="disc">Análisis e investigación</li>
                          <li type="disc">Experiencia de usuario y diseño de interfaces</li>

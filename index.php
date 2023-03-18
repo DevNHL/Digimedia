@@ -28,7 +28,7 @@
             </div>
             <div class="">
                 <div class="creativa" id="creativa">
-                    <p>Innovadora y creativa</p>
+                    <p>Innovadora y creativa</p>    
                 </div>
 
                 <div class="contenedor-secundario" id="contenedor-secundario">

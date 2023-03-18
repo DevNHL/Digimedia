@@ -41,7 +41,7 @@
             <div class="cont">
                 <div class="titulo"><p class="tes">Somos la Agencia que tu Marca necesita</p></div>
                 <p class="parrafo">Nos encargaremos de crear tu marca, aquello que te hará diferente a tu competencia. Y si ya tienes una marca, le daremos valor, a través de ideas y estrategias creativas para posicionar en la mente de tu consumidor, con las mejores herramientas de comunicación digital y tradicional. <br><br>
-                En Digimedia estamos orientados a darte creatividad e innovación, te ofrecemos una estrategia clara, impactante y a la medida para obtener resultados .</p>
+                En Digimedia estamos orientados a darte creatividad e innovación, te ofrecemos una estrategia clara, impactante y a la medida para obtener resultados.</p>
             </div> 
         </div>
         
