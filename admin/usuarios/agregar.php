@@ -1,14 +1,7 @@
 <?php
 session_start();
-    // Datos para la conexión
-  $server = 'localhost';
-  $user = 'root';
-  $pass = '';
-  $db = 'digimedia';
 
-  // Conexión a bd - MySQL
-  $conn = mysqli_connect($server, $user, $pass, $db);
-
+include '../conexion/conexion.php';
 
 	$id=$_POST['id'];
 	$user=$_POST['usuario'];

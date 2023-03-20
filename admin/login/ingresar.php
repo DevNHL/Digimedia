@@ -1,17 +1,7 @@
 <?php
 session_start();
-    // Datos para la conexión
-  $server = 'localhost';
-  $user = 'root';
-  $pass = '';
-  $db = 'digimedia';
 
-  // Conexión a bd - MySQL
-  $conn = mysqli_connect($server, $user, $pass, $db);
-
-   //if(isset($conn)){
-   //  echo 'DB is connect';
-   //}
+include '../conexion/conexion.php';
 
 $username = $_POST["usuario"];
 $password = $_POST["contrasena"];
@@ -25,7 +15,7 @@ if ($result->num_rows > 0) {
     header("Location: ../../intranet.php");
 } else {
     // Credenciales inválidas, mostrar un mensaje de error
-    header("Location: index.php");
+    include("index.php");
     echo "Nombre de usuario o contraseña inválidos";
 }
 

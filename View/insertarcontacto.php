@@ -1,16 +1,5 @@
 <?php
-    // Datos para la conexión
-  $server = 'localhost';
-  $user = 'root';
-  $pass = '';
-  $db = 'digimedia';
-
-  // Conexión a bd - MySQL
-  $conn = mysqli_connect($server, $user, $pass, $db);
-
-   //if(isset($conn)){
-   //  echo 'DB is connect';
-   //}
+  include '../admin/conexion/conexion.php';
 
     $nom=$_POST['nombre'];
     $em=$_POST['email'];

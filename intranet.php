@@ -1,5 +1,4 @@
-<?php
-session_start();
+<?php session_start();
 ?>
 
 <!DOCTYPE html>
@@ -27,9 +26,7 @@ session_start();
 <body>
     <br><br>
     <center>
-    <form action="admin/logout.php">
-		<input type="submit" class="btn btn-primary" value="Cerrar sesión">
-	</form>
+    <a type="button" class="btn btn-primary" href="admin/logout.php">Cerrar Sesion</a>
     <a type="button" class="btn btn-primary" href="admin/usuarios/index.php">Lista Usuarios</a>
     </center>
     <br><br>
