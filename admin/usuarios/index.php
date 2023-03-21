@@ -15,6 +15,7 @@
 </head>
 <body>
   <main>
+    <br>
       <h1 class="text-center">Listado de Usuarios</h1>
     </header>
     <center><a type="button" class="btn btn-primary" href="http://localhost/Digimedia/intranet.php">Regresar</a>
@@ -94,36 +95,6 @@
       </tbody>
     </table>
   </div>
-    
-    <div class="paginador">
-			<ul>
- 
-			<?php 
-				if($pagina != 1)
-				{
-			 ?>
-				<li><a href="?pagina=<?php echo 1; ?>">|<</a></li>
-				<li><a href="?pagina=<?php echo $pagina-1; ?>"><<</a></li>
-			<?php 
-				}
-				for ($i=1; $i <= $total_paginas; $i++) { 
-					# code...
-					if($i == $pagina)
-					{
-						echo '<li class="pageSelected">'.$i.'</li>';
-					}else{
-						echo '<li><a href="?pagina='.$i.'">'.$i.'</a></li>';
-					}
-				}
-
-				if($pagina != $total_paginas)
-				{
-			 ?>
-				<li><a href="?pagina=<?php echo $pagina + 1; ?>">>></a></li>
-				<li><a href="?pagina=<?php echo $total_paginas; ?> ">>|</a></li>
-			<?php } ?>
-			</ul>
-		</div>
   </main>
   
       </thead>

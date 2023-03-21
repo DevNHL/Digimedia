@@ -10,44 +10,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.:: DigiMedia ::.</title>
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!-- Stylos Css propios -->
-    <link rel="stylesheet" href="../css/stylos.css?130220">
-    <link rel="stylesheet" href="../css/header.css">
-    <!--Boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/consultas.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
 
 </head>
 
 <body>
-    <br><br>
+    
+    <br>
+    <h1 class="text-center">Contactos Lista</h1>
+
     <center>
     <a type="button" class="btn btn-primary" href="admin/logout.php">Cerrar Sesion</a>
     <a type="button" class="btn btn-primary" href="admin/usuarios/index.php">Lista Usuarios</a>
     </center>
-    <br><br>
-    <h1 class="text-center">Contactos Lista</h1>
+    <br>
 
+    <div class="table-responsive px-5 ">
     <table class="table table-striped table-bordered">
-        <thead>
-            <tr>
-                <th scope="col">ID</th>
-                <th scope="col">NOMBRE</th>
-                <th scope="col">EMAIL</th>
-                <th scope="col">SERVICIO</th>
-                <th scope="col">NUMERO</th>
-                <th scope="col">MENSAJE</th>
-                <th scope="col">EMAIL MARK</th>
-                <th scope="col">NEW</th>
-                <th scope="col">PRODUCTION</th>
-                <th scope="col">ACCION</th>
-            </tr>
-        </thead>
-        <tbody>
+      <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">NOMBRE</th>
+            <th scope="col">EMAIL</th>
+            <th scope="col">SERVICIO</th>
+            <th scope="col">NUMERO</th>
+            <th scope="col">MENSAJE</th>
+            <th scope="col">EMAIL MARK</th>
+            <th scope="col">NEW</th>
+            <th scope="col">PRODUCTION</th>
+            <th scope="col">ACCION</th>
+        </tr>
+      </thead>
+      <tbody>
+
             <?php
             // Datos para la conexión
             $server = 'localhost';
@@ -109,33 +108,6 @@
             } ?>
         </tbody>
     </table>
-    </div>
-
-    <div class="paginador">
-        <ul>
-        <div style="text-align:center;">
-            <?php
-            if ($pagina != 1) {
-            ?>
-                <li><a href="?pagina=<?php echo 1; ?>">|<</a></li>
-                <li><a href="?pagina=<?php echo $pagina - 1; ?>"><<</a></li>
-            <?php
-            }
-            for ($i = 1; $i <= $total_paginas; $i++) {
-                if ($i == $pagina) {
-                    echo '<li class="pageSelected">' .$i. '</li>';
-                } else {
-                    echo '<li><a href="?pagina=' .$i. '">' .$i. '</a></li>';
-                }
-            }
-
-            if ($pagina != $total_paginas) {
-            ?>
-                <li><a href="?pagina=<?php echo $pagina + 1; ?>">>></a></li>
-                <li><a href="?pagina=<?php echo $total_paginas; ?> ">>|</a></li>
-            <?php } ?>
-        </div>
-        </ul>
     </div>
     </main>
 
