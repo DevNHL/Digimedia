@@ -447,9 +447,9 @@ header.abajo ul li a {
      }
 }
 
-@media ((max-width: 767px) and  (max-width: 660px)) {
+@media (max-width: 667px){ 
     #banner{
-        height: 75%;
+        height: 87%;
     }
     #prima{
         width: 150px;
@@ -457,7 +457,7 @@ header.abajo ul li a {
     .banners-letra{
         position: absolute;
         margin: 0;
-        margin-top: 115px;
+        margin-top: 1800px;
         
     }
     #banner2{
