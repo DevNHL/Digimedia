@@ -99,7 +99,7 @@
                         <td style="text-align: center">
                             <form action="View/atendido.php" method="POST">
                                 <input type="hidden" name="id" value="<?php echo $data['id'] ?>">
-                                <button type="submit" class="btn btn-danger" onclick="return confirm('¿Está seguro de que desea dar por atendido?');">Atendido</button>
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('&iquest Esta seguro de que desea dar por atendido?');">Atendido</button>
                             </form>
                         </td>
                     </tr>
