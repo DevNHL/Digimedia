@@ -25,19 +25,19 @@
     height: 100%;
 }
  .contenedors{
-    margin-left: 150px;
-    padding-top: 190px;
+    margin-left: 10%;
+    padding-top: 30%;
     
  
  }
  .tit{
-    font-size: 4rem;
+    font-size: 4em;
     font-weight: 800;
     color:var(--color_banner_primero1);
     
  }
  .sub{
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: white;
  }
  .boton_con{
@@ -78,7 +78,7 @@
     background-color: rgba(41,41,41,0.4) ;
     width: 62%;
     height: 87%;
-    padding: 90px;
+    padding: 5%;
 }
 
 .conrs{
@@ -92,12 +92,12 @@
    
 }
 .tes{
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .parrafo{
+    font-size: 1.5em;
     color: white;
-    font-size: 1.5rem;
 }
 
 .bannersec3{
@@ -149,3 +149,17 @@
 }
 
 /*medias querys*/
+
+@media (min-width: 320px ) and (max-width: 750px){
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+        padding: 5%;
+    }
+    .parrafo{
+        font-size: 150%;
+        color: white;
+    }
+}
+
