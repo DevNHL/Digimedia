@@ -150,7 +150,7 @@
 
 /*medias querys*/
 
-@media (min-width: 320px ) and (max-width: 750px){
+@media (min-width: 470px ) and (max-width: 750px){
     .cont{
         background-color: rgba(41,41,41,0.4) ;
         width: 90%;
@@ -162,4 +162,15 @@
         color: white;
     }
 }
-
+@media (min-width: 320px ) and (max-width: 468px){
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+        padding: 5%;
+    }
+    .parrafo{
+        font-size: 100%;
+        color: white;
+    }
+}
