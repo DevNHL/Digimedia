@@ -161,6 +161,26 @@
         font-size: 150%;
         color: white;
     }
+    .cont2{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+        padding: 1%;
+    }
+    .conrs2{
+        padding-top: 30px;
+        margin-left: 59px;
+        height: 100%;
+    }
+    .bannersec4 ul{
+        font-size: 100%;
+    }
+    .bannersec4 .parrafo{
+        font-size: 115%;
+    }
+    .bannersec5 ul{
+        font-size: 110%;
+    }
 }
 @media (min-width: 320px ) and (max-width: 468px){
     .cont{
@@ -172,5 +192,28 @@
     .parrafo{
         font-size: 100%;
         color: white;
+    }
+    .cont2{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+        padding: 1%;
+    }
+    .conrs2{
+        padding-top: 30px;
+        margin-left: 59px;
+        height: 100%;
+    }
+    .tes{
+        font-size: 1.2em;
+    }
+    .bannersec4 ul{
+        font-size: 50%;
+    }
+    .bannersec4 .parrafo{
+        font-size: 85%;
+    }
+    .bannersec5 ul{
+        font-size: 95%;
     }
 }
