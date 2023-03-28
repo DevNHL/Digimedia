@@ -25,19 +25,19 @@
     height: 100%;
 }
  .contenedors{
-    margin-left: 150px;
-    padding-top: 190px;
+    margin-left: 10%;
+    padding-top: 30%;
     
  
  }
  .tit{
-    font-size: 4rem;
+    font-size: 4em;
     font-weight: 800;
     color:var(--color_banner_primero);
     
  }
  .sub{
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: white;
  }
  .boton_con{
@@ -78,7 +78,7 @@
     background-color: rgba(41,41,41,0.4) ;
     width: 62%;
     height: 87%;
-    padding: 90px;
+    padding: 5%;
 }
 
 .conrs{
@@ -92,12 +92,12 @@
    
 }
 .tes{
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 .parrafo{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 
@@ -160,3 +160,77 @@
 }
 
 /*medias querys*/
+
+@media (min-width: 470px ) and (max-width: 750px){
+    .tit{
+        font-size: 2.5em;
+        font-weight: 800;
+        color:var(--color_banner_primero);
+        
+    }
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+        padding: 5%;
+    }
+    .parrafo{
+        font-size: 150%;
+        color: white;
+    }
+    .cont2{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+        padding: 1%;
+    }
+    .conrs2{
+        padding-top: 30px;
+        margin-left: 59px;
+        height: 100%;
+    }
+    .bannersec4 ul{
+        font-size: 100%;
+    }
+    .bannersec4 .parrafo{
+        font-size: 115%;
+    }
+    .bannersec5 ul{
+        font-size: 110%;
+    }
+    .bannersec6 .parrafo{
+        font-size: 140%;
+    }
+}
+@media (min-width: 320px ) and (max-width: 468px){   
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+        padding: 5%;
+    }
+    .parrafo{
+        font-size: 105%;
+        color: white;
+    }
+    .cont2{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+        padding: 1%;
+    }
+    .conrs2{
+        padding-top: 30px;
+        margin-left: 59px;
+        height: 100%;
+    }
+    .tes{
+        font-size: 1.2em;
+    }
+    .bannersec4 .parrafo{
+        font-size: 110%;
+    }
+    .bannersec5 .parrafo{
+        font-size: 110%;
+    }
+}
