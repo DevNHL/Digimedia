@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ------------- Mis variables----------- */
+:root {
+    --first-color3: #99009b;
+    --second-color2: #FF0080;
+    --shadow-color: #FF9E9E;
+    --shadow-color-light: white;
+    --color_banner_primero2:#169ff4;
+}
+/*********************************************/*
+.banerprincipal{
+    background-image: url('../img/banner\ imagen\ corporativa.webp');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+    
+ }
+.padre{
+    background-color: rgba(41,41,41,0.2) ;
+    width: 100%;
+    height: 100%;
+}
+ .contenedors{
+    margin-left: 150px;
+    padding-top: 190px;
+    
+ 
+ }
+ .tit{
+    font-size: 4rem;
+    font-weight: 800;
+    color:var(--first-color3);
+    
+ }
+ .sub{
+    font-size: 1.5rem;
+    color: white;
+ }
+ .boton_con{
+    background-color: var(--first-color3);
+    text-align: center;
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+    width: 1500px;
+ }
+ .boton_con:hover{
+    background-color: white;
+    color: var(--color_banner_primero2);
+    
+ }
+ .con{
+     padding-top: 11px;
+ }
+.ckjb{
+   
+    max-width: 650px;
+}
+#maquina3{
+    display: inline;
+    border-right: 2px solid white;
+}
+
+.bannersec{
+    background-image: url('../img/servicio\ de\ imagen.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 85%;
+    
+}
+
+.cont{
+    background-color: rgba(41,41,41,0.4) ;
+    width: 62%;
+    height: 87%;
+    padding: 90px;
+}
+
+.conrs{
+    padding-top: 75px;
+    margin-left: 5%;
+    height: 100%;
+}
+.titulo{
+    color: var(--second-color2);
+    font-weight: 800;
+   
+}
+.tes{
+    font-size: 2rem;
+}
+
+.parrafo{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.bannersec3{
+    background-image: url('../img/refiere\ la\ imagen.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 85%;
+    
+}
+
+.conrs2{
+    padding-top: 75px;
+    margin-left: 5%;
+    height: 100%;
+}
+.cont2{
+    background-color: rgba(41,41,41,0.4) ;
+    width: 75%;
+    height: 87%;
+    padding: 90px;
+}
+
+.cont3{
+    background-color: rgba(41,41,41,0.4) ;
+    width: 80%;
+    height: 87%;
+    padding: 10px 90px 10px 90px;
+}
+
+.parrafo3{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.titulo2{
+    color: var(--color_banner_primero2);
+    font-weight: 800;
+   
+}
+.bannersec4{
+    background-image: url('../img/beneficios\ buena\ imagen.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 85%;
+    
+}
+
+/*medias querys*/
+@media (min-width: 641px ) and (max-width: 1275px){
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 190px;
+    }
+    .cont3{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont2{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 10%;
+    }
+    .bannersec4 .tes{
+        font-size: 180%;
+    }
+    .bannersec4 .parrafo{
+        font-size: 140%;
+    }
+    .parrafo3{
+        font-size: 120%;
+    }
+    .bannersec3 .parrafo{
+        font-size: 140%;
+    }
+}
+@media (min-width: 400px ) and (max-width: 640px){   
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 190px;
+    }
+    .tit{
+        font-size: 310%;
+    }
+    .cont3{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont2{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 10%;
+    }
+    .bannersec4 .parrafo{
+        font-size: 110%;
+    }
+    .parrafo3{
+        font-size: 110%;
+    }
+    .bannersec3 .parrafo{
+        font-size: 130%;
+    }
+    .tes{
+        font-size: 150%;
+    }
+}
+@media (min-width: 300px ) and (max-width: 399px){   
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 190px;
+    }
+    .tit{
+        font-size: 230%;
+    }
+    .cont3{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 96%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont2{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 10%;
+    }
+    .bannersec .parrafo{
+        font-size: 120%;
+    }
+    .bannersec4 .parrafo{
+        font-size: 100%;
+    }
+    .parrafo3{
+        font-size: 90%;
+    }
+    .bannersec3 .parrafo{
+        font-size: 110%;
+    }
+    .tes{
+        font-size: 120%;
+    }
+}
