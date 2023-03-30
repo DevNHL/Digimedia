@@ -1,4 +1,4 @@
-<?php
+<?php 
   include '../admin/conexion/conexion.php';
 
     $nom=$_POST['nombre'];
@@ -9,17 +9,31 @@
     $emM=$_POST['emailMarck'];
     $new=$_POST['new'];
     $pro=$_POST['production'];
-    $sql = "INSERT INTO `contactanos` (`id`, `nombre`, `email`, `servicio`, `numero`, `mensaje`, `emailMarck`, `new`, `production`) 
-            VALUES (NULL, '$nom', '$em', '$ser', '$num', '$men', '$emM', '$new', '$pro')";
+    $fecha=$_POST['fecha'];
+    $hora=$_POST['hora'];
+    $sql = "INSERT INTO `contactanos` (`nombre`, `email`, `servicio`, `numero`, `mensaje`, `emailMarck`, `new`, `production`,`fecha`,`hora`) 
+            VALUES ('$nom', '$em', '$ser', '$num', '$men', '$emM', '$new', '$pro','$fecha','$hora')";
     $resultado = mysqli_query($conn, $sql);
 
-    // Comprobar si los datos se han insertado correctamente
-    if ($resultado) {
-        header("Location: contacto.php");
-    } else {
-        echo "Ha habido un error al insertar los datos: " . mysqli_error($conn);
+    //validar si todos los campos estam llenos 
+   
+    if (!($nom && $em && $ser && $num && $men && $emM && $new && $pro && $fecha && $hora)) {
+        header("Location: contacto.php?mensaje=Completar los Campos");
+       
+
+    }else{
+         // Comprobar si los datos se han insertado correctamente
+        if ($resultado) {
+            
+            header("Location: contacto.php?mensaje=Envio exictoso gracias por su preferencia");
+
+        } else {
+            echo "Ha habido un error al insertar los datos: " . mysqli_error($conn);
+
+        }
     }
+    
 
     // Cerrar la conexión con la base de datos
     mysqli_close($conn);
-?>
+?>  

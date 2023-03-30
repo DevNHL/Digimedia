@@ -31,12 +31,20 @@
             <div class="container">
                 <div class="col-md-10 offset-md-1">
                 <form action="insertarcontacto.php" method="post" id="formulario">
-
+                    <input type="text" name="fecha" id="fecha"  style="display: none;">
+                    <input type="text"  name="hora" id="hora" style="display: none;">
+                    <?php
+                    # si hay un mensaje, mostrarlo
+                    if (isset($_GET["mensaje"])) { ?>
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <?php echo $_GET["mensaje"] ?>
+                        </div>
+                    <?php } ?>
                     <div class="row">    
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Nombre</div>
-                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombres y Apellidos" required>
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombres y Apellidos" >
                             <small></small>
                         </div>
                         </div>
@@ -44,7 +52,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Email</div>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="email" required>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="email" >
                             <small></small>
                         </div>
                         </div>
@@ -54,7 +62,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Servicio</div>
-                            <select class="form-control" name="servicio" id="servicio" required>
+                            <select class="form-control" name="servicio" id="servicio" >
                                 <option selected disabled value="">--Selecciona--</option>
                                 <option value="Marketing Digital">Marketing Digital</option>
                                 <option value="Imagen Corporativa">Imagen Corporativa</option>
@@ -70,7 +78,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Numero</div>
-                            <input type="text" class="form-control" name="numero" id="numero" onkeypress="return valideKey(event);" placeholder="Telefono(9 dígitos)" required>
+                            <input type="text" class="form-control" name="numero" id="numero" onkeypress="return valideKey(event);" placeholder="Telefono(9 dígitos)" >
                             <small></small>
                         </div>
                         </div>
@@ -79,7 +87,7 @@
 
                         <div class="mb-3">
                             <div class="pt-3">Mensaje</div>
-                            <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje" required></textarea>
+                            <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje" ></textarea>
                             <small></small>
                         </div>
                         
@@ -108,5 +116,19 @@
     
     <?php include 'footer.html' ?>
 </body>
+<script>
+    const campofecha=document.getElementById("fecha");
+    //console.log(campofecha)
+    date = new Date().toLocaleDateString();
+    campofecha.value=date
+
+
+    const hora=document.getElementById("hora");
+    var today=new Date();
+    var horas=today.toLocaleTimeString('en-Us');
+    hora.value=horas
+
+
+</script>
 
 </html>
