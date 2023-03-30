@@ -51,7 +51,11 @@
 
     <div class="bannersec3">
         <div class="conrs2">
+<<<<<<< HEAD
             <div class="cont">
+=======
+            <div class="cont2">
+>>>>>>> eae2563d5c988f853e513002991985f7642c10ad
                 <div class="titulo2"><p class="tes">¿A que se refiere la Imagen Corporativa ?</p></div>
                 <p class="parrafo">La imagen corporativa es aquello que vamos a proyectar de nuestra marca, aquello por lo que queremos que nos conozcan.
                     Tener una imagen corporativa no es algo exclusivo de las grandes marcas, cada pequeño negocio tiene la suya y podría explotarla mucho más si se trabaja en ello de forma consciente; desde potenciar el logotipo, los colores, las bolsas, la papelería...

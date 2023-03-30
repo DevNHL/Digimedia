@@ -83,7 +83,11 @@
 
 .conrs{
     padding-top: 75px;
+<<<<<<< HEAD
     margin-left: 59px;
+=======
+    margin-left: 5%;
+>>>>>>> eae2563d5c988f853e513002991985f7642c10ad
     height: 100%;
 }
 .titulo{
@@ -113,7 +117,11 @@
 
 .conrs2{
     padding-top: 75px;
+<<<<<<< HEAD
     margin-left: 59px;
+=======
+    margin-left: 5%;
+>>>>>>> eae2563d5c988f853e513002991985f7642c10ad
     height: 100%;
 }
 .cont2{
@@ -151,3 +159,123 @@
 }
 
 /*medias querys*/
+<<<<<<< HEAD
+=======
+@media (min-width: 641px ) and (max-width: 1275px){
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 190px;
+    }
+    .cont3{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont2{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 10%;
+    }
+    .bannersec4 .tes{
+        font-size: 180%;
+    }
+    .bannersec4 .parrafo{
+        font-size: 140%;
+    }
+    .parrafo3{
+        font-size: 120%;
+    }
+    .bannersec3 .parrafo{
+        font-size: 140%;
+    }
+}
+@media (min-width: 400px ) and (max-width: 640px){   
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 190px;
+    }
+    .tit{
+        font-size: 310%;
+    }
+    .cont3{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont2{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 10%;
+    }
+    .bannersec4 .parrafo{
+        font-size: 110%;
+    }
+    .parrafo3{
+        font-size: 110%;
+    }
+    .bannersec3 .parrafo{
+        font-size: 130%;
+    }
+    .tes{
+        font-size: 150%;
+    }
+}
+@media (min-width: 300px ) and (max-width: 399px){   
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 190px;
+    }
+    .tit{
+        font-size: 230%;
+    }
+    .cont3{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 96%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont2{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 1% 1% 2% 2%;
+    }
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 95%;
+        height: 90%;
+        padding: 10%;
+    }
+    .bannersec .parrafo{
+        font-size: 120%;
+    }
+    .bannersec4 .parrafo{
+        font-size: 100%;
+    }
+    .parrafo3{
+        font-size: 90%;
+    }
+    .bannersec3 .parrafo{
+        font-size: 110%;
+    }
+    .tes{
+        font-size: 120%;
+    }
+}
+>>>>>>> eae2563d5c988f853e513002991985f7642c10ad

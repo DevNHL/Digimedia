@@ -141,3 +141,63 @@
 
 
 /*medias querys*/
+<<<<<<< HEAD
+=======
+
+@media (min-width: 708px ) and (max-width: 1000px){
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+    }
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 190px;
+    }
+    
+}
+@media (min-width: 454px ) and (max-width: 707px){   
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+        padding: 5%;
+    }
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 190px;
+    }
+}
+@media (min-width: 320px ) and (max-width: 453px){   
+    .cont{
+        background-color: rgba(41,41,41,0.4) ;
+        width: 90%;
+        height: 87%;
+        padding: 5%;
+    }
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 190px;
+    }
+    .tit{
+        font-size: 300%;
+    }
+    .conrs2{
+        padding-top: 30px;
+        margin-left: 59px;
+        height: 100%;
+    }
+    .bannersec .parrafo{
+        font-size: 120%;
+    }
+    .bannersec3 .parrafo{
+        font-size: 120%;
+    }
+    .bannersec4 .parrafo{
+        font-size: 110%;
+    }
+    .bannersec4 .tes{
+        font-size: 130%;
+    }
+}
+>>>>>>> eae2563d5c988f853e513002991985f7642c10ad
