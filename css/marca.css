@@ -27,18 +27,16 @@
 }
  .contenedors{
     margin-left:5%;
-    padding-top: 30%;
-    
- 
+    padding-top: 10%;
  }
  .tit{
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 800;
     color:var(--color_banner_primero2);
     
  }
  .sub{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
  }
  .boton_con{
@@ -167,6 +165,10 @@
         height: 87%;
         padding: 5%;
     }
+    .contenedors{
+        margin-left:5%;
+        padding-top: 20%;
+    }
     .conrs2{
         padding-top: 30px;
         margin-left: 59px;
@@ -195,6 +197,20 @@
         height: 87%;
         padding: 5%;
     }
+    .contenedors{
+        margin-left:5%;
+        padding-top: 40%; 
+    }
+    .tit{
+        font-size: 4rem;
+        font-weight: 800;
+        color:var(--color_banner_primero2);
+        
+    }
+    .sub{
+    font-size: 1.5rem;
+    color: white;
+    }
     .bannersec .parrafo{
         font-size: 130%;
     }
@@ -217,6 +233,20 @@
         width: 90%;
         height: 87%;
         padding: 5%;
+    }
+    .contenedors{
+        margin-left:5%;
+        padding-top: 40%; 
+    }
+    .tit{
+        font-size: 4rem;
+        font-weight: 800;
+        color:var(--color_banner_primero2);
+        
+    }
+    .sub{
+    font-size: 1.5rem;
+    color: white;
     }
     .bannersec .parrafo{
         font-size: 110%;
@@ -242,6 +272,20 @@
         width: 90%;
         height: 87%;
         padding: 5%;
+    }
+    .contenedors{
+        margin-left:5%;
+        padding-top: 40%; 
+    }
+    .tit{
+        font-size: 3rem;
+        font-weight: 800;
+        color:var(--color_banner_primero2);
+        
+    }
+    .sub{
+    font-size: 1.5rem;
+    color: white;
     }
     .conrs2{
         padding-top: 30px;
