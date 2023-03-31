@@ -36,15 +36,15 @@
                     <?php
                     # si hay un mensaje, mostrarlo
                     if (isset($_GET["mensaje"])) { ?>
-                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                        <?php echo $_GET["mensaje"] ?>
+                        <div class="alert alert-warning alert-dismissible fade show des" role="alert">
+                            <?php echo $_GET["mensaje"] ?>
                         </div>
                     <?php } ?>
                     <div class="row">    
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Nombre</div>
-                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombres y Apellidos" >
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombres y Apellidos" required>
                             <small></small>
                         </div>
                         </div>
@@ -52,7 +52,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Email</div>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="email" >
+                            <input type="email" class="form-control" name="email" id="email" placeholder="email" required>
                             <small></small>
                         </div>
                         </div>
@@ -62,7 +62,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Servicio</div>
-                            <select class="form-control" name="servicio" id="servicio" >
+                            <select class="form-control" name="servicio" id="servicio" required>
                                 <option selected disabled value="">--Selecciona--</option>
                                 <option value="Marketing Digital">Marketing Digital</option>
                                 <option value="Imagen Corporativa">Imagen Corporativa</option>
@@ -78,7 +78,7 @@
                         <div class="col-md-6">
                         <div class="mb-3">
                             <div class="pt-3">Numero</div>
-                            <input type="text" class="form-control" name="numero" id="numero" onkeypress="return valideKey(event);" placeholder="Telefono(9 dígitos)" >
+                            <input type="text" class="form-control" name="numero" id="numero" onkeypress="return valideKey(event);" placeholder="Telefono(9 dígitos)"required >
                             <small></small>
                         </div>
                         </div>
@@ -87,7 +87,7 @@
 
                         <div class="mb-3">
                             <div class="pt-3">Mensaje</div>
-                            <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje" ></textarea>
+                            <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje" required></textarea>
                             <small></small>
                         </div>
                         
@@ -116,6 +116,14 @@
     
     <?php include 'footer.html' ?>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".des").fadeOut(1500);
+    },3000);
+});
+</script>
 <script>
     const campofecha=document.getElementById("fecha");
     //console.log(campofecha)

@@ -15,23 +15,18 @@
             VALUES ('$nom', '$em', '$ser', '$num', '$men', '$emM', '$new', '$pro','$fecha','$hora')";
     $resultado = mysqli_query($conn, $sql);
 
-    //validar si todos los campos estam llenos 
    
-    if (!($nom && $em && $ser && $num && $men && $emM && $new && $pro && $fecha && $hora)) {
-        header("Location: contacto.php?mensaje=Completar los Campos");
-       
-
-    }else{
          // Comprobar si los datos se han insertado correctamente
         if ($resultado) {
             
             header("Location: contacto.php?mensaje=Envio exictoso gracias por su preferencia");
+            exit;
 
         } else {
             echo "Ha habido un error al insertar los datos: " . mysqli_error($conn);
-
+            exit;
         }
-    }
+  
     
 
     // Cerrar la conexión con la base de datos
