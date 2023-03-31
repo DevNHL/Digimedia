@@ -25,19 +25,19 @@
     height: 100%;
 }
  .contenedors{
-    margin-left: 10%;
-    padding-top: 30%;
+    margin-left: 5%;
+    padding-top: 10%;
     
  
  }
  .tit{
-    font-size: 4em;
+    font-size: 6em;
     font-weight: 800;
     color:var(--color_banner_primero);
     
  }
  .sub{
-    font-size: 1.5em;
+    font-size: 2em;
     color: white;
  }
  .boton_con{
@@ -58,7 +58,7 @@
  }
 .ckjb{
    
-    max-width: 650px;
+    max-width: 900px;
 }
 #maquina{
     display: inline;
@@ -162,11 +162,21 @@
 /*medias querys*/
 
 @media (min-width: 470px ) and (max-width: 750px){
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 25%;
+        
+     
+    }
     .tit{
-        font-size: 2.5em;
+        font-size: 4em;
         font-weight: 800;
         color:var(--color_banner_primero);
         
+    }
+    .sub{
+        font-size: 1.5em;
+        color: white;
     }
     .cont{
         background-color: rgba(41,41,41,0.4) ;
@@ -202,7 +212,21 @@
         font-size: 140%;
     }
 }
-@media (min-width: 320px ) and (max-width: 468px){   
+@media (min-width: 320px ) and (max-width: 469px){   
+    .contenedors{
+        margin-left: 5%;
+        padding-top: 40%;
+    }
+    .tit{
+        font-size: 3em;
+        font-weight: 800;
+        color:var(--color_banner_primero);
+        
+    }
+    .sub{
+        font-size: 1.5em;
+        color: white;
+    }
     .cont{
         background-color: rgba(41,41,41,0.4) ;
         width: 90%;
