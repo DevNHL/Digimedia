@@ -31,13 +31,13 @@
  
  }
  .tit{
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 800;
     color:var(--color_banner_primero2);
     
  }
  .sub{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
  }
  .boton_con{
@@ -165,6 +165,9 @@
         margin-left: 5%;
         padding-top: 190px;
     }
+    .tit{
+        font-size: 4rem;
+    }
 }
 @media (min-width: 320px ) and (max-width: 453px){   
     .cont{
@@ -175,11 +178,15 @@
     }
     .contenedors{
         margin-left: 5%;
-        padding-top: 190px;
+        padding-top: 35%;
     }
     .tit{
-        font-size: 300%;
+        font-size: 3.2rem;
     }
+    .sub{
+        font-size: 1.5rem;
+        color: white;
+     }
     .conrs2{
         padding-top: 30px;
         margin-left: 59px;
