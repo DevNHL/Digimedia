@@ -21,68 +21,89 @@
 <body>
     <?php include 'header.html' ?>
 
-    <div class="contenedor-imagen">
-  <img src="../img/Nos_juntos.webp" alt="Imagen con transparencia completa">
-  <div class="contenedor-texto">
-    QUIÉNES SOMOS
+  <div class="contenedor-imagen">
+    <div class="contenedor-texto">
+      ¿Quienes somos?
+    </div>
+    <span>Digimedia es una empresa de marketing&nbsp; digital, que se enfoca en potenciar tu&nbsp; emprendimiento a nivel online. Además, le&nbsp; brinda a tu emprendimiento estrategias que&nbsp; ayuden a cumplir los objetivos de manera&nbsp; eficaz. Somos un grupo de personas&nbsp; comprometidas con el desarrollo de cada&nbsp; marca que nos contacta.</span>
   </div>
-</div>
 
 <style>
   .contenedor-imagen {
-    background-color:  rgba(238, 9, 104, 0.945);
+    background-color: #6a27b5;
     width: 100%;
-    height: 100%;
-    margin: 0;
+    height: 32%;
     display: flex;
     justify-content: center;
-    align-items: center;
-  }
-
-  .contenedor-imagen img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.5;
   }
 
   .contenedor-texto {
     position: absolute;
-    top: 66%;
+    top: 18%;
     left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 110px;
+    font-size: 56px;
     width: 100%;
     margin: 0;
-    font-family: 'Fredoka One', cursive;
-    text-decoration: underline;
-    text-decoration-color: #ffff;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 20px;
-    transition: text-decoration 0.3s ease-in-out;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+  }
+  span{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: justify;
+    font-size: 1rem;
+    width: 50%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  @media (min-width: 300px ) and (max-width: 437px) {
+    .contenedor-texto {
+      top: 30%;
+      font-size: 45px;
+      font-weight: 550;
+    }
+    span{
+      top: 60%;
+      width: 88%;
+    }
+    .contenedor-imagen {
+      height: 70%;
+    }
   }
 
   /* Estilos para pantallas pequeñas */
-  @media only screen and (max-width: 767px) {
+  @media (min-width: 438px ) and (max-width: 767px) {
     .contenedor-texto {
-      font-size: 50px;
+      top: 20;
+      font-size: 45px;
     }
- 
+    span{
+      top: 35%;
+      width: 70%;
+    }
+    .contenedor-imagen {
+      height: 40%;
+    }
   }
 
   /* Estilos para tabletas */
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .contenedor-texto {
-      font-size: 80px;
+      font-size: 50px;
     }
-  }
-
-  /* Estilos para computadoras de escritorio */
-  @media only screen and (min-width: 1025px) {
-    .contenedor-texto {
-      font-size: 110px;
+    span{
+      top: 33%;
+    }
+    .contenedor-imagen {
+      height: 40%;
     }
   }
 </style>
