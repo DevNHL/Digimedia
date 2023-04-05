@@ -1,4 +1,13 @@
-<?php session_start();?>
+<?php 
+//seguridad de sesiones
+session_start();
+error_reporting(0);
+$varsesion=$_SESSION['usuario'];
+if($varsesion==null || $varsesion=''){
+    header("location: ../login/index.php");
+    die();
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

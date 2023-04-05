@@ -61,7 +61,6 @@
     .banner {
       margin-top: -80px;
       flex-direction: column;
-      height: 90%;
     }
 
     .banner img {
@@ -74,12 +73,18 @@
     }
     
     .banner .content h1 {
-    margin:auto;
+      margin-top: 2rem;
+      margin-bottom: 0;
+      margin:auto;
     }
   
     .banner .content p {
+      /*margin-top: 1rem;
+      margin-bottom: 1rem;*/
       width: 200%;
       transform: translate(5%, 0%);
+      /*font-size: 1rem;
+      font-weight: 100;*/
     }
   }
 
