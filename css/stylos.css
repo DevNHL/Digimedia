@@ -777,3 +777,11 @@ small {
     display: flex;
     justify-content: space-between;
 }
+.bos{
+    display: none;
+}
+.cen{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
