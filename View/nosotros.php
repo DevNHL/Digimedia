@@ -113,15 +113,22 @@
 <div class="pt-5"></div>
 
 <div class="banner">
+  <img src="../img/Nos_viendo.webp" alt="Descripción de la imagen">
   <div class="content">
-    <h1>NOSOTROS</h1>
-    <p>Digimedia es una empresa de marketing digital, que se enfoca en potenciar tu emprendimiento a nivel online. Digimedia, le brinda a tu emprendimiento estrategias que ayuden a cumplir los objetivos de manera eficaz. Somos un grupo de personas comprometidas con el desarrollo de cada marca que nos contacta.</p>
+    <h1>Mission</h1>
+    <p>Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
+  </div>
+</div>
+<div class="pt-5"></div>
+
+<div class="banner">
+  <div class="content">
+    <h1>Visión</h1>
+    <p>Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
   </div>
   <img src="../img/Nos_viendo.webp" alt="Descripción de la imagen">
 </div>
 <div class="pt-5"></div>
-
-
 
 <div class="container2">
   <div class="left">
