@@ -16,6 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         header("Location: ../../intranet.php");
         exit();
     } else {
+      
+
         // Credenciales inválidas, mostrar un mensaje de error
         header("Location:index.php?mensaje=Nombre de usuario o contraseña inválidos");
         //echo "Nombre de usuario o contraseña inválidos";
