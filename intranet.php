@@ -1,5 +1,11 @@
-<?php 
-  
+<?php
+session_start();
+
+if (!isset($_SESSION['usuario'])) {
+  // Usuario no autenticado, redirigir a la página de inicio de sesión
+  header('Location: admin/login/index.php');
+  exit();
+}
 ?>
 
 <!DOCTYPE html>
@@ -27,12 +33,8 @@
 </head>
 
 <body>
-    
     <br>
     <h1 class="text-center">Contactos Lista</h1>
-   
-    
-
     <div class="cen">
     <a type="button" class="btn btn-primary " href="admin/cerrar.php" id="cer">Cerrar Sesion</a>
     <a type="button" class="btn btn-primary" href="admin/usuarios/index.php">Lista Usuarios</a>
@@ -129,10 +131,11 @@
     </table>
     </div>
     <div class="cen">
-    <button onclick="exportToExcel()">Exportar a Excel</button>
-    <button  id="pdfout">Generar PDF</button>
-    <button onclick="imprimirParteDePagina()">Imprimir</button>
+    <button class="btn btn-primary"  onclick="exportToExcel()"><i class="fa-solid fa-file-excel fa-beat"></i></button>
+    <button  class="btn btn-primary"  id="pdfout"><i class="fa-solid fa-file-pdf fa-beat"></i></button>
+    <button class="btn btn-primary"  onclick="imprimirParteDePagina()"><i class="fa-solid fa-print fa-beat"></i></button>
     </div>
+
     </main>
     
      

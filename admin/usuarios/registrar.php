@@ -1,4 +1,12 @@
-<?php ?>
+<?php
+session_start();
+
+if (!isset($_SESSION['usuario'])) {
+  // Usuario no autenticado, redirigir a la página de inicio de sesión
+  header('Location:../login/index.php');
+  exit();
+}
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -27,10 +35,7 @@
             <h5 class="card-title text-center mb-5 fw-light fs-5">Registrarse</h5>
             <form action="agregar.php" method="post">
 
-              <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="id" name="id" placeholder="Id" required autofocus>
-                <label for="usuario">ID</label>
-              </div>
+            
 
               <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuario" required autofocus>
