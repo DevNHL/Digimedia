@@ -6,9 +6,12 @@
   
     font-size: 2.5rem;
 }
-.principal{
+.pos{
     display: flex;
     flex-wrap: wrap;
+}
+.principal{
+    
     background-color: whitesmoke ;
     
 }
@@ -32,6 +35,15 @@
 }
 .i,.l{
     margin-left:65px;
+}
+.f:hover{
+    color: black;
+}
+.i:hover{
+    color: black;
+}
+.l:hover{
+    color: black;
 }
 #con{
     display: flex;
@@ -64,7 +76,15 @@
     display: flex;
     
     justify-content: space-around;
-    padding: 25px;
-    margin-top: 45px;
+    padding-top: 60px;
     
+    
+}
+.mapa{
+    height: 500px;
+    margin-bottom: 50px;
+}
+.map{
+    height: 100%;
+    width: 100%;
 }
