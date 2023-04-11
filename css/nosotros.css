@@ -79,12 +79,8 @@
     }
   
     .banner .content p {
-      /*margin-top: 1rem;
-      margin-bottom: 1rem;*/
       width: 200%;
       transform: translate(5%, 0%);
-      /*font-size: 1rem;
-      font-weight: 100;*/
     }
   }
 
@@ -98,114 +94,18 @@
       padding: 2rem;
     }
     
-    /*.banner .content h1 {
-      margin-top: 2rem;
-      margin-bottom: 0;
-    }*/
-    
     .banner .content p {
-      /*margin-top: 1rem;
-      margin-bottom: 1rem;*/
       width: 90%;
       text-align: center;
       transform: translate(5%, 0%);
-      /*font-size: 1rem;
-      font-weight: 100;*/
     }
   }
 /* ---------------------------------------- */
-/*********************************************/
-
-.container2 {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  margin-top: -50px;
+/*********************************************/    
+.conten{
+  background-color: #6a27b5;
 }
 
-.left, .right {
-  flex-basis: 100%;
-  padding: 5% 10%;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.left h2, .right h2 {
-  font-family: 'Fredoka One', cursive;
-  font-size: 2rem;
-  color: #2D9BF0;
-  text-align: left;
-}
-
-.left {
-  background-color: #f2f2f2;
-}
-
-.left p{
-  color: #2D9BF0;
-}
-
-.right p{
-  color: #2D9BF0;
-}
-
-.right {
-  background-color: #f2f2f2;
-}
-
-.icono {
-  vertical-align: middle;
-}
-
-@media screen and (min-width: 768px) {
-  .left, .right {
-    flex-basis: 50%;
-    text-align: center;
-  }
-
-  .left h2, .right h2 {
-    font-size: 2.5rem;
-  }
-
-  .left p, .right p {
-    font-size: 1.4rem;
-  }
-}
-
-  /* ---------------------------------------- */
-
-    /* ---------------------------------------- */
-  
-/* ---------------------------------------- */
-/* ---------------------------------------- */
-/* ---------------------------------------- */
-/* ---------------------------------------- */
-
-
-    @media screen and (min-width: 768px) {
-    .left, .right {
-      flex-basis: 50%;
-    }
-    
-    h2 {
-      font-size: 2rem;
-      text-align: left;
-    }
-  
-    p {
-      font-size: 1.3rem;
-      text-align: justify;
-      line-height: 1.5;
-      margin-top: 1.5rem;
-    }
-  
-  }
-
-    /* ---------------------------------------- */
-
-    /* ---------------------------------------- */
   /* TEXTO DESPUES DEL TITULO NUESTRO VALORES*/
   .valores {
     display: flex;
@@ -221,7 +121,7 @@
     margin: 0 auto;
     line-height: 1.5;
     margin-top: 30px;
-    color: #2D9BF0;
+    color: #ffffff;
     font-family: 'Spoof', sans-serif;
     
   }
@@ -230,15 +130,6 @@
     width: 4rem;
     height: 4rem;
     margin-right: 0.5rem;
-  }
-  
-  .valores1 h1 {
-    font-size: 6rem;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #DA0063;
-    font-family: 'Fredoka One', cursive;
-
   }
   
   @media screen and (min-width: 425px) {
@@ -270,7 +161,7 @@
 
   @media screen and (min-width: 644px) {
     .valores h1 {
-        position:absolute;
+      position:absolute;
       margin-top: 120px;
       font-size: 2rem;
       text-align: left;
@@ -341,9 +232,6 @@
   
   @media screen and (max-width: 480px) {
     #titulo h1 {
- 
-        font-size: 1rem;
-        width: 300px;
         margin-bottom: 10px;
         color: #DA0063;
         font-family: 'Fredoka One', cursive;
@@ -384,10 +272,9 @@
   }
   
   #titulo h1 {
- 
     font-size: 2.4rem;
     margin-bottom: 30px;
-    color: #DA0063;
+    color: #ffffff;
     font-family: 'Fredoka One', cursive;
   }
   
@@ -399,7 +286,6 @@
   
   @media screen and (min-width: 1200px) {
     #titulo h1 {
-      font-size: 6rem;
       text-align: left;
       margin-left: 100px;
     }

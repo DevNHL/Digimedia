@@ -128,23 +128,12 @@
   </div>
   <img src="../img/Nos_viendo.webp" alt="Descripción de la imagen">
 </div>
+
+<div class=conten>
 <div class="pt-5"></div>
 
-<div class="container2">
-  <div class="left">
-    <h2><img src="../img/mirador.svg" alt="Icono" class="icono" style="width: 3.5rem; height: 3.5rem; margin-right: 0.8rem;">Misión</h2>
-    <p style="font-size: 1.3rem; line-height: 1.6; text-align: justify; margin-top: 2rem;">Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
-  </div>
-  <div class="right">
-    <h2><img src="../img/vision.svg" alt="Icono" class="icono" style="width: 3.5rem; height: 3.5rem; margin-right: 0.8rem;">Visión</h2>
-    <p style="font-size: 1.3rem; line-height: 1.6; text-align: justify; margin-top: 2rem;">Liderar la transformación digital de las PYME en el Perú; estableciendo vínculos sólidos entre nuestros clientes y sus respectivas audiencias.</p>
-  </div>
-</div>
-<br>
-
-
 <section id="titulo">
-  <h1><img src="../img/brazos.svg" alt="Icono" class="icono">NUESTROS VALORES</h1>
+  <h1>VALORES</h1>
 </section>
 
 <section id="valores">
@@ -186,7 +175,7 @@
   </div>
   
 </div>
-
+</div>
 
 
 
