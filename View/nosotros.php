@@ -64,33 +64,33 @@
     font-family: Arial, sans-serif;
   }
 
-  @media (min-width: 300px ) and (max-width: 437px) {
+  @media (min-width: 200px ) and (max-width: 390px) {
     .contenedor-texto {
-      top: 30%;
+      top: 20%;
       font-size: 45px;
       font-weight: 550;
     }
     span{
-      top: 60%;
+      top: 45%;
       width: 88%;
     }
     .contenedor-imagen {
-      height: 70%;
+      height: 40%;
     }
   }
 
   /* Estilos para pantallas pequeñas */
-  @media (min-width: 438px ) and (max-width: 767px) {
+  @media (min-width: 391px ) and (max-width: 767px) {
     .contenedor-texto {
       top: 20;
       font-size: 45px;
     }
     span{
       top: 35%;
-      width: 70%;
+      width: 80%;
     }
     .contenedor-imagen {
-      height: 40%;
+      height: 45%;
     }
   }
 
@@ -133,7 +133,7 @@
 <div class="pt-5"></div>
 
 <section id="titulo">
-  <h1>VALORES</h1>
+  <h1>Valores</h1>
 </section>
 
 <section id="valores">
@@ -144,42 +144,32 @@
 
 <div class="pt-5"></div>
 
+<div class="container">
+    <div class="item">
+      <h1>Responsabilidad</h1>
+      <p>Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
+    </div>
 
+    <div class="item">
+      <h1>Innovación</h1>
+      <p>Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
+    </div>
 
-<div class="contenedor9">
-  <div class="items"> 
-    <h2>Responsabilidad</h2>
-    <p>Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
+    <div class="item">
+      <h1>Adaptabilidad</h1>
+      <p>Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
+    </div>
+
+    <div class="item">
+      <h1>Trabajo en equipo</h1>
+      <p>Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
+    </div>
+
+    <div class="item">
+      <h1>Compromiso</h1>
+      <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
+    </div>
   </div>
-  <div class="items"> 
-    <h2>Innovación</h2>
-    <p>Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
-  </div>
-  <div class="items"> 
-    <h2>Adaptabilidad</h2>
-    <p>Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
-  </div>
-
-    <div class="items" > 
-    <h2>Trabajo en equipo</h2>
-    <p>Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
-  </div>
-
-
-
-
-    <div class="items"> 
-    <h2>Compromiso</h2>
-    <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
-
-  </div>
-  
-</div>
-</div>
-
-
-
-
 
     <br><br><br>
     <?php include 'footer.html' ?>
