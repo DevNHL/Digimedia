@@ -10,20 +10,20 @@
     <!-- CSS only -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/conctato.css?4585">
+    <link rel="stylesheet" href="../css/conctato.css?2000">
 </head>
 
 <body>
     <?php include 'header.html' ?>
 
-    <center style="padding: 15px;">
+    <center >
         <h4 class="h1">Contactanos</h4>
     </center>
     <div class="principal">
         <div class="pos">
             <div class="imagen">
-                <img src="https://static.wixstatic.com/media/ec738b_a56b2ac4df804be68e2ecd458d37d139~mv2.webp" alt="" style="width: 100vh; height: 747px; object-fit: cover;">
-
+                
+                <h4 class="h1x">Contactanos</h4>
             </div>
             <div class="formulario">
                 <div class="col-md-10 offset-md-1">
@@ -90,7 +90,8 @@
 
                         <div class="mb-3" id="con">
                             <div class="pt-3 w-100">Opt-in</div>
-                            <div style="margin-top: 65px;"></div>
+                            <div class="divs"></div>
+                            <div class="divs2"></div>
                             <input type="hidden" name="emailMarck" value="no" id="email">
                             <input type="checkbox" name="emailMarck" value="si" id="email"> Email Marketing
                             <div class="pt-3"></div>
@@ -101,7 +102,7 @@
                             <input type="checkbox" name="production" value="si" id="production"> Production Process Emails
                         </div>
 
-                        <div class="pt-3"></div>
+                        <div class="pt-3" id="ps"></div>
                         <input type="submit" value="Enviar" class="enviar">
                         <div class="links">
                             <a href="" class="f">Facebook</a>
@@ -119,9 +120,10 @@
             </div>
         </div>
         <div class="col">
+           
             <div class="cont">
                 <div class="grande">
-                    <h2>Openig Hours</h2>
+                    <h2 style="font-weight: bold;">Openig Hours</h2>
                 </div>
                 <div>
                     <p>Mon-Fri</p>
@@ -134,6 +136,7 @@
                     <p>9:00 am - 9:00 pm</p>
                 </div>
             </div>
+            
         </div>
 
         <div class="mapa">

@@ -77,7 +77,7 @@
     
     justify-content: space-around;
     padding-top: 60px;
-    
+    flex-wrap: wrap;
     
 }
 .mapa{
@@ -87,4 +87,259 @@
 .map{
     height: 100%;
     width: 100%;
+}
+.imagen{
+    background-image: url("https://static.wixstatic.com/media/ec738b_a56b2ac4df804be68e2ecd458d37d139~mv2.webp");
+    width: 100vh;
+    height: 747px;
+    object-fit: cover;
+    background-size: cover;
+}
+/*.imas{
+    width: 100vh; height: 747px; object-fit: cover;
+}*/
+.h1x{
+    opacity: 0;
+}
+center{
+    padding: 15px;
+}
+.divs{
+    margin-top: 65px;
+}
+.divs2{
+    display: none;
+}
+.conts{
+    opacity: 0;
+}
+/*meidas querys*/
+@media (max-width:700px) {
+    center{
+        padding: 0;
+    }
+    .h1{
+  
+       display: none;
+    }
+
+    .formulario{
+        width: 100%;
+        margin: 0;
+        padding:15px;
+        
+    }
+    .imagen{
+        width: 50vh; height: 407px; object-fit: cover;
+    }
+    .h1x{
+        font-size: 2.5rem;
+        font-weight: bold;
+        opacity: 1;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+    }
+    #con{
+       display: block;
+    }
+    .divs{
+        display: none;
+    }
+    .divs2{
+        display: block;
+        margin-top:  25px;
+    }
+    #ps{
+        margin-top: -25px;
+    }
+    .enviar{
+        width: 100%;
+    }
+    .links{
+        display: flex;
+        margin-top: 25px;
+        
+        justify-content: space-between;
+    }
+   
+    /*.cont{
+        width: 100%;
+        display: block;
+        
+        margin: 0;
+        padding: 0;
+        
+        
+    }*/
+
+    .conts{
+        opacity: 1;
+        padding: 35px;
+        margin-top: 25px;
+    }
+    .i,.l{
+        margin: 0;
+    }
+    
+}
+@media (max-width:900px) {
+    center{
+        padding: 0;
+    }
+    .h1{
+  
+       display: none;
+    }
+
+    .formulario{
+        width: 100%;
+        margin: 0;
+        padding:15px;
+        
+    }
+    .imagen{
+        width: 100vh; height: 407px; object-fit: cover;
+    }
+    .h1x{
+        font-size: 2.5rem;
+        font-weight: bold;
+        opacity: 1;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+    }
+    #con{
+       display: block;
+    }
+    .divs{
+        display: none;
+    }
+    .divs2{
+        display: block;
+        margin-top:  25px;
+    }
+    #ps{
+        margin-top: -25px;
+    }
+    .enviar{
+        width: 100%;
+    }
+    .links{
+        display: flex;
+        margin-top: 25px;
+        
+        justify-content: space-between;
+    }
+   
+    /*.cont{
+        width: 100%;
+        display: block;
+        
+        margin: 0;
+        padding: 0;
+        
+        
+    }*/
+
+    .conts{
+        opacity: 1;
+        padding: 35px;
+        margin-top: 25px;
+    }
+    .i,.l{
+        margin: 0;
+    }
+    .cont{
+        width: 100%;
+        padding: 0;
+        padding-top: 45px;
+        
+    }
+    .grande{
+        width: 100%;
+    }
+    .grande h2{
+        margin-left: 35px;
+    }
+}
+
+
+@media (max-width:1023px) {
+    center{
+        padding: 0;
+    }
+    .h1{
+  
+       display: none;
+    }
+
+    .formulario{
+        width: 100%;
+        margin: 0;
+        padding:15px;
+        
+    }
+    .imagen{
+        width: 100vh; height: 407px; object-fit: cover;
+    }
+    .h1x{
+        font-size: 2.5rem;
+        font-weight: bold;
+        opacity: 1;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+    }
+    #con{
+       display: block;
+    }
+    .divs{
+        display: none;
+    }
+    .divs2{
+        display: block;
+        margin-top:  25px;
+    }
+    #ps{
+        margin-top: -25px;
+    }
+    .enviar{
+        width: 100%;
+    }
+    .links{
+        display: flex;
+        margin-top: 25px;
+        
+        justify-content: space-between;
+    }
+   
+    /*.cont{
+        width: 100%;
+        display: block;
+        
+        margin: 0;
+        padding: 0;
+        
+        
+    }*/
+
+    .conts{
+        opacity: 1;
+        padding: 35px;
+        margin-top: 25px;
+    }
+    .i,.l{
+        margin: 0;
+    }
+    .grande{
+        width: 30%;
+    }
+    
 }
