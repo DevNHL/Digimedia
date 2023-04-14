@@ -130,46 +130,37 @@
 </div>
 
 <div class=conten>
-<div class="pt-5"></div>
+    <div class="pt-5"></div>
 
-<section id="titulo">
-  <h1>Valores</h1>
-</section>
+    <section id="titulo">
+    <h1>Valores</h1>
+    </section>
 
-<section id="valores">
-  <article class="valores1">
-    <p>En nuestra DigiMedia, creemos que nuestros valores son la clave de nuestro éxito y nos guían en todas nuestras decisiones y acciones.</p>
-  </article>
-</section>
+    <section id="valores">
+    <article class="valores1">
+      <p>En nuestra DigiMedia, creemos que nuestros valores son la clave de nuestro éxito y nos guían en todas nuestras decisiones y acciones.</p>
+    </article>
+    </section>
 
-<div class="pt-5"></div>
+    <div class="pt-5"></div>
 
-<div class="container">
-    <div class="item">
-      <h1>Responsabilidad</h1>
-      <p>Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
-    </div>
-
-    <div class="item">
-      <h1>Innovación</h1>
-      <p>Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
-    </div>
-
-    <div class="item">
-      <h1>Adaptabilidad</h1>
-      <p>Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
-    </div>
-
-    <div class="item">
-      <h1>Trabajo en equipo</h1>
-      <p>Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
-    </div>
-
-    <div class="item">
-      <h1>Compromiso</h1>
-      <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
-    </div>
-  </div>
+    <div class="container">
+      <div class="columna-izquierda">
+        <b><p>Responsabilidad</p></b>
+        <b><p>Innovación</p></b>
+        <b><p>Adaptavilidad</p></b>
+        <b><p>Trabajo en equipo</p></b>
+        <b><p>Compromiso</p></b>
+      </div>
+      <div class="columna-derecha">
+        <p>Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
+        <p>Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
+        <p>Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
+        <p>Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
+        <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
+      </div>
+    
+</div>
 
     <br><br><br>
     <?php include 'footer.html' ?>
