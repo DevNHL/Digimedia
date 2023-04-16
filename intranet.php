@@ -116,11 +116,14 @@ if (!isset($_SESSION['usuario'])) {
                         <td><?php echo $data['fecha'] ?></td>
                         <td><?php echo $data['hora'] ?></td>
 
-                        <td style="text-align: center" id="sx">
+                        <!--<td style="text-align: center" id="sx">
                             <form action="View/atendido.php" method="POST">
                                 <input type="hidden" name="id" value="<?php echo $data['id'] ?>">
                                 <button type="submit" class="btn btn-danger" onclick="return confirm('&iquest Esta seguro de que desea dar por atendido?');">Atendido</button>
                             </form>
+                        </td>-->
+                        <td>
+                           <button class="btn btn-danger pendiente">Pendiente</button>
                         </td>
 
                     </tr>
@@ -137,7 +140,6 @@ if (!isset($_SESSION['usuario'])) {
     </div>
 
     </main>
-    
      
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
@@ -145,4 +147,18 @@ if (!isset($_SESSION['usuario'])) {
 <script src="js/pdf.js"></script>
 <script src="js/impresion.js"></script>
 
+<script>
+    const bton=document.querySelector('.pendiente');
+    
+   
+        bton.addEventListener('click',()=>{
+        bton.style.backgroundColor="#ffac09";
+        bton.innerHTML='Atendido';
+
+    })
+    
+       
+   
+   
+</script>
 </html>
