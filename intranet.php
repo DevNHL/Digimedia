@@ -27,7 +27,19 @@ if (!isset($_SESSION['usuario'])) {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.js" integrity="sha512-sk0cNQsixYVuaLJRG0a/KRJo9KBkwTDqr+/V94YrifZ6qi8+OO3iJEoHi0LvcTVv1HaBbbIvpx+MCjOuLVnwKg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<style>
+   .btnsx{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 8px;
+    width:150px;
+    border-radius: 6px;
+    
+   }
 
+
+</style>
 
 
 </head>
@@ -105,7 +117,7 @@ if (!isset($_SESSION['usuario'])) {
                     <tr>
 
                         <td scope="row"><?php echo $data['id'] ?></td>
-                        <td><?php echo $data['nombre'] ?></td>
+                        <td id="sx"><?php echo $data['nombre'] ?></td>
                         <td><?php echo $data['email'] ?></td>
                         <td><?php echo $data['servicio'] ?></td>
                         <td><?php echo $data['numero'] ?></td>
@@ -123,7 +135,7 @@ if (!isset($_SESSION['usuario'])) {
                             </form>
                         </td>-->
                         <td>
-                           <button class="btn btn-danger pendiente">Pendiente</button>
+                           <button class="btnsx pendiente ">Pendiente</button>
                         </td>
 
                     </tr>
@@ -149,16 +161,34 @@ if (!isset($_SESSION['usuario'])) {
 <script src="js/impresion.js"></script>
 
 <script>
-    const bton=document.querySelector('.pendiente');
     
+    var bton=document.getElementsByClassName("pendiente");
    
-        bton.addEventListener('click',()=>{
-        bton.style.backgroundColor="#ffac09";
-        bton.innerHTML='Atendido';
-
-    })
     
+    
+    for (var i = 0; i < bton.length ; i++) {
+        console.log(i)
+        
        
-
+        bton[i].onclick = function() {
+          this.style.backgroundColor = "orange";
+          this.innerText="Atendido";
+          
+          //localStorage.setItem('colorBoton', this.style.backgroundColor);
+        };
+        
+        /*const colorGuardado = localStorage.getItem('colorBoton');
+       // console.log(colorGuardado)
+        if (!colorGuardado) {
+          
+        }else{
+            //this.style.backgroundColor = colorGuardado;
+            bton[i].style.backgroundColor=colorGuardado;
+            console.log(bton[i].innerHTML)
+           
+       }*/
+        
+    }
+      
 </script>
 </html>
