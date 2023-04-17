@@ -180,3 +180,23 @@
   .columna-derecha p{
     margin-bottom: 38px;
   }
+
+@media (max-width: 991px) {
+  .columna-img{
+    margin-left: 0%;
+  }
+  .columna-izquierda{
+    margin-top: 2%;
+    flex-basis: 20%;
+  }
+  .columna-derecha{
+    flex-basis: 64%;
+  }
+  .columna-izquierda p{
+    margin-bottom: 62px;
+  }
+}
+
+@media (max-width: 767px){
+
+}
