@@ -132,6 +132,7 @@ if (!isset($_SESSION['usuario'])) {
             } ?>
         </tbody>
     </table>
+    
     </div>
     <div class="cen">
     <button class="btn btn-success"  onclick="exportToExcel()"><i class="fa-solid fa-file-excel fa-beat"></i></button>
@@ -158,7 +159,6 @@ if (!isset($_SESSION['usuario'])) {
     })
     
        
-   
-   
+
 </script>
 </html>
