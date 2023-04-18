@@ -64,33 +64,33 @@
     font-family: Arial, sans-serif;
   }
 
-  @media (min-width: 300px ) and (max-width: 437px) {
+  @media (min-width: 200px ) and (max-width: 390px) {
     .contenedor-texto {
-      top: 30%;
+      top: 20%;
       font-size: 45px;
       font-weight: 550;
     }
     span{
-      top: 60%;
+      top: 45%;
       width: 88%;
     }
     .contenedor-imagen {
-      height: 70%;
+      height: 40%;
     }
   }
 
   /* Estilos para pantallas pequeñas */
-  @media (min-width: 438px ) and (max-width: 767px) {
+  @media (min-width: 391px ) and (max-width: 767px) {
     .contenedor-texto {
       top: 20;
       font-size: 45px;
     }
     span{
       top: 35%;
-      width: 70%;
+      width: 80%;
     }
     .contenedor-imagen {
-      height: 40%;
+      height: 45%;
     }
   }
 
@@ -130,56 +130,44 @@
 </div>
 
 <div class=conten>
-<div class="pt-5"></div>
+    <div class="pt-5"></div>
 
-<section id="titulo">
-  <h1>VALORES</h1>
-</section>
+    <section id="titulo">
+    <h1>Valores</h1>
+    </section>
 
-<section id="valores">
-  <article class="valores1">
-    <p>En nuestra DigiMedia, creemos que nuestros valores son la clave de nuestro éxito y nos guían en todas nuestras decisiones y acciones.</p>
-  </article>
-</section>
+    <section id="valores">
+    <article class="valores1">
+      <p>En nuestra DigiMedia, creemos que nuestros valores son la clave de nuestro éxito y nos guían en todas nuestras decisiones y acciones.</p>
+    </article>
+    </section>
 
-<div class="pt-5"></div>
+    <div class="pt-5"></div>
 
-
-
-<div class="contenedor9">
-  <div class="items"> 
-    <h2>Responsabilidad</h2>
-    <p>Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
-  </div>
-  <div class="items"> 
-    <h2>Innovación</h2>
-    <p>Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
-  </div>
-  <div class="items"> 
-    <h2>Adaptabilidad</h2>
-    <p>Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
-  </div>
-
-    <div class="items" > 
-    <h2>Trabajo en equipo</h2>
-    <p>Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
-  </div>
-
-
-
-
-    <div class="items"> 
-    <h2>Compromiso</h2>
-    <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
-
-  </div>
-  
+    <div class="container">
+      <div class="columna-img">
+        <img src="https://static.wixstatic.com/media/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+        <img src="https://static.wixstatic.com/media/ec738b_2c43825705e541f98206802b4cf36783~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_2c43825705e541f98206802b4cf36783~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+        <img src="https://static.wixstatic.com/media/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+        <img src="https://static.wixstatic.com/media/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+        <img src="https://static.wixstatic.com/media/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+      </div>
+      <div class="columna-izquierda">
+        <b><p>Responsabilidad</p></b>
+        <b><p>Innovación</p></b>
+        <b><p>Adaptavilidad</p></b>
+        <b><p>Trabajo en equipo</p></b>
+        <b><p>Compromiso</p></b>
+      </div>
+      <div class="columna-derecha">
+        <p>Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
+        <p>Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
+        <p>Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
+        <p>Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
+        <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
+      </div>
+    
 </div>
-</div>
-
-
-
-
 
     <br><br><br>
     <?php include 'footer.html' ?>
