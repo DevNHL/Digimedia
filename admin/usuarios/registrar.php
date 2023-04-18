@@ -1,11 +1,10 @@
-<?php 
-//seguridad de sesiones
+<?php
 session_start();
-error_reporting(0);
-$varsesion=$_SESSION['usuario'];
-if($varsesion==null || $varsesion=''){
-    header("location: ../login/index.php");
-    die();
+
+if (!isset($_SESSION['usuario'])) {
+  // Usuario no autenticado, redirigir a la página de inicio de sesión
+  header('Location:../login/index.php');
+  exit();
 }
 ?>
 <!doctype html>
@@ -36,10 +35,7 @@ if($varsesion==null || $varsesion=''){
             <h5 class="card-title text-center mb-5 fw-light fs-5">Registrarse</h5>
             <form action="agregar.php" method="post">
 
-              <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="id" name="id" placeholder="Id" required autofocus>
-                <label for="usuario">ID</label>
-              </div>
+            
 
               <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuario" required autofocus>

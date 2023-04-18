@@ -1,14 +1,13 @@
 <?php
-session_start();
+
 
 include '../conexion/conexion.php';
 
-	$id=$_POST['id'];
 	$user=$_POST['usuario'];
     $pass=$_POST['contrasena'];
 	$nom=$_POST['nombre'];
-    $sql = "INSERT INTO `usuarios` ( id , usuario , contrasena, nombre) 
-            VALUES ('$id','$user','$pass','$nom')";
+    $sql = "INSERT INTO `usuarios` (usuario , contrasena, nombre) 
+            VALUES ('$user','$pass','$nom')";
     $resultado = $conn -> query($sql);
 
     if ($resultado) {
