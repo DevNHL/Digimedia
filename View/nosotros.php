@@ -21,152 +21,155 @@
 <body>
     <?php include 'header.html' ?>
 
-    <div class="contenedor-imagen">
-  <img src="../img/Nos_juntos.webp" alt="Imagen con transparencia completa">
-  <div class="contenedor-texto">
-    QUIÉNES SOMOS
+  <div class="contenedor-imagen">
+    <div class="contenedor-texto">
+      ¿Quienes somos?
+    </div>
+    <span>Digimedia es una empresa de marketing&nbsp; digital, que se enfoca en potenciar tu&nbsp; emprendimiento a nivel online. Además, le&nbsp; brinda a tu emprendimiento estrategias que&nbsp; ayuden a cumplir los objetivos de manera&nbsp; eficaz. Somos un grupo de personas&nbsp; comprometidas con el desarrollo de cada&nbsp; marca que nos contacta.</span>
   </div>
-</div>
 
 <style>
   .contenedor-imagen {
-    background-color:  rgba(238, 9, 104, 0.945);
+    background-color: #6a27b5;
     width: 100%;
-    height: 100%;
-    margin: 0;
+    height: 32%;
     display: flex;
     justify-content: center;
-    align-items: center;
-  }
-
-  .contenedor-imagen img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.5;
   }
 
   .contenedor-texto {
     position: absolute;
-    top: 66%;
+    top: 18%;
     left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 110px;
+    font-size: 56px;
     width: 100%;
     margin: 0;
-    font-family: 'Fredoka One', cursive;
-    text-decoration: underline;
-    text-decoration-color: #ffff;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 20px;
-    transition: text-decoration 0.3s ease-in-out;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+  }
+  span{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: justify;
+    font-size: 1rem;
+    width: 50%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  @media (min-width: 200px ) and (max-width: 390px) {
+    .contenedor-texto {
+      top: 20%;
+      font-size: 45px;
+      font-weight: 550;
+    }
+    span{
+      top: 45%;
+      width: 88%;
+    }
+    .contenedor-imagen {
+      height: 40%;
+    }
   }
 
   /* Estilos para pantallas pequeñas */
-  @media only screen and (max-width: 767px) {
+  @media (min-width: 391px ) and (max-width: 767px) {
     .contenedor-texto {
-      font-size: 50px;
+      top: 20;
+      font-size: 45px;
     }
- 
+    span{
+      top: 35%;
+      width: 80%;
+    }
+    .contenedor-imagen {
+      height: 45%;
+    }
   }
 
   /* Estilos para tabletas */
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .contenedor-texto {
-      font-size: 80px;
+      font-size: 50px;
     }
-  }
-
-  /* Estilos para computadoras de escritorio */
-  @media only screen and (min-width: 1025px) {
-    .contenedor-texto {
-      font-size: 110px;
+    span{
+      top: 33%;
+    }
+    .contenedor-imagen {
+      height: 40%;
     }
   }
 </style>
-
 
 </body>
 <div class="pt-5"></div>
 
 <div class="banner">
+  <img src="../img/Nos_viendo.webp" alt="Descripción de la imagen">
   <div class="content">
-    <h1>NOSOTROS</h1>
-    <p>Digimedia es una empresa de marketing digital, que se enfoca en potenciar tu emprendimiento a nivel online. Digimedia, le brinda a tu emprendimiento estrategias que ayuden a cumplir los objetivos de manera eficaz. Somos un grupo de personas comprometidas con el desarrollo de cada marca que nos contacta.</p>
+    <h1>Mission</h1>
+    <p>Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
+  </div>
+</div>
+<div class="pt-5"></div>
+
+<div class="banner">
+  <div class="content">
+    <h1>Visión</h1>
+    <p>Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
   </div>
   <img src="../img/Nos_viendo.webp" alt="Descripción de la imagen">
 </div>
-<div class="pt-5"></div>
 
+<div class=conten>
+    <div class="pt-5"></div>
 
+    <section id="titulo">
+    <h1>Valores</h1>
+    </section>
 
-<div class="container2">
-  <div class="left">
-    <h2><img src="../img/mirador.svg" alt="Icono" class="icono" style="width: 3.5rem; height: 3.5rem; margin-right: 0.8rem;">Misión</h2>
-    <p style="font-size: 1.3rem; line-height: 1.6; text-align: justify; margin-top: 2rem;">Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
-  </div>
-  <div class="right">
-    <h2><img src="../img/vision.svg" alt="Icono" class="icono" style="width: 3.5rem; height: 3.5rem; margin-right: 0.8rem;">Visión</h2>
-    <p style="font-size: 1.3rem; line-height: 1.6; text-align: justify; margin-top: 2rem;">Liderar la transformación digital de las PYME en el Perú; estableciendo vínculos sólidos entre nuestros clientes y sus respectivas audiencias.</p>
-  </div>
+    <section id="valores">
+    <article class="valores1">
+      <p>En nuestra DigiMedia, creemos que nuestros valores son la clave de nuestro éxito y nos guían en todas nuestras decisiones y acciones.</p>
+    </article>
+    </section>
+
+    <div class="pt-5"></div>
+
+    <div class="container">
+      <div class="columna-img">
+        <img src="https://static.wixstatic.com/media/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+        <img src="https://static.wixstatic.com/media/ec738b_2c43825705e541f98206802b4cf36783~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_2c43825705e541f98206802b4cf36783~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+        <img src="https://static.wixstatic.com/media/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+        <img src="https://static.wixstatic.com/media/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+        <img src="https://static.wixstatic.com/media/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+      </div>
+      <div class="columna-izquierda">
+        <b><p>Responsabilidad</p></b>
+        <b><p>Innovación</p></b>
+        <b><p>Adaptavilidad</p></b>
+        <b><p>Trabajo en equipo</p></b>
+        <b><p>Compromiso</p></b>
+      </div>
+      <div class="columna-derecha">
+        <p>Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
+        <p>Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
+        <p>Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
+        <p>Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
+        <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
+      </div>
+    
 </div>
-<br>
-
-
-<section id="titulo">
-  <h1><img src="../img/brazos.svg" alt="Icono" class="icono">NUESTROS VALORES</h1>
-</section>
-
-<section id="valores">
-  <article class="valores1">
-    <p>En nuestra DigiMedia, creemos que nuestros valores son la clave de nuestro éxito y nos guían en todas nuestras decisiones y acciones.</p>
-  </article>
-</section>
-
-<div class="pt-5"></div>
-
-
-
-<div class="contenedor9">
-  <div class="items"> 
-    <h2>Responsabilidad</h2>
-    <p>Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
-  </div>
-  <div class="items"> 
-    <h2>Innovación</h2>
-    <p>Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
-  </div>
-  <div class="items"> 
-    <h2>Adaptabilidad</h2>
-    <p>Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
-  </div>
-
-    <div class="items" > 
-    <h2>Trabajo en equipo</h2>
-    <p>Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
-  </div>
-
-
-
-
-    <div class="items"> 
-    <h2>Compromiso</h2>
-    <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
-
-  </div>
-  
-</div>
-
-
-
-
-
 
     <br><br><br>
     <?php include 'footer.html' ?>
 </body>
-
 
 </html>
