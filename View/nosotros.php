@@ -145,26 +145,55 @@
     <div class="pt-5"></div>
 
     <div class="container">
-      <div class="columna-img">
-        <img src="https://static.wixstatic.com/media/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
-        <img src="https://static.wixstatic.com/media/ec738b_2c43825705e541f98206802b4cf36783~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_2c43825705e541f98206802b4cf36783~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
-        <img src="https://static.wixstatic.com/media/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
-        <img src="https://static.wixstatic.com/media/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
-        <img src="https://static.wixstatic.com/media/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+
+      <div class="img">
+      <img src="https://static.wixstatic.com/media/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+        <div class="tit">
+          <b><p>Responsabilidad</p></b>
+        </div>
+        <div class="con">
+          <p class="a">Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
+        </div>
       </div>
-      <div class="columna-izquierda">
-        <b><p>Responsabilidad</p></b>
-        <b><p>Innovación</p></b>
-        <b><p>Adaptavilidad</p></b>
-        <b><p>Trabajo en equipo</p></b>
-        <b><p>Compromiso</p></b>
+
+      <div class="img">
+      <img src="https://static.wixstatic.com/media/ec738b_2c43825705e541f98206802b4cf36783~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_2c43825705e541f98206802b4cf36783~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+        <div class="tit">
+          <b><p>Innovación</p></b>
+        </div>
+        <div class="con">
+          <p class="b">Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
+        </div>
       </div>
-      <div class="columna-derecha">
-        <p>Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
-        <p>Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
-        <p>Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
-        <p>Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
-        <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
+
+      <div class="img">
+      <img src="https://static.wixstatic.com/media/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+        <div class="tit">
+          <b><p>Adaptavilidad</p></b>
+        </div>
+        <div class="con">
+          <p class="c">Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
+        </div>
+      </div>
+
+      <div class="img">
+      <img src="https://static.wixstatic.com/media/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+        <div class="tit">
+          <b><p>Trabajo en equipo</p></b>
+        </div>
+        <div class="con">
+          <p class="e">Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
+        </div>
+      </div>
+
+      <div class="img">
+      <img src="https://static.wixstatic.com/media/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+        <div class="tit">
+          <b><p>Compromiso</p></b>
+        </div>
+        <div class="con">
+          <p class="f">Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
+        </div>
       </div>
     
 </div>
