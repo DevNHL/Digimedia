@@ -9,7 +9,7 @@
   $conn = mysqli_connect($server, $user, $pass, $db);
 
 $id = $_POST['id'];
-$sql = "DELETE FROM contactanos WHERE id = $id";
+$sql = "DELETE FROM contactanos   WHERE id = $id" ;
 
 
 if ($conn->query($sql) === TRUE) {

@@ -32,10 +32,28 @@ if (!isset($_SESSION['usuario'])) {
     background-color: red;
     border: none;
     color: white;
-    padding: 8px;
-    width:150px;
+    padding: 6px;
+    width:80px;
     border-radius: 6px;
     
+   }
+   .señ{
+    
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    
+   }
+   .at{
+    background-color: red;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
    }
 
 
@@ -72,6 +90,7 @@ if (!isset($_SESSION['usuario'])) {
             <th scope="col">PRODUCTION</th>
             <th scope="col">Fecha</th>
             <th scope="col">Hora</th>
+            <th scope="col">ESTADO</th>
             <th scope="col">ACCION</th>
         </tr>
       </thead>
@@ -87,6 +106,7 @@ if (!isset($_SESSION['usuario'])) {
             // Conexión a bd - MySQL
             $conn = mysqli_connect($server, $user, $pass, $db);
 
+            
             //Paginador
             $sql_registe = mysqli_query($conn, "SELECT COUNT(*) as total_registro FROM contactanos");
             $result_register = mysqli_fetch_array($sql_registe);
@@ -113,6 +133,11 @@ if (!isset($_SESSION['usuario'])) {
             if ($result > 0) {
 
                 while ($data = mysqli_fetch_array($query)) {
+                if ($data['estado'] == 1) {
+                    $estado = '<span class="señ">Pendiente</span>';
+                } else {
+                    $estado = '<span class="at">Atendido</span>';
+                }
             ?>
                     <tr>
 
@@ -134,10 +159,15 @@ if (!isset($_SESSION['usuario'])) {
                                 <button type="submit" class="btn btn-danger" onclick="return confirm('&iquest Esta seguro de que desea dar por atendido?');">Atendido</button>
                             </form>
                         </td>-->
+                        <td><?php echo $estado ?></td>
+                        <?php if ($data['estado'] == 1) { ?>
                         <td>
-                           <button class="btnsx pendiente ">Pendiente</button>
+                           <form action="View/atendido.php" method="POST">
+                                 <input type="hidden" name="id" value="<?php echo $data['id'] ?>">
+                               <button type="submit" class="btnsx pendiente " onclick="return confirm('&iquest Esta seguro de que desea dar por atendido?');">Eliminar</button>
+                           </form>
                         </td>
-
+                        <?php } ?>
                     </tr>
             <?php
                 }
@@ -162,7 +192,7 @@ if (!isset($_SESSION['usuario'])) {
 
 <script>
     
-    var bton=document.getElementsByClassName("pendiente");
+   /* var bton=document.getElementsByClassName("pendiente");
    
     
     
@@ -174,21 +204,12 @@ if (!isset($_SESSION['usuario'])) {
           this.style.backgroundColor = "orange";
           this.innerText="Atendido";
           
-          //localStorage.setItem('colorBoton', this.style.backgroundColor);
+         
         };
         
-        /*const colorGuardado = localStorage.getItem('colorBoton');
-       // console.log(colorGuardado)
-        if (!colorGuardado) {
-          
-        }else{
-            //this.style.backgroundColor = colorGuardado;
-            bton[i].style.backgroundColor=colorGuardado;
-            console.log(bton[i].innerHTML)
-           
-       }*/
+      
         
-    }
+    }*/
       
 </script>
 </html>
