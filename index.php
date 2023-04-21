@@ -44,7 +44,7 @@
     </div>
     <div class="con-anun">
         <div class="parrafos">
-            <h4 class="titulo"><Big><b>¿Quieres iniciar tu empresa digital?</b><Big></h4>
+            <h3 class="titulo"><b>¿Quieres iniciar tu empresa digital?</b></h3>
             <p class="texto"><span class="negrita">EN DIGIMEDIA</span> te brindamos asesor&iacute;a personalizada para emprender o hacer crecer tu negocio</p>
         </div>
         <div class="bota">
@@ -415,7 +415,7 @@
                                     <div class="col-md-4">
                                         <img class="img-fluid rounded-start" id="img-fluid" style="width: 400px;" alt="Diseño web" src="img//d_web.webp">
                                     </div>
-                                    <div class="col-md-8 ">
+                                    <div class="col-md-8">
                                         <div class="card-body " id="card-body">
                                             <h5 class="card-title">Dise&ntilde;o Web</h5>
                                             <p class="card-text">En Digimedia te ayudamos con el desarrollo del diseño web de tu marca. Digimedia, se especializa en el diseño de sitios web modernos, fáciles de usar y que reflejen la marca de su empresa. Trabajamos con usted para entender su negocio y lo que quiere lograr con su sitio web.</p>
