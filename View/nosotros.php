@@ -75,7 +75,7 @@
       width: 88%;
     }
     .contenedor-imagen {
-      height: 40%;
+      height: 60%;
     }
   }
 
@@ -113,9 +113,9 @@
 <div class="pt-5"></div>
 
 <div class="banner">
-  <img src="../img/Nos_viendo.webp" alt="Descripción de la imagen">
+  <img src="../img/nos_mision.webp" alt="Descripción de la imagen">
   <div class="content">
-    <h1>Mission</h1>
+    <h1>Misi&oacute;n</h1>
     <p>Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
   </div>
 </div>
@@ -123,10 +123,10 @@
 
 <div class="banner">
   <div class="content">
-    <h1>Visión</h1>
+    <h1>Visi&oacute;n</h1>
     <p>Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
   </div>
-  <img src="../img/Nos_viendo.webp" alt="Descripción de la imagen">
+  <img src="../img/nos_vision.webp" alt="Descripción de la imagen">
 </div>
 
 <div class=conten>
@@ -147,7 +147,7 @@
     <div class="container">
 
       <div class="img">
-      <img src="https://static.wixstatic.com/media/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+      <img src="../img/nos_responsabilidad.webp" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
         <div class="tit">
           <b><p>Responsabilidad</p></b>
         </div>
@@ -157,7 +157,7 @@
       </div>
 
       <div class="img">
-      <img src="https://static.wixstatic.com/media/ec738b_2c43825705e541f98206802b4cf36783~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_2c43825705e541f98206802b4cf36783~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+      <img src="../img/nos_innovacion.webp" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
         <div class="tit">
           <b><p>Innovación</p></b>
         </div>
@@ -167,7 +167,7 @@
       </div>
 
       <div class="img">
-      <img src="https://static.wixstatic.com/media/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+      <img src="../img/nos_adaptavilidad.webp" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
         <div class="tit">
           <b><p>Adaptavilidad</p></b>
         </div>
@@ -177,7 +177,7 @@
       </div>
 
       <div class="img">
-      <img src="https://static.wixstatic.com/media/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+      <img src="../img/nos_trabajo.webp" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
         <div class="tit">
           <b><p>Trabajo en equipo</p></b>
         </div>
@@ -187,7 +187,7 @@
       </div>
 
       <div class="img">
-      <img src="https://static.wixstatic.com/media/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+      <img src="../img/nos_compromiso.webp" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
         <div class="tit">
           <b><p>Compromiso</p></b>
         </div>

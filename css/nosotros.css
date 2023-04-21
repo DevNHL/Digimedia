@@ -220,5 +220,48 @@
 }
 
 @media (max-width: 991px) {
+  .container {
+    height: 900px;
+  }
   
+  .container .img img{
+    margin-left: 42%;
+    margin-top: 0%;
+  }
+  .container .tit {
+    margin-left: 15px;
+    flex-basis: 95%;
+  }
+  .container .con{
+    flex-basis: 100%;
+  }
+  .f{
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 460px) {
+  .container {
+    height: 1000px;
+  }
+  .container .img img{
+    margin-left: 40%;
+    margin-top: 0%;
+  }
+  .container .img {
+    margin-left: 1%;
+  }
+  
+  .container .tit {
+    margin-left: 1%;
+  }
+
+  .a, .b, .c, .e, .f {
+    margin-left: 1%;
+  }
+}
+@media (max-width: 338px) {
+  .container {
+    height: 1170px;
+  }
 }
