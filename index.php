@@ -24,6 +24,7 @@
         </div>
         <div class="banners-letra" id="banners-letra">
             <div class="digimedia" id="digimedia">
+                <br>
                 <p class="digimedias" id="dige">DIGIMEDIA</p>
             </div>
             <div class="">
@@ -748,7 +749,7 @@
     </div>
     <div class="pt-4"></div>
 
-    <div class="con-anun1">
+    <div class="con-anun1" style="background: linear-gradient(to right,  rgb(235, 80, 255),rgb(162, 0, 255));">
         <div class="parrafos1">
             <h5 class="titulo1">¿Tienes alguna duda sobre nuestros servicios?</h5>
             <p class="ten">¡Tenemos la respuesta!</p>

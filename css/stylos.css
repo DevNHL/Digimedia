@@ -188,7 +188,7 @@ small {
 
 /*---estilos para el footer---*/
 .footer {
-    background-color:#F2EFEF;
+    background-color:#70dceb;
    
 
 }
@@ -420,7 +420,7 @@ small {
 }
 .primas{
     width: 747px;
-    background-color: var(--second-color);
+    background: linear-gradient(to right,  rgb(225, 0, 255),rgb(0, 225, 255));
     color: white;
     height: 48px;
     font-size: 20px;
