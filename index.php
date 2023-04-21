@@ -17,9 +17,9 @@
     
 </head>
 
-<body>
+<body style="background:linear-gradient(30deg, blue, purple); background-size: cover;">
     <?php include 'assets/header.html' ?>
-    <div class="banner-image " id="banner">
+    <div class="banner-image" id="banner" >
         <div class="contenedor-principal">
         </div>
         <div class="banners-letra" id="banners-letra">
@@ -37,7 +37,8 @@
 
             </div>
             <div class="bt" id="bt">
-                <a href="View/contacto.php" class="boton" id="prima">Conctactar</a>
+                <BR>
+                <a href="View/contacto.php" class="boton" id="prima">Contactanos</a>
             </div>
         </div>
     </div>
@@ -47,7 +48,7 @@
         <h4 class="letra-sub">Servicios de Marketing</h4>
     </div>
     <!--carrosel principal-->
-    <div class="container m">
+    <div class="container m" >
         <div class="d-none d-lg-block">
             <div class="d-none d-md-block ">
                 <div id="carouselExampleCaptionss" class="carousel slide d-none d-sm-block">
