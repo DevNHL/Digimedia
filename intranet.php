@@ -33,8 +33,9 @@ if (!isset($_SESSION['usuario'])) {
     border: none;
     color: white;
     padding: 6px;
-    width:80px;
+    width:40px;
     border-radius: 6px;
+    margin-left: 10px;
     
    }
    .señ{
@@ -164,7 +165,7 @@ if (!isset($_SESSION['usuario'])) {
                         <td>
                            <form action="View/atendido.php" method="POST">
                                  <input type="hidden" name="id" value="<?php echo $data['id'] ?>">
-                               <button type="submit" class="btnsx pendiente " onclick="return confirm('&iquest Esta seguro de que desea dar por atendido?');">Eliminar</button>
+                               <button type="submit" class="btnsx pendiente " onclick="return confirm('&iquest Esta seguro de que desea dar por atendido?');"><i class="fa-solid fa-trash"></i></button>
                            </form>
                         </td>
                         <?php } ?>
