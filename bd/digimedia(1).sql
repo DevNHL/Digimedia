@@ -47,8 +47,8 @@ CREATE TABLE `contactanos` (
 --
 
 INSERT INTO `contactanos` (`id`, `nombre`, `email`, `servicio`, `numero`, `mensaje`, `emailMarck`, `new`, `production`, `fecha`, `hora`, `estado`) VALUES
-(42, 'jahir', 'eduardomontanocondemayta@gmail.com', 'Marketing Digital', '987456321', 'rgdg', 'si', 'no', 'no', '22/4/2023', '1:59:25 PM', '0'),
-(43, 'jedy', 'jedy@gmail.com', 'Marketing Digital', '72564', 'kjchbhcs', 'si', 'no', 'no', '22/4/2023', '2:03:39 PM', '0'),
+(42, 'jahir', 'eduardomontanocondemayta@gmail.com', 'Marketing Digital', '987456321', 'rgdg', 'si', 'no', 'no', '22/4/2023', '1:59:25 PM', '1'),
+(43, 'jedy', 'jedy@gmail.com', 'Marketing Digital', '72564', 'kjchbhcs', 'si', 'no', 'no', '22/4/2023', '2:03:39 PM', '1'),
 (44, 'jahir', 'eduardomontanocondemata@gmail.com', 'Imagen Corporativa', '58485', 'sfsfsf', 'si', 'no', 'no', '22/4/2023', '4:45:58 PM', '1');
 
 -- --------------------------------------------------------
