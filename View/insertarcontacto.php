@@ -11,8 +11,8 @@
     $pro=$_POST['production'];
     $fecha=$_POST['fecha'];
     $hora=$_POST['hora'];
-    $sql = "INSERT INTO `contactanos` (`nombre`, `email`, `servicio`, `numero`, `mensaje`, `emailMarck`, `new`, `production`,`fecha`,`hora`) 
-            VALUES ('$nom', '$em', '$ser', '$num', '$men', '$emM', '$new', '$pro','$fecha','$hora')";
+    $sql = "INSERT INTO `contactanos` (`nombre`, `email`, `servicio`, `numero`, `mensaje`, `emailMarck`, `new`, `production`,`fecha`,`hora`,`estado`) 
+            VALUES ('$nom', '$em', '$ser', '$num', '$men', '$emM', '$new', '$pro','$fecha','$hora','1')";
     $resultado = mysqli_query($conn, $sql);
 
    
