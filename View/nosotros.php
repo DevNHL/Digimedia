@@ -20,26 +20,25 @@
 
 <body>
     <?php include 'header.html' ?>
-
+    <header class="fondo">
+</header>
   <div class="contenedor-imagen">
-    <div class="contenedor-texto">
-      ¿Quienes somos?
-    </div>
-    <span>Digimedia es una empresa de marketing&nbsp; digital, que se enfoca en potenciar tu&nbsp; emprendimiento a nivel online. Además, le&nbsp; brinda a tu emprendimiento estrategias que&nbsp; ayuden a cumplir los objetivos de manera&nbsp; eficaz. Somos un grupo de personas&nbsp; comprometidas con el desarrollo de cada&nbsp; marca que nos contacta.</span>
-  </div>
+    <div class="contenedor-texto" style="">¿Quienes somos?</div >
+    <span class="letra">Digimedia es una empresa de marketing&nbsp; digital, que se enfoca en potenciar tu&nbsp; emprendimiento a nivel online. Además, le&nbsp; brinda a tu emprendimiento estrategias que&nbsp; ayuden a cumplir los objetivos de manera&nbsp; eficaz. Somos un grupo de personas&nbsp; comprometidas con el desarrollo de cada&nbsp; marca que nos contacta.</span>
+</div>
 
 <style>
   .contenedor-imagen {
-    background-color: #6a27b5;
+    background: linear-gradient(to right,  #ec25a3,#3079e6);
     width: 100%;
-    height: 32%;
+    height: 38%;
     display: flex;
     justify-content: center;
   }
 
   .contenedor-texto {
     position: absolute;
-    top: 18%;
+    top: 50%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -48,6 +47,22 @@
     width: 100%;
     margin: 0;
     font-weight: 600;
+    font-family: Arial, sans-serif;
+  }
+  .purple {
+  color: rgb(170, 7, 170);
+  }
+  .letra{
+
+    top: 100%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: justify;
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 0;
     font-family: Arial, sans-serif;
   }
   span{
@@ -112,20 +127,20 @@
 <div class="pt-5"></div>
 
 <div class="banner">
-  <img src="../img/Nos_viendo.webp" alt="Descripción de la imagen">
+  <img src="../img/somos la agencia.webp" alt="Descripción de la imagen">
   <div class="content">
-    <h1>Mission</h1>
-    <p>Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
+    <h1 Style="color:rgb(170, 7, 170);">Misión</h1>
+    <p Style="color:rgb(170, 7, 170);">Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
   </div>
 </div>
 <div class="pt-5"></div>
 
 <div class="banner">
   <div class="content">
-    <h1>Visión</h1>
-    <p>Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
+    <h1 Style="color:rgb(170, 7, 170);">Visión</h1>
+    <p Style="color:rgb(170, 7, 170);">Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
   </div>
-  <img src="../img/Nos_viendo.webp" alt="Descripción de la imagen">
+  <img src="../img/servicio creacion de marca.webp" alt="Descripción de la imagen">
 </div>
 
 <div class=conten>
