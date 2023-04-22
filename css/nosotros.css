@@ -154,49 +154,114 @@
     height: 400px;
     display: flex;
 		flex-wrap: wrap;
-  }
-  .columna-img{
-    margin-left: 15%;
-    text-align: right;
-    margin-top: -1.5%;
-    margin-right: 2%;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .columna-izquierda {
-    margin-top: 1%;
-    text-align: left;
-    flex-basis: 15%;
+  .container .img {
+    margin-left: 13%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .columna-izquierda p{
-    margin-bottom: 62px;
+  .container .img img{
+    margin-top: -2%;
+    display: flex;
+		flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container .tit {
+    display: flex;
+		flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    flex-basis: 17%;
+  }
+  
+  .container .con{
+    flex-basis: 71%;
   }
 
-  .columna-derecha {
-    flex-basis: 50%;
-    margin-left: 10px;
+  .a{
+    margin-left: 8px;
+  }
+  .e{
+    margin-left: -8px;
+  }
+  .f{
+    margin-left: 18px;
   }
 
-  .columna-derecha p{
-    margin-bottom: 38px;
+@media (max-width: 1399px) {
+  .container .img {
+    margin-left: 8%;
   }
-
-@media (max-width: 991px) {
-  .columna-img{
-    margin-left: 0%;
-  }
-  .columna-izquierda{
-    margin-top: 2%;
-    flex-basis: 20%;
-  }
-  .columna-derecha{
-    flex-basis: 64%;
-  }
-  .columna-izquierda p{
-    margin-bottom: 62px;
+  .e{
+    margin-left: -4px;
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 1199px) {
+  .container .img {
+    margin-left: 1%;
+  }
+  .a, .b, .c, .e {
+    margin-left: 15px;
+  }
+  .f{
+    margin-left: 20px;
+  }
+}
 
+@media (max-width: 991px) {
+  .container {
+    height: 900px;
+  }
+  
+  .container .img img{
+    margin-left: 42%;
+    margin-top: 0%;
+  }
+  .container .tit {
+    margin-left: 15px;
+    flex-basis: 95%;
+  }
+  .container .con{
+    flex-basis: 100%;
+  }
+  .f{
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 460px) {
+  .container {
+    height: 1000px;
+  }
+  .container .img img{
+    margin-left: 40%;
+    margin-top: 0%;
+  }
+  .container .img {
+    margin-left: 1%;
+  }
+  
+  .container .tit {
+    margin-left: 1%;
+  }
+
+  .a, .b, .c, .e, .f {
+    margin-left: 1%;
+  }
+}
+@media (max-width: 338px) {
+  .container {
+    height: 1170px;
+  }
 }
