@@ -188,7 +188,7 @@ small {
 
 /*---estilos para el footer---*/
 .footer {
-    background-color:#70dceb;
+    background-color:#d2faff;
    
 
 }
@@ -746,7 +746,7 @@ small {
         width: 150px;
     }
     .ji{
-        background-color: var(--second-color);
+        background: linear-gradient(to right,  rgb(225, 0, 255),rgb(0, 225, 255));
         color: white;
         width: 100%;
     }
@@ -755,7 +755,7 @@ small {
         color: white;
     }
     .ki{
-        background-color: var(--second-color);
+        background: linear-gradient(to right,  rgb(225, 0, 255),rgb(0, 225, 255));
         color: white;
         width: 100%;
     }

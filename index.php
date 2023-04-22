@@ -31,22 +31,19 @@
                 <div class="creativa" id="creativa">
                     <p>Innovadora y creativa</p>
                 </div>
-
-                <div class="contenedor-secundario" id="contenedor-secundario">
-                    <p>Estamos enfocados a lograr <span class="text-info">resultados comerciales</span> y de <span class="text-info"> marketing</span> con <span class="text-info"> creatividad</span> y <span class="text-info"> estrategias.</span></p>
+                <br>
+                <div class="bt" id="bt">
+                <a href="View/contacto.php" class="boton" id="prima">Contactanos</a>
                 </div>
 
             </div>
-            <div class="bt" id="bt">
-                <BR>
-                <a href="View/contacto.php" class="boton" id="prima">Contactanos</a>
-            </div>
+            
         </div>
     </div>
     <div class="con-anun">
         <div class="parrafos">
             <h3 class="titulo"><b>¿Quieres iniciar tu empresa digital?</b></h3>
-            <p class="texto"><span class="negrita">EN DIGIMEDIA</span> te brindamos asesor&iacute;a personalizada para emprender o hacer crecer tu negocio</p>
+            <p class="texto"><span class="negrita">EN DIGIMEDIA</span> te brindamos asesor&iacute;a personalizada para emprender o hacer crecer tu negocio, estamos enfocados a lograr <span class="text-info">resultados comerciales</span> y de <span class="text-info"> marketing</span> con <span class="text-info"> creatividad</span> y <span class="text-info"> estrategias.</span></p>
         </div>
         <div class="bota">
             <a href="View/contacto.php" class="boton__" id="be">Contactanos</a>
