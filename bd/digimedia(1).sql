@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 21-04-2023 a las 21:46:10
--- Versión del servidor: 10.4.27-MariaDB
--- Versión de PHP: 8.1.12
+-- Tiempo de generación: 22-04-2023 a las 23:48:26
+-- Versión del servidor: 10.4.28-MariaDB
+-- Versión de PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -47,9 +47,9 @@ CREATE TABLE `contactanos` (
 --
 
 INSERT INTO `contactanos` (`id`, `nombre`, `email`, `servicio`, `numero`, `mensaje`, `emailMarck`, `new`, `production`, `fecha`, `hora`, `estado`) VALUES
-(38, 'jahir', 'eduardomontanocondemayta@gmail.com', 'Marketing Digital', '123456789', 'dfdf', 'si', 'no', 'no', '16/4/2023', '4:30:44 PM', '1'),
-(39, 'virginia', 'eduardomontanocondemayta@gmail', 'Marketing Digital', '3434', 'fdfdf', 'si', 'no', 'no', '16/4/2023', '4:35:07 PM', '1'),
-(40, 'edu', 'julio@gmail.com', 'Marketing Digital', '988452612', '32rfsdgdgdfxd', 'si', 'no', 'no', '17/4/2023', '12:32:39 PM', '1');
+(42, 'jahir', 'eduardomontanocondemayta@gmail.com', 'Marketing Digital', '987456321', 'rgdg', 'si', 'no', 'no', '22/4/2023', '1:59:25 PM', '0'),
+(43, 'jedy', 'jedy@gmail.com', 'Marketing Digital', '72564', 'kjchbhcs', 'si', 'no', 'no', '22/4/2023', '2:03:39 PM', '0'),
+(44, 'jahir', 'eduardomontanocondemata@gmail.com', 'Imagen Corporativa', '58485', 'sfsfsf', 'si', 'no', 'no', '22/4/2023', '4:45:58 PM', '1');
 
 -- --------------------------------------------------------
 
@@ -95,7 +95,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `contactanos`
 --
 ALTER TABLE `contactanos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
