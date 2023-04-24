@@ -24,7 +24,7 @@
       $segundo_connsulta = "DELETE FROM contactanos  WHERE fecha='$currentDate'" ;
       if ($conn->query($segundo_connsulta) === TRUE) {
         
-        header("Location: ../intranet.php?mensaje=Se dio por atendido con exito  se elimanará despues de 15 dias apartir de esta fecha $currentDate2");
+        header("Location: ../intranet.php?mensaje=Se dio por atendido con exito  se elimanará despues de 15 dias apartir de hoy.");
         //echo "Eliminación exitosa para la fecha: " . $currentDate . "<br>";
       } else {
         echo "Error al eliminar datos para la fecha: " . $currentDate . ". Error: " . $conn->error . "<br>";
