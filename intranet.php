@@ -44,7 +44,7 @@ if (!isset($_SESSION['usuario'])) {
     padding: 5px;
     border-radius: 20px;
     font-size: 11px;
-    color: white;
+    color: black;
     font-weight: bold;
     
    }
@@ -77,7 +77,16 @@ if (!isset($_SESSION['usuario'])) {
     <br>
 
     <div class="table-responsive px-5 " id="sx">
+   
     <table class="table table-striped table-bordered" id="miTabla">
+    <?php
+        # si hay un mensaje, mostrarlo
+        if (isset($_GET["mensaje"])) { ?>
+           <div class="alert alert-primary des" role="alert">
+                <?php echo $_GET["mensaje"] ?>
+            </div>
+    <?php } ?>
+
       <thead>
         <tr>
             <th scope="col">ID</th>
@@ -108,25 +117,10 @@ if (!isset($_SESSION['usuario'])) {
             $conn = mysqli_connect($server, $user, $pass, $db);
 
             
-            //Paginador
-            $sql_registe = mysqli_query($conn, "SELECT COUNT(*) as total_registro FROM contactanos");
-            $result_register = mysqli_fetch_array($sql_registe);
-            $total_registro = $result_register['total_registro'];
+            
+           
 
-            $por_pagina = 50;
-
-            if (empty($_GET['pagina'])) {
-                $pagina = 1;
-            } else {
-                $pagina = $_GET['pagina'];
-            }
-
-            $desde = ($pagina - 1) * $por_pagina;
-            $total_paginas = ceil($total_registro / $por_pagina);
-
-            $query = mysqli_query($conn, "SELECT * FROM contactanos 
-                                     ORDER BY id 
-                                     ASC LIMIT $desde,$por_pagina");
+            $query = mysqli_query($conn, "SELECT * FROM contactanos  ORDER BY estado DESC; ");
 
             mysqli_close($conn);
 
@@ -213,4 +207,15 @@ if (!isset($_SESSION['usuario'])) {
     }*/
       
 </script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      setTimeout(function() {
+        $(".des").fadeOut(1500);
+      }, 6000);
+    });
+  </script>
+
+
 </html>
