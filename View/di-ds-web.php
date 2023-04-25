@@ -24,7 +24,7 @@
    
         <div class="principal">
             <div class="letra_titulo">
-                <h1 class="d">DISEÑO Y DESARROLLO WEB</h1>
+                <h1 class="d" style="text-transform: uppercase; font-weight: normal; color: white; animation: neon 3s infinite; opacity: 1.2;">DISEÑO Y DESARROLLO WEB</h1>
             </div>
         </div>
    </div>
@@ -41,7 +41,7 @@
    </div>
    <div class="">
         <div class="ser">
-        <h4 style="color: #6434d1; font-weight: bold;">Servicios de Marketing</h4>
+        <h4 style="color: white; font-weight: bold;">Servicios de Marketing</h4>
         </div>
         <div class="co" id="">
             <div class="mar">
