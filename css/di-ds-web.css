@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background: linear-gradient(to right,  rgb(197, 0, 223),rgb(0, 132, 255));
+}
+.banner{
+    background-image: url('../img/servicio_marketing_digital.webp');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.principal{
+   
+    height: 100%;
+    padding-left: 100px;
+    padding-top: 200px;
+    
+    
+}
+
+.d{
+    color: #9e7fe2;
+    font-weight: bold;
+    font-size: 4.2rem;
+}
+.creativas{
+    color:#FF0080;
+    font-weight: 700;
+    margin-left: 90px;
+}
+
+.info{
+    margin-top: 120px;
+
+    width: 60%;
+    padding: 10px;
+    
+}
+.es{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 550;
+    
+}
+.btu{
+    margin-left: 240px;
+}
+.con{
+    background-color: #6434d1;
+    color: white;
+    padding: 9px;
+    border: none;
+    border-radius: 50px;
+    width: 155px;
+}
+.con:hover{
+    color: #6434d1;
+    background-color: white;
+}
+.ser{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    padding-left: 80px;
+}
+.co{
+    background-color: #6434d1;
+    width: 100%;
+    height: 400px;
+}
+.mar{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 80px;
+    width: 100%;
+    height: 100%;
+    /**/
+   
+  
+  
+   
+}
+
+.hover{
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: all 300ms;
+
+    border-radius: 10px;
+}
+
+.hover:hover{
+    box-shadow: 0px 0px 20px -5px black; 
+}
+
+.hover img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 300ms;
+}
+
+.hover:hover img{
+    transform: scale(1.6) rotate(10deg);
+}
+
+.hover p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: white;
+    z-index: 2;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+    border: 2px solid white;
+    background: black;
+    padding: 7px;
+}
+
+.hover:hover p{
+     transform: translate(-50%, -50%) scale(1);
+}
+
+.hover:before,
+.hover:after{
+    content: '';
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0.6;
+    transition: all 600ms cubic-bezier(1,0,0,1);
+    border: 4px solid white;
+    z-index: 1;
+}
+
+.hover:before{
+    transform: rotate(45deg) translateY(-850px) translateX(0px);
+}
+
+.hover:after{
+    transform: rotate(45deg) translateY(850px) translateX(-60px);
+}
+
+.hover:hover:before{
+    transform: rotate(45deg) translateY(-205px) translateX(-50px);
+}
+
+.hover:hover:after{
+    transform: rotate(45deg) translateY(205px) translateX(-70px);
+}
+
+
+.cx{
+    background-color: #FF0080;
+    width: 100%;
+    height: 400px;
+}
+
+.cp{
+    width: 100%;
+    height: 300px;
+    background-color: #9e7fe2;
+}
+.cpx{
+    width: 100%;
+    height: 400px;
+    background-color: #FF0080;
+}
+.texg{
+    width: 100%;
+}
+.tx{
+    color: white;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.no{
+    font-weight: 600;
+    
+}
+.btr{
+    margin-top: 45px;
+    margin-left: 160px;
+}
+.b{
+    background: linear-gradient(to right,  rgb(225, 0, 255),rgb(0, 225, 255));
+    color: #ffffff;
+    padding: 8px;
+    border: none;
+    align-items: center;
+    border-radius: 50px;
+}
+.texter{
+    margin-left: 210px;
+}
+.tx2{
+    color: white;
+}
+.sssa{
+    text-align: center;
+    padding-top: 80px;
+}
+.btr2{
+    padding-top: 15px;
+}
+
+/*medias querys*/
+/*celular*/
+@media (max-width:700px) {
+    .banner{
+        width: 100%;
+        height: 55%;
+    }
+    
+    .principal{
+        padding: 0;
+        height: 50%;
+        float: left;
+        margin-top: 120px;
+        margin-left: 100px;
+        margin-right: 20px;
+        
+        
+    }
+    .d{
+        
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .creativas{
+       
+        font-weight: 700;
+        margin: 0;
+        font-size: 1rem;
+    }
+    .info{
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        padding-top: 15px;
+        
+    }
+    .es{
+        text-align: left;
+        font-size: 15px;
+        font-weight: 550;
+        
+    }
+    .btu{
+        margin: 0;
+    }
+    .con{
+        background-color: #6434d1;
+        color: white;
+        padding: 9px;
+        border: none;
+        border-radius: 50px;
+        width: 155px;
+    }
+    .con{
+        background-color: #6434d1;
+        color: white;
+        padding: 7px;
+        border: none;
+        border-radius: 50px;
+        width: 135px;
+    }
+    .ser{
+        padding: 0;
+        padding: 15px;
+        padding-left: 40px;
+        
+    }
+    .co{
+        background-color: #6434d1;
+        width: 100%;
+        height: 800px;
+    }
+    .cx{
+        width: 100%;
+        height:800px;
+    }
+    .hover{
+        width: 100%;
+        height: 30%;
+    }
+    .mar{
+        padding: 40px;
+    }
+
+    .tx{
+        height: 0;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+
+    }
+    .tx2{
+        padding: 0;
+        margin: 0;
+        
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .texg{
+        width: 100%;
+    }
+    .no,.no2{
+        font-size: 1.2rem;
+        
+    }
+    .parr,.texte2r,.parr2,.saxc2{
+        font-size: 0.8rem;
+    }
+    .btr{
+       margin: 0;
+      
+    }
+    .b{
+        padding: 5px;
+    }
+    .cpx{
+        width: 100%;
+        height: 400px;
+        background-color: #FF0080;
+    }
+    .sssa{
+        text-align: center;
+        padding: 0;
+        padding-top: 58px;
+    }
+
+
+}
+
+
+/*****/
+/**tablet**/
+@media (min-height:1023px)  {
+    .banner{
+        height: 35%;
+    }
+    .principal{
+        margin: 0;
+        padding: 0;
+        height: 30%;
+        padding-top: 80px;
+       padding-left: 470px;
+       
+        
+    }
+    .d{
+        
+        font-weight: bold;
+        font-size: 2.2rem;
+    }
+    .creativas{
+        color:#FF0080;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    .info{
+        margin: 0;
+        
+        width: 90%;
+        padding: 0;
+        padding-top: 45px;
+    }
+    .es{
+        text-align: left;
+        font-size: 15px;
+        font-weight: 550;
+        
+    }
+    .btu{
+        margin: 0;
+        
+    }
+    .con{
+        background-color: #6434d1;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 50px;
+        width: 155px;
+        font-size: 14px;
+    }
+
+    
+    .ser{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        padding: 25px;
+    }
+    .co{
+        
+        width: 100%;
+        height: 250px;
+    }
+    .cx{
+        
+        height: 250px;
+    }
+    .mar{
+        
+        width: 100%;
+        
+        padding: 40px;
+       
+        /**/
+    }
+    .hover img{
+        width: 100%;
+    }
+
+
+    .cp{
+        width: 100%;
+        height: 280px;
+        background-color: #9e7fe2;
+    }
+    .cpx{
+        width: 100%;
+        height: 400px;
+        background-color: #FF0080;
+    }
+    .texg{
+        width: 100%;
+    }
+    .tx{
+        color: white;
+        
+       text-align: center;
+        
+    }
+    
+    .btr{
+       margin: 0;
+    }
+    .b{
+        background: linear-gradient(to right,  rgb(225, 0, 255),rgb(0, 225, 255));
+        color: #ffffff;
+        padding: 8px;
+        border: none;
+        align-items: center;
+        border-radius: 50px;
+    }
+    .texter{
+        margin-left: 210px;
+    }
+    .tx2{
+        color: white;
+    }
+    .sssa{
+        text-align: center;
+        padding-top: 80px;
+    }
+    .btr2{
+        padding-top: 15px;
+    }
+    
+}
