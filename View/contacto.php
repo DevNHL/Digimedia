@@ -10,7 +10,7 @@
     <!-- CSS only -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/conctato.css?2000">
+    <link rel="stylesheet" href="../css/conctato.css">
 </head>
 
 <body>
@@ -81,7 +81,6 @@
                             </div>
                         </div>
 
-
                         <div class="mb-3">
                             <div class="pt-3">Mensaje</div>
                             <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje" required></textarea>
@@ -110,7 +109,6 @@
                             <a href="" class="l">Linkedin</a>
 
                         </div>
-
 
 
 
@@ -161,14 +159,11 @@ $(document).ready(function() {
     date = new Date().toLocaleDateString();
     campofecha.value=date
 
-
     const hora=document.getElementById("hora");
     var today=new Date();
     var horas=today.toLocaleTimeString('en-Us');
     hora.value=horas
 
-
 </script>
-
 
 </html>
