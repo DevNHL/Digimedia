@@ -8,6 +8,7 @@
     <title>.:: DigiMedia ::.</title>
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -36,20 +37,20 @@
         <h4 align="center">Frequently asked questions</h4>
         <p class="sub-tit">Preguntas Frecuentes</p>
         <div class="question">
-            <h3>¿C&oacute;mo me ayuda una agencia de marketing digital a vender más?</h3>
+            <h3>¿C&oacute;mo me ayuda una agencia de marketing digital a vender más?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>Estamos convencidos que los principales prop&oacute;sitos de una agencia de marketing digital son: mejorar el posicionamiento de una marca y aumentar la rentabilidad , haciendo uso de diferentes herramientas y estrategias de comunicaci&oacute;n , diseño y contenido eligiendo los canales correctos para su difusión y efectividad.</p>
             </div>
         </div>
         <div class="question">
-            <h3>¿C&oacute;mo pueden ayudar a mi empresa a mejorar su presencia en linea?</h3>
+            <h3>¿C&oacute;mo pueden ayudar a mi empresa a mejorar su presencia en linea?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>Nuestros servicios de marketing digital están diseñados para ayudar a las empresas a mejorar su presencia en lines a trav&eacute;s de estrategias efectivas de
                     SEO, publicidad en linea, marketing de contenido, marketing de redes sociales y m&aacute;s.</p>
             </div>
         </div>
         <div class="question">
-            <h3>¿Cu&aacute;l es la diferencia entre diseño web y desarrollo web?</h3>
+            <h3>¿Cu&aacute;l es la diferencia entre diseño web y desarrollo web?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>La diferencia entre diseño y desarrollo web puede ser confusa, pero en resumen, el desarrollo web se refiere a la creación de sitios y aplicaciones web, mientras el diseño web es responsable de la est&eacute;tica y la usabilidad del sitio, ambas se
                     complementan para crear un sitio web exitoso que atraiga tr&aacute;fico y generen
@@ -57,21 +58,21 @@
             </div>
         </div>
         <div class="question">
-            <h3>¿Cu&aacute;l es la diferencia entre una agencia de publicidad y agencia de marketing digital?</h3>
+            <h3>¿Cu&aacute;l es la diferencia entre una agencia de publicidad y agencia de marketing digital?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>Una agencia de marketing digital ofrece un servicio m&aacute;s integral, as&iacute; como la de producci&oacute;n en diferentes canales de comunicaci&oacute;n digital. Entre los servicios que destacan est&aacute;n, el diseño, branding, gesti&oacute;n de redes sociales, posicionamiento web entre otros. Mientras una agencia de publicidad tiene como finalidad el desarrollo de una campaña de comunicaci&oacute;n con un objetivo espec&iacute;fico, marcando una ruta de acci&oacute;n que no solo indique la idea y mensaje creativo sino
                     tambi&eacute;n los canales de comunicación para su correcta difusi&oacute;n y efectividad.</p>
             </div>
         </div>
         <div class="question">
-            <h3>¿Por qu&eacute; es importante la creación de tu marca?</h3>
+            <h3>¿Por qu&eacute; es importante la creación de tu marca?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>Una marca te diferencia de la competencia, permite posicionarte en la mente de
                     tus consumidores, refleja la personalidad de tu empresa y transmite tus valores.</p>
             </div>
         </div>
         <div class="question">
-            <h3>¿Por qu&eacute; refrescar mi marca?</h3>
+            <h3>¿Por qu&eacute; refrescar mi marca?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>Cuando queremos comunicar un nuevo mensaje y una renovaci&oacute;n profunda es
                     importante hacerlo desde las bases, un cambio en tu marca crear&eacute; un
@@ -79,7 +80,7 @@
             </div>
         </div>
         <div class="question">
-            <h3>¿C&oacute;mo se mide el &eacute;xito de la marca corporativa?</h3>
+            <h3>¿C&oacute;mo se mide el &eacute;xito de la marca corporativa?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>Medir la marca corporativa es una tarea compleja. Se trata de evaluar la percepci&oacute;n que tienen los clientes potenciales y actuales de la marca, as&iacute; como el
                     impacto que tiene en el mercado. Para medir la marca corporativa de manera efectiva, es importante considerar una variedad de factores, desde las menciones en las redes 
@@ -87,7 +88,7 @@
             </div>
         </div>
         <div class="question">
-            <h3>¿Con que frecuencia debo publicar en redes sociales?</h3>
+            <h3>¿Con que frecuencia debo publicar en redes sociales?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>La frecuencia con la que debes publicar en las redes sociales depende de varios
                     factores, incluyendo el tipo de red social, el objetivo de la campaña de marketing
@@ -97,7 +98,7 @@
             </div>
         </div>
         <div class="question">
-            <h3>¿Cu&aacute;es son las herramientas de Marketing en las redes sociales?</h3>
+            <h3>¿Cu&aacute;es son las herramientas de Marketing en las redes sociales?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>Existe una gran variedad de herramientas de marketing en redes sociales disponibles para ayudar a 
                    las empresas a maximizar su impacto. Algunas de las herramientas incluyen el marketing de contenido, 
@@ -106,14 +107,14 @@
             </div>
         </div>
         <div class="question">
-            <h3>¿Qu&eacute; es SEO?</h3>
+            <h3>¿Qu&eacute; es SEO?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>El SEO implica optimizar tanto el contenido como la estructura del sitio web para que coincida con las consultas de los usuarios. Tambi&eacute;n puede incluir el marketing de contenidos orientado a atraer tr&aacute;fico de calidad desde un motor de búsqueda (como Google, Bing o Yahoo) o desde fuentes externas, como las
                     redes sociales.</p>
             </div>
         </div>
         <div class="question">
-            <h3>¿Qu&eacute; ventajas aporta la inversion publicitaria online?</h3>
+            <h3>¿Qu&eacute; ventajas aporta la inversion publicitaria online?</h3><i class="fas fa-chevron-down"></i>
             <div class="answer" style="display: none;">
                 <p>La publicidad online ofrece una serie de ventajas sobre otros medios publicitarios convencionales, como la televisi&oacute;n, la radio o el peri&oacute;dico. Pero las principales son:
                     .Es m&aacute;s econ&oacute;mica la publicidad online.
@@ -134,8 +135,10 @@
   questions.forEach((question) => {
     const title = question.querySelector('h3');
     const answer = question.querySelector('.answer');
+    const i = question.querySelector('i');
     title.addEventListener('click', () => {
       answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+      i.classList.toggle('rotate');
     });
   });
 </script>
