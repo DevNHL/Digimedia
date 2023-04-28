@@ -336,19 +336,81 @@ header.abajo ul li a {
   }
   
   .mensaje{
-    height: 20%;
-    top: 0;
+    display: flex;
+    height: 23%;
     width: 100%;
     background: linear-gradient(346deg, #009BFF 0%, #6A27B5 24.644921720027924%);
   }
   .mensaje h2{
-    padding-top: 65px;
-    padding-left: 15%;
+    font: bold;
+    padding-top: 70px;
+    padding-left: 15.5%;
     color: #fff;
   }
 
+  .pyme{
+    margin-left: 2%;
+    border-radius: 80px 80px 80px 80px;
+    margin-top: 2.5%;
+    height: 60%;
+    width: 21%;
+    display: flex;
+    text-align: left;
+    background-color: #fff;
+  }
+
+  .pyme p{
+    margin-top: 2.5%;
+    font-size: 1rem;
+  }
+
+  .mype{
+    margin-left: 5%;
+    border-radius: 80px 80px 80px 80px;
+    margin-top: 2.5%;
+    height: 60%;
+    width: 21%;
+    display: flex;
+    text-align: left;
+    background-color: #fff;
+  }
+
+  .mype p{
+    margin-top: 2.5%;
+    font-size: 1rem;
+  }
+
+  .search-container {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .search-icon {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .search-input {
+    width: 0;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    transition: width 0.5s;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    width: 200px;
+  }
+  
+
 main{
     background: linear-gradient(154deg,#009bff 6.718750298023224%,#6a27b5 72.30113744735718%);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
 }
 
 .sombra{

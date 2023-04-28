@@ -34,6 +34,10 @@
 <main class="pt-3">
 
     <div class="faq">
+        <div class="search-container">
+            <input type="text" placeholder="Buscar en preguntas frecuentes" class="search-input">
+            <img src="#" alt="Buscar" class="search-icon">
+        </div>
         <h4 align="center">Frequently asked questions</h4>
         <p class="sub-tit">Preguntas Frecuentes</p>
         <div class="question">
@@ -124,10 +128,20 @@
         </div>
     </div>
 </main>
-<main class="pt-2"></main>
+
 
 <div class="mensaje">
     <h2>D&eacute;janos un mensaje...</h2>
+
+    <div class="pyme">
+        <img src="../img/pyme.webp">
+        <p>Soy una PYME y quiero<br>una asesor&iacute;a y<br>cotizaci&oacute;n.<br><a href="#">ESCR&Iacute;BENOS</a></p>
+    </div>
+
+    <div class="mype">
+        <img src="../img/mype.webp">
+        <p>Necesito informaci&oacute;n<br>de un servicio en<br>espec&iacute;fico.<br><a href="#">ESCR&Iacute;BENOS</a></p>
+    </div>
 </div>
 
 <script>
@@ -141,6 +155,14 @@
       i.classList.toggle('rotate');
     });
   });
+
+
+    const searchIcon = document.querySelector('.search-icon');
+    const searchInput = document.querySelector('.search-input');
+    searchIcon.addEventListener('click', () => {
+    searchInput.focus();
+    });
+
 </script>
 
 <?php include 'footer.html' ?>
