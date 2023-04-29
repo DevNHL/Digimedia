@@ -35,8 +35,8 @@
 
     <div class="faq">
         <div class="search-container">
-            <input type="text" placeholder="Buscar en preguntas frecuentes" class="search-input">
-            <img src="#" alt="Buscar" class="search-icon">
+            <input type="text" placeholder="Looking for something?" class="search-input">
+            <img src="../img/lupa.png" alt="Buscar" class="search-icon">
         </div>
         <h4 align="center">Frequently asked questions</h4>
         <p class="sub-tit">Preguntas Frecuentes</p>

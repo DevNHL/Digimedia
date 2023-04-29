@@ -344,7 +344,7 @@ header.abajo ul li a {
   .mensaje h2{
     font: bold;
     padding-top: 70px;
-    padding-left: 15.5%;
+    padding-left: 15%;
     color: #fff;
   }
 
@@ -353,7 +353,7 @@ header.abajo ul li a {
     border-radius: 80px 80px 80px 80px;
     margin-top: 2.5%;
     height: 60%;
-    width: 21%;
+    width: 320px;
     display: flex;
     text-align: left;
     background-color: #fff;
@@ -369,7 +369,7 @@ header.abajo ul li a {
     border-radius: 80px 80px 80px 80px;
     margin-top: 2.5%;
     height: 60%;
-    width: 21%;
+    width: 320px;
     display: flex;
     text-align: left;
     background-color: #fff;
@@ -385,6 +385,11 @@ header.abajo ul li a {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+  }
+
+  .search-container img{
+    width: 20px;
+    height: 15px;
   }
   
   .search-icon {
@@ -649,7 +654,22 @@ main{
     .boton{
         width: 465px;
     }
-    
-    
-   
+}
+
+@media ((max-width: 1470px)){
+    .mensaje h2{
+        padding-left: 10%;
+    }
+}
+
+@media ((max-width: 1300px)){
+    .mensaje h2{
+        padding-left: 7%;
+    }
+}
+
+@media ((max-width: 1200px)){
+    .mensaje h2{
+        padding-left: 3%;
+    }
 }
