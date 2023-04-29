@@ -23,7 +23,7 @@
     <header class="fondo"></header>
   <div class="contenedor-imagen">
     <div class="contenedor-texto">
-    <span style="text-transform: uppercase; font-weight: normal; color: white; animation: neon 3s infinite; opacity: 1.2;">¿Quienes somos?</span>
+    <span style="text-transform: uppercase; font-weight: normal;  color: white; animation: neon 3s infinite; opacity: 1.2;">¿Quienes somos?</span>
     </div>
     <span class="letra">Digimedia es una empresa de marketing&nbsp; digital, que se enfoca en potenciar tu&nbsp; emprendimiento a nivel online. Además, le&nbsp; brinda a tu emprendimiento estrategias que&nbsp; ayuden a cumplir los objetivos de manera&nbsp; eficaz. Somos un grupo de personas&nbsp; comprometidas con el desarrollo de cada&nbsp; marca que nos contacta.</span>
 </div>
