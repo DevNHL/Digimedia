@@ -284,8 +284,27 @@ header.abajo ul li a {
     width: 70%;
     font-size: 65px;
     font-family: Arial, sans-serif;
-    
  }
+
+.red{
+    position: fixed;
+    top: 480px;
+    z-index: 100;
+    left: 4%;
+}
+
+.red #facebook{
+    padding-bottom: 10px;
+}
+
+.red #instagram{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.red #twitter{
+    padding-top: 10px;
+}
 
  .faq {
     margin-top: 20px;
@@ -344,8 +363,8 @@ header.abajo ul li a {
   }
   .mensaje h2{
     font: bold;
-    padding-top: 70px;
-    padding-left: 15%;
+    padding-top: 85px;
+    padding-left: 20%;
     color: #fff;
   }
 
@@ -380,6 +399,27 @@ header.abajo ul li a {
     margin-top: 2.5%;
     font-size: 1rem;
   }
+
+.whatsapp{
+    position: fixed;
+    height: 56px;
+    width: 200px;
+    top: 870px;
+    border-radius: 20px;
+    z-index: 100;
+    right: 2%;
+    background-color: rgb(255, 12, 125);
+}
+.whatsapp img{
+    position: fixed;
+    margin-top: 0.2%;
+    margin-left: 2%;
+}
+.whatsapp p{
+    margin-top: 7.5%;
+    margin-left: 45%;
+    color: rgb(255, 255, 255);
+}
 
   .search-container {
     float: right;
@@ -736,6 +776,10 @@ main{
         display: flex;
 		flex-wrap: wrap;
         margin-left: 10%;
+    }
+
+    .red{
+        display: none;
     }
 }
 

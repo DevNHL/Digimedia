@@ -30,7 +30,13 @@
     </div>
     
 </div>
-   
+
+<div class="red">
+    <div id="facebook"><a href="https://www.facebook.com/DigiMedia.Marketing1" target="_blank"><img src="../img/fb.webp"></a></div>
+    <div id="instagram"><a href="https://www.instagram.com/digimediamkt/"  target="_blank"><img src="../img/ig.webp"></a></div>
+    <div id="twitter"><a href="#"><img src="../img/tw.webp"></a></div>
+</div>
+
 <main class="pt-3">
 
     <div class="faq">
@@ -142,6 +148,10 @@
         <img src="../img/mype.webp">
         <p>Necesito informaci&oacute;n<br>de un servicio en<br>espec&iacute;fico.<br><a href="#">ESCR&Iacute;BENOS</a></p>
     </div>
+</div>
+
+<div class="whatsapp">
+<a href="https://wa.me/51999999999" target="_blank"><img src="../img/whatsapp.svg" style="width: 50px; height: 50px;"><p>Whatsapp</p></a>
 </div>
 
 <script>
