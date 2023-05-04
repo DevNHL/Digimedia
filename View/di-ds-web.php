@@ -79,7 +79,7 @@
                 <a href="ds-grafico.php" class="hover">
                     <p>Diseño Grafico</p>
                     <img src="../img/servicio_diseno_grafico.webp" alt="">
-                </a>
+                </a> 
             </div>
         </div>
    </div>
