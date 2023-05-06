@@ -42,7 +42,7 @@
     <div class="faq">
         <div class="search-container">
             <input type="text" placeholder="Looking for something?" class="search-input">
-            <img src="../img/lupa.png" alt="Buscar" class="search-icon">
+            <img src="../img/lupa.svg" alt="Buscar" class="search-icon">
         </div>
         <h4 align="center">Frequently asked questions</h4>
         <p class="sub-tit">Preguntas Frecuentes</p>
@@ -151,7 +151,7 @@
 </div>
 
 <div class="whatsapp">
-<a href="https://wa.me/51999999999" target="_blank"><img src="../img/whatsapp.svg" style="width: 50px; height: 50px;"><p>Whatsapp</p></a>
+    <a href="https://wa.me/51999999999" target="_blank"><img src="../img/whatsapp.svg" style="width: 50px; height: 50px;"><p>Whatsapp</p></a>
 </div>
 
 <script>
@@ -169,6 +169,18 @@
 
     const searchIcon = document.querySelector('.search-icon');
     const searchInput = document.querySelector('.search-input');
+    const faqs = document.querySelectorAll('.cuestion');
+    const h4 = document.querySelector('.faq h4');
+
+    searchInput.addEventListener('input', (event) => {
+        const searchTerm = event.target.value.toLowerCase();
+        faqs.forEach((cuestion) => {
+            const quest = faq.querySelector('h4').innerText.toLowerCase();
+            const containsTerm = quest.includes(searchTerm);
+            faq.style.display = containsTerm ? 'block' : 'none';
+        });
+    });
+
     searchIcon.addEventListener('click', () => {
     searchInput.focus();
     });
