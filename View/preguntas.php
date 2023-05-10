@@ -166,25 +166,23 @@
     });
   });
 
-
     const searchIcon = document.querySelector('.search-icon');
     const searchInput = document.querySelector('.search-input');
-    const faqs = document.querySelectorAll('.cuestion');
-    const h4 = document.querySelector('.faq h4');
-
-    searchInput.addEventListener('input', (event) => {
-        const searchTerm = event.target.value.toLowerCase();
-        faqs.forEach((cuestion) => {
-            const quest = faq.querySelector('h4').innerText.toLowerCase();
-            const containsTerm = quest.includes(searchTerm);
-            faq.style.display = containsTerm ? 'block' : 'none';
-        });
-    });
-
     searchIcon.addEventListener('click', () => {
     searchInput.focus();
     });
 
+document.addEventListener("keyup",e=>{
+    if(e.target.matches('.search-input')){
+        if(e.key === "Escape")e.target.value= ""
+        
+        document.querySelectorAll('.question').forEach(pregunta =>{
+            pregunta.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+                ?pregunta.classList.remove('filtro')
+                :pregunta.classList.add('filtro')
+        })
+    }
+})
 </script>
 
 <?php include 'footer.html' ?>
