@@ -41,7 +41,7 @@
     <div class="bannersec">
         <div class="conrs">
             <div class="cont">
-                <div class="titulo"><p class="tes">Servicio de Social Media</p></div>
+                <div class="titulo"><p class="tes">Te garantizamos</p></div>
                 <p class="parrafo">Crearemos y gestionaremos el perfil de tu empresa, orientada a resultados en plazos establecidos. Con nuestra gesti&oacute;n de redes sociales ayudaremos a mejorar la imagen corporativa de tu empresa o
                 negocio y conquistaremos los corazones de tu
                 target.
