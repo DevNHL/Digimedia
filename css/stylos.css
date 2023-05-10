@@ -231,7 +231,6 @@ small {
     width: 50px;
 }
 
-
 @media (max-width:540px) {
     .ro{
         flex-wrap: wrap;
@@ -281,7 +280,7 @@ small {
 
 .footer-col h4 {
     font-size: 18px;
-    color:black;
+    color:#ffffff;
     text-transform: capitalize;
     margin-bottom: 30px;
     font-weight: 500;
@@ -313,7 +312,7 @@ small {
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color: black;
+    color: #ffffff;
     display: block;
     transition: all 0.3s ease;
 }
@@ -401,7 +400,7 @@ small {
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color: black;
+    color: #ffffff;
     display: block;
 }
 
@@ -722,8 +721,8 @@ small {
         padding: 55px 0;
     }
     .divim,.d{
-        width: 250px;
-        padding-top: 15px;
+        position: relative;
+        padding-top: 0px;
         
     }
     

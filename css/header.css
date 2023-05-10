@@ -455,7 +455,9 @@ header.abajo ul li a {
     outline: none;
     width: 900px;
   }
-  
+  .filtro{
+    display: none;
+  }
   
 
 main{
