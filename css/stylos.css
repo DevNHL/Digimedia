@@ -83,7 +83,7 @@ footer a :hover {
 }
 
 .colores {
-    color: black;
+    color: #ffffff;
 
 }
 
@@ -213,22 +213,16 @@ small {
     
 }
 .conta {
-    max-width: 1000px;
+    width: 1000px;
     margin: auto;
-    padding:25px 0px;
+    padding-top:30px;
     
     
     
 }
-.footer-col h4::before {
-    content: '';
-    position: absolute;
-    left: 3;
-    bottom: -10px;
-    background-color: black;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
+.divim {
+    position: relative;
+    margin-bottom: 30px;
 }
 
 @media (max-width:540px) {
@@ -245,16 +239,7 @@ small {
         padding: 0;
         
     }
-    .footer-col h4::before {
-        content: '';
-        position: absolute;
-        left: 3;
-        bottom: -10px;
-        background-color: black;
-        height: 2px;
-        box-sizing: border-box;
-        width: 50px;
-    }
+    
     .divim{
         margin-left: 50px;
         margin-right: 20px;
@@ -274,7 +259,7 @@ small {
 
 .footer-col {
     width: 25%;
-    padding: 0 15px;
+    padding: 0px 15px;
 
 }
 
@@ -282,7 +267,7 @@ small {
     font-size: 18px;
     color:#ffffff;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     position: relative;
 }
@@ -324,14 +309,18 @@ small {
 
 }
 .ul{
-    padding-left: 20px;
+    padding-left: 0px;
+}
+
+.footer-col .social-links{
+    margin-top: -40px;
 }
 .footer-col .social-links a {
     display: inline-block;
     height: 40px;
     width: 40px;
     
-    margin: 0 10px 10px 0;
+    margin: 0 0 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -705,26 +694,17 @@ small {
         border-radius: 50px;
         width: 150px;
     }
-    .footer-col h4::before {
-        content: '';
-        position: absolute;
-        left: 3;
-        bottom: -10px;
-        background-color: black;
-        height: 2px;
-        box-sizing: border-box;
-        width: 50px;
-    }
-    .conta {
+    
+    /* .conta {
         max-width: 1300px;
         margin: auto;
         padding: 55px 0;
-    }
-    .divim,.d{
+    } */
+    /* .divim,.d{
         position: relative;
         padding-top: 0px;
         
-    }
+    } */
     
     #divim1{
         display: none;

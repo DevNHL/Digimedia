@@ -197,7 +197,7 @@
       </div>
 
       <div class="whatsapp">
-        <a href="https://wa.me/51999999999" target="_blank"><img src="../img/whatsapp.svg" style="width: 50px; height: 50px;"><p>Whatsapp</p></a>
+        <a href="https://wa.me/51936910425" target="_blank"><img src="../img/whatsapp.svg" style="width: 50px; height: 50px;"><p>Whatsapp</p></a>
       </div>
 
 </div>
