@@ -1,0 +1,89 @@
+/*ESTILO ALPHA
+
+.popup
+{
+    position: fixed;
+    top: 75%;
+    left: 87%;
+    transform: translate(-50%,-50%);
+}
+
+.contentBox
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    border: 10px none black;
+    border-width: left 10px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 5px 15px black;
+}
+
+.contentBox .imgBx
+{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.contentBox .imgBx img
+{
+    position: relative;
+    max-width: 250px;
+}
+ */
+ 
+/* Estlilo beta */
+
+.col-sm-4
+{
+    position: fixed;
+    top: 75%;
+    left: 92%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+.text-center{
+    margin-top: -3.0;
+  }
+
+.registration-form
+{
+    background: #f7f7f7;
+    padding: 20px;
+    border: 1px solid purple;
+    margin: 50px 0px;
+    border-radius: 20px;
+    height: 400px;
+    width: 270px;
+    box-shadow: 0 5px 15px purple;
+}
+
+.registration-form form
+{
+    top: 45%;
+    border: 1px solid #e8e8e8;
+    padding: 5px;
+    background: #f3f3f3;
+}
+
+/* .close
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: white url(../css/nos_cerrar.png);
+} */
+
+.err-msg
+{
+    color:red;
+}
