@@ -29,11 +29,11 @@
             </div>
             <div class="">
                 <div class="creativa" id="creativa">
-                    <p>Innovadora y creativa</p>
+                    <p>Contactanos e impulsa tu presencia en la web con una <b>asesoría gratuita</b></p>
                 </div>
                 <br>
                 <div class="bt" id="bt">
-                <a href="View/contacto.php" class="boton" id="prima">Contactanos</a>
+                <a href="View/contacto.php" class="boton" id="prima">Comenzar hoy mismo</a>
                 </div>
 
             </div>
