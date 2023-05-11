@@ -19,40 +19,36 @@
 
 <body style="background: linear-gradient(to right, blue, purple); background-size: cover;">
     <?php include 'assets/header.html' ?>
-    <div class="banner-image" id="banner" >
-        <div class="contenedor-principal">
+    
+    <div class="banner-image" id="banner">
+        
+            <div class="contenedor-principal">
+            <div class="degradado">
+            </div>
+            <div class="banners-letra" id="banners-letra">
+                <div class="digimedia" id="digimedia">
+                    <br>
+                    <p class="digimedias">¿No sabes por dónde empezar?</p>
+                </div>
+                <div class="">
+                    <div class="creativa" id="creativa">
+                        <p>Contáctanos e impulsa tu presencia en la web con una <b>asesoría gratuita</b></p>
+                    </div>
+                    <br>
+                    <div class="bt" id="bt">
+                    <a href="View/contacto.php" class="boton" id="prima"><b>Comenzar hoy mismo</b></a>
+                    </div>
+                    </div>
         </div>
-        <div class="banners-letra" id="banners-letra">
-            <div class="digimedia" id="digimedia">
-                <br>
-                <p class="digimedias" id="dige">DIGIMEDIA</p>
-            </div>
-            <div class="">
-                <div class="creativa" id="creativa">
-                    <p>Contactanos e impulsa tu presencia en la web con una <b>asesoría gratuita</b></p>
-                </div>
-                <br>
-                <div class="bt" id="bt">
-                <a href="View/contacto.php" class="boton" id="prima">Comenzar hoy mismo</a>
-                </div>
-
-            </div>
             
         </div>
+    </div> 
+    <div class="banner-imag">
+    <div class="container">  
+    <div class="pt-3"></div>
+        <center><h4 class="letra2-subs">Servicios de Marketing</h4></center>
+    </div>  
     </div>
-    <div class="con-anun">
-        <div class="parrafos">
-            <h3 class="titulo"><b>¿Quieres iniciar tu empresa digital?</b></h3>
-            <p class="texto"><span class="negrita">EN DIGIMEDIA</span> te brindamos asesor&iacute;a personalizada para emprender o hacer crecer tu negocio, estamos enfocados a lograr <span class="text-info">resultados comerciales</span> y de <span class="text-info"> marketing</span> con <span class="text-info"> creatividad</span> y <span class="text-info"> estrategias.</span></p>
-        </div>
-        <div class="bota">
-            <a href="View/contacto.php" class="boton__" id="be">Contactanos</a>
-        </div>
-    </div>
-    <div class="pt-4"></div>
-                                                <div class="container">
-                                                    <center><h4 class="letra-subs">Servicios de Marketing</h4></center>
-                                                </div>      
                                                         <div class="container m" >
                                                             <div class="d-none d-lg-block">
                                                                 <div class="d-none d-md-block ">
