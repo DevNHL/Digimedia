@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,108 +12,107 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- Stylos Css propios -->
-    <!-- <link rel="stylesheet" href="../css/dw.css?2002e23"> -->
-    <link rel="stylesheet" href="../css/diseno_web.css?2002e23">
+    <link rel="stylesheet" href="../css/diseno_web.css?881">
+    
+    
 
 </head>
 
-<body>
+<body class="body">
     <?php include 'header.html' ?>
-    <div class="banerprincipal" >
-        <div class="padre">
-        <div class="contenedors">
-            <div class="ckjb">
-            <div class="tit" id="maquina">DISEÑO WEB.</div>
+   <div class="banner">
+   
+        <div class="principal">
+            <div class="letra_titulo">
+                <h1 class="d" style="text-transform: uppercase; font-weight: normal; color: white; animation: neon 3s infinite; opacity: 1.2;">DISEÑO Y DESARROLLO WEB</h1>
             </div>
-            
-            <p class="sub">En Digimedia, construimos contigo la presencia de tu empresa en internet. Enfocados en el <br>
-            marketing digital, buscamos que tu web esté enfocada en tus visitantes y optimizada para <br>
-            Google (SEO).</p>
-            <div class="con">
-                <a href="contacto.php" class="boton_con">Contactar</a>
+        </div>
+   </div>
+   <div class="cp">
+    <div class="tx">
+        <center><div class="texg">
+            <h3 class="no">¿No sabes por d&oacute;nde empezar?</h3><div class="pt-3"></div>
+            <p class="parr">En Digimedia, te brindamos asesor&iacute;a perssonalizada para emprender o hacer crecer tu negocio.</p>
+            <div class="btr">
+            <a href="contacto.php" ><button class="b">Contactanos</button></a>
             </div>
+        </div></center>
+    </div>
+   </div>
+   
+   <div class="">
+        <div class="ser">
+        <h4 style="color: white; font-weight: bold;">Servicios de Marketing</h4>
+        </div>
+        <div class="co" id="">
+            <div class="mar">
+               
+                <a href="marketing-digital.php" class="hover">
+                    <p>Marketing Digital</p>
+                    <img src="../img/servicio_marketing_digital.webp" alt="">
+                </a>
+                <a href="img-corp.php" class="hover">
+                    <p>Imagen Corporativa</p>
+                    <img src="../img/imagen_coorporativa.webp" alt="">
+                </a>
+                <a href="rd-sociales.php" class="hover">
+                    <p>Gesti&oacute; de Redes Sociales</p>
+                    <img src="../img/servicio_de_getion_de_redes_sociales.webp" alt="">
+                </a>
+            </div>
+        </div>
+   </div>
+
+   <div class="">
+        <div class="ser">
+        <h4 style="color: white; font-weight: bold;">Servicios para Tu marca</h4>
+        </div>
+        <div class="cx">
+            <div class="mar">
+                <a href="ds-web.php" class="hover"> 
+                    <p>Diseño Web</p>
+                    <img src="../img/servicio_de_diseno_web.webp" alt="">
+                </a>
+                <a href="marca.php" class="hover">
+                    <p>Crear tu Marca</p>
+                    <img src="../img/servicio_cambiar_tu_marca.webp" alt="">
+                </a>
+                <a href="ds-grafico.php" class="hover">
+                    <p>Diseño Grafico</p>
+                    <img src="../img/servicio_diseno_grafico.webp" alt="">
+                </a> 
+            </div>
+        </div>
+   </div>
+   </div> 
+   <div class="pt-5"></div>
+       <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126777.96020960424!2d-79.72782079999999!3d-6.7928064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1681256123713!5m2!1ses!2spe"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+       </div>
             
-        </div>
-        </div>
-    </div>
-    <div class="pt-5"></div>
 
-    <div class="bannersec">
-        <div class="conrs">
-            <div class="cont">
-                <div class="titulo"><p class="tes">Servicio de Diseño Web</p></div>
-                <p class="parrafo">Implementar tu plataforma web para tu negocio ayudará,a que muchos procesos internos y externos sean optimizados. <br>
-                Empieza con tu plan de diseño de páginas web y dale a tu marca un lugar único en internet para llegar a más personas y brindarles una experiencia cómoda, amigable y sorprendente. 
-                </p>
-            </div> 
-        </div>
-        
-    </div>
-
-    <div class="pt-5"></div>
-
-    <div class="bannersec3">
-        <div class="conrs2">
-            <div class="cont2">
-                <div class="titulo2"><p class="tes">Diseño de página web en Lima - Perú</p></div>
-                <p class="parrafo">Crear tu página web te permite transmitir una correcta información sobre los productos o servicios de tu marca basada en la experiencia de usuario (UX). Nuestro servicio incluye:<br>
-                     <ul class="parrafo">
-                         <li type="disc">Análisis de competencia </li>
-                         <li type="disc">UX/UI </li>
-                         <li type="disc">Diseño Responsive .</li>
-                         <li type="disc">Chat integrado  </li>
-                         <li type="disc">Sitio web administrable </li>
-                         <li type="disc">Data Estructurada </li>
-                         <li type="disc">Optimización SEO</li>
-                     </ul>
-                </p>
-            </div> 
-        </div>
-    </div>
-
-    <div class="pt-5"></div>
-
-    <div class="bannersec4">
-        <div class="conrs">
-            <div class="cont">
-                <div class="titulo"><p class="tes">Nuestra técnica de trabajo</p></div>
-                <p class="parrafo">En Digimedia disponemos de un equipo de profesionales desarrolladores , los cuales se enfocaran en la planificación y desarrollo de páginas web, con la finalidad de responder a las necesidades de la empresa y la de los usuarios.<br>
-                     <ul class="parrafo">
-                         <li type="disc">Análisis e investigación</li>
-                         <li type="disc">Experiencia de usuario y diseño de interfaces</li>
-                         <li type="disc">Ejecución de desarrollo web</li>
-                         <li type="disc">User testing</li>
-                         <li type="disc">Optimización del sitio web (SEO on page)</li>
-                         <li type="disc">Entrega del sitio web</li>
-                     </ul>
-                </p>
-            </div> 
-        </div>
-        
-    </div>
-
-    <div class="pt-5"></div>
-
-    <div class="bannersec5">
-        <div class="conrs">
-            <div class="cont">
-                <div class="titulo2"><p class="tes">La Importancia de Diseño Web para tu Marca</p></div>
-                <p class="parrafo">
-                     <ul class="parrafo">
-                         <li type="disc">Permite tener presencia de marca en diferentes canales digitales de comunicación</li>
-                         <li type="disc">Incrementa la visibilidad de tu negocio </li>
-                         <li type="disc">Origina credibilidad y confianza en tu público objetivo</li>
-                         <li type="disc">Permite obtener datos y analizar el comportamiento e intereses de tus visitantes </li>
-                         <li type="disc">Posiciona tu marca frente a tus competidores en motores de búsqueda</li>
-                     </ul>
-                </p>
-            </div> 
-        </div>
-    </div>
-
-    <div class="pt-5"></div>
-    <?php include 'footer.html' ?>
+           <?php include 'footer.html' ?>
 
 </body>
-<script src="../js/maquina_dw.js"></script> 
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+   setTimeout(function() {
+       $(".des").fadeOut(1500);
+   },3000);
+});
+</script>
+<script>
+   const campofecha=document.getElementById("fecha");
+   //console.log(campofecha)
+   date = new Date().toLocaleDateString();
+   campofecha.value=date
+
+   const hora=document.getElementById("hora");
+   var today=new Date();
+   var horas=today.toLocaleTimeString('en-Us');
+   hora.value=horas
+
+</script>
+
 </html>
