@@ -17,7 +17,7 @@
     
 </head>
 
-<body style="background: linear-gradient(to right, blue, purple); background-size: cover;">
+<body style="background: #0092F1; background-size: cover;">
     <?php include 'assets/header.html' ?>
     
     <div class="banner-image" id="banner">
