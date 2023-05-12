@@ -19,7 +19,6 @@
 
 
 
-
 /* ------------- estilos generales ---------------- */
 body,
 html {
@@ -84,7 +83,7 @@ footer a :hover {
 }
 
 .colores {
-    color: black;
+    color: #ffffff;
 
 }
 
@@ -151,6 +150,13 @@ small {
     border-radius: 5px;
     
 }
+.form-control2{
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
 .card ::placeholder{
     color: inherit;
     opacity: 1;
@@ -158,14 +164,16 @@ small {
 
 
 #formulario button {
-    background: var(--first-color);
-    border: 1px solid #fd5f00;
-    border-radius: 2px;
+    background: #7ac2f1;
+    border: none;
+    border-radius: 5px;
     color: #f6f6e9;
+    position: relative;
     display: block;
-    width: 100%;
-    padding: 8px;
-    font-size: 18px;
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+    left: 40%;
 }
 
 .ale {
@@ -188,7 +196,7 @@ small {
 
 /*---estilos para el footer---*/
 .footer {
-    background-color:#F2EFEF;
+    background-color:rgb(0,155,255);
    
 
 }
@@ -205,24 +213,17 @@ small {
     
 }
 .conta {
-    max-width: 1000px;
+    width: 1000px;
     margin: auto;
-    padding:25px 0px;
+    padding-top:30px;
     
     
     
 }
-.footer-col h4::before {
-    content: '';
-    position: absolute;
-    left: 3;
-    bottom: -10px;
-    background-color: black;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
+.divim {
+    position: relative;
+    margin-bottom: 30px;
 }
-
 
 @media (max-width:540px) {
     .ro{
@@ -238,16 +239,7 @@ small {
         padding: 0;
         
     }
-    .footer-col h4::before {
-        content: '';
-        position: absolute;
-        left: 3;
-        bottom: -10px;
-        background-color: black;
-        height: 2px;
-        box-sizing: border-box;
-        width: 50px;
-    }
+    
     .divim{
         margin-left: 50px;
         margin-right: 20px;
@@ -267,15 +259,15 @@ small {
 
 .footer-col {
     width: 25%;
-    padding: 0 15px;
+    padding: 0px 15px;
 
 }
 
 .footer-col h4 {
     font-size: 18px;
-    color:black;
+    color:#ffffff;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     position: relative;
 }
@@ -305,7 +297,7 @@ small {
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color: black;
+    color: #ffffff;
     display: block;
     transition: all 0.3s ease;
 }
@@ -317,14 +309,18 @@ small {
 
 }
 .ul{
-    padding-left: 20px;
+    padding-left: 0px;
+}
+
+.footer-col .social-links{
+    margin-top: -40px;
 }
 .footer-col .social-links a {
     display: inline-block;
     height: 40px;
     width: 40px;
     
-    margin: 0 10px 10px 0;
+    margin: 0 0 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -393,7 +389,7 @@ small {
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
-    color: black;
+    color: #ffffff;
     display: block;
 }
 
@@ -417,7 +413,7 @@ small {
     font-weight: normal;
     color: white;
     animation: neon 3s infinite;
-    opacity: 1.2;
+    opacity: 0.7;
 
 }
 .primas{
@@ -698,26 +694,17 @@ small {
         border-radius: 50px;
         width: 150px;
     }
-    .footer-col h4::before {
-        content: '';
-        position: absolute;
-        left: 3;
-        bottom: -10px;
-        background-color: black;
-        height: 2px;
-        box-sizing: border-box;
-        width: 50px;
-    }
-    .conta {
+    
+    /* .conta {
         max-width: 1300px;
         margin: auto;
         padding: 55px 0;
-    }
-    .divim,.d{
-        width: 250px;
-        padding-top: 15px;
+    } */
+    /* .divim,.d{
+        position: relative;
+        padding-top: 0px;
         
-    }
+    } */
     
     #divim1{
         display: none;
@@ -772,16 +759,3 @@ small {
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {}
-
-.ta{
-    display: flex;
-    justify-content: space-between;
-}
-.bos{
-    display: none;
-}
-.cen{
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}

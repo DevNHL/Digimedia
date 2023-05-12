@@ -194,7 +194,11 @@
           <p class="f">Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
         </div>
       </div>
-    
+
+      <div class="whatsapp">
+        <a href="https://wa.me/51936910425" target="_blank"><img src="../img/whatsapp.svg" style="width: 50px; height: 50px;"><p>Whatsapp</p></a>
+      </div>
+
 </div>
 
     <br><br><br>
