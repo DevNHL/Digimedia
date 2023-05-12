@@ -22,24 +22,26 @@
         <div class="padre">
         <div class="contenedors">
             <div class="ckjb">
-                <div class="tit" id="maquina">GESTI&Oacute;N DE REDES  SOCIALES.</div>
-            </div>
-            
-            <p class="sub">En Digimedia ayudaremos a mejorar la imagen de tu marca. Asimismo, a incrementar y conquistar <br>   
-            los corazones de tu target.</p>
-            <div class="con">
-                <a href="contacto.php" class="boton_con">Contactar</a>
-            </div>
-            
+                <div class="tit" id="maquina">GESTIÓN DE REDES  SOCIALES...</div> 
+            </div>          
         </div>
         </div>
     </div>
-    <div class="pt-5"></div>
-
+    <div class="cp">
+    <div class="tx">
+        <center><div class="texg">
+            <h3 class="no">En Digimedia ayudaremos a mejorar la imagen de tu marca. Asimismo, a incrementar y conquistar <br>   
+            los corazones de tu target.</h3><div class="pt-3"></div>
+            <div class="btr">
+            <a href="contacto.php" ><button class="b">Contactanos</button></a>
+            </div>
+        </div></center>
+    </div>
+   </div>
     <div class="bannersec">
         <div class="conrs">
             <div class="cont">
-                <div class="titulo"><p class="tes">Servicio de Social Media</p></div>
+                <div class="titulo"><p class="tes">Te garantizamos</p></div>
                 <p class="parrafo">Crearemos y gestionaremos el perfil de tu empresa, orientada a resultados en plazos establecidos. Con nuestra gesti&oacute;n de redes sociales ayudaremos a mejorar la imagen corporativa de tu empresa o
                 negocio y conquistaremos los corazones de tu
                 target.
@@ -114,7 +116,6 @@
 
     <div class="pt-5"></div>
     <?php include 'footer.html' ?>
-
 
 </body>
 <script src="../js/maquina.js"></script>
