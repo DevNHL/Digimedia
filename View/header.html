@@ -1,108 +1,121 @@
-    <header>
-        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-        <!-- Fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- Stylos Css propios -->
-        <link rel="stylesheet" href="../css/header.css?1501023">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-        <link rel="stylesheet" href="../css/stylos.css?125895">
-        <nav class="container-fluid">
+<header>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylos Css propios -->
+    <link rel="stylesheet" href="../css/header.css?1501023">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/stylos.css?125895">
+    <nav class="container-fluid">
 
-            <div>
-                <a class="navbar-brand" href="../index.php">
-                    <img src="../img/logoblanco.webp" class="logoimagen"  alt="Logo">
+        <div>
+            <a class="navbar-brand" href="../index.php">
+                <img src="../img/logoblanco.webp" class="logoimagen"  alt="Logo">
+            </a>
+        </div>
+
+        <div class="navb-items d-none d-xl-flex">
+
+            <div class="item">
+                <a href="../index.php">Inicio</a>
+            </div>
+            <div class="item">
+                <a href="nosotros.php" role="button" >
+                    Nosotros
                 </a>
             </div>
-
-            <div class="navb-items d-none d-xl-flex">
-
-                <div class="item">
-                    <a href="../index.php">Inicio</a>
-                </div>
-                <div class="item">
-                    <a href="nosotros.php" role="button" >
-                        Nosotros
-                    </a>
-                </div>
-
-                <div class="item">
-                    <a href="servicios.php">Servicios</a>
-                </div>
-                <div class="item">
-                    <a href="contacto.php">Cont&aacute;ctanos</a>
+            <div class="item">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <div class="item">
+                                <a>Servicios</a>
+                            </div>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-item"><a href="marketing-digital.php">Marketing Digital</a></div>
+                        <div class="accordion-item"><a href="ds-web.php">Diseño y Desarrollo Web</a></div>
+                        <div class="accordion-item "><a href="rd-sociales.php">Redes Sociales</a></div>
+                      </div>
+                    </div>        
                 </div>
             </div>
-
-            <!-- Button trigger modal -->
-            <div class="mobile-toggler d-lg-none">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
+            <div class="item">
+                <a href="contacto.php">Cont&aacute;ctanos</a>
             </div>
+        </div>
 
-            <!-- Modal -->
-            <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" id="ventanaemergente">
-                    <div class="modal-content" id="modal-content">
+        <!-- Button trigger modal -->
+        <div class="mobile-toggler d-lg-none">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
 
-                        <div class="modal-header" id="modal-header">
-                            <img src="../img/logoblanco.webp" alt="Logo" style="width: 150px;">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
-                                    class="fa-solid fa-xmark"></i></button>
+        <!-- Modal -->
+        <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" id="ventanaemergente">
+                <div class="modal-content" id="modal-content">
+
+                    <div class="modal-header" id="modal-header">
+                        <img src="../img/logo_header.svg" alt="Logo" style="width: 150px;">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                                class="fa-solid fa-xmark"></i></button>
+                    </div>
+
+                    <div class="modal-body" id="modal-body">
+
+                        <div class="modal-line sa">
+                            <a href="../index.php">Inicio</a>
                         </div>
 
-                        <div class="modal-body" id="modal-body">
+                        <div class="modal-line">
+        
+                                <a href="nosotros.php" >Nosotros</a>
+                           
+                        </div>
 
-                            <div class="modal-line sa">
-                                <a href="../index.php">Inicio</a>
-                            </div>
-
-                            <div class="modal-line">
-            
-                                    <a href="nosotros.php" >Nosotros</a>
-                               
-                            </div>
-
-                            <div class="modal-line">
-                                <div class="accordion accordion-flush" id="accordionFlushExample">
-                                    <div class="accordion-item">
-                                      <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                            <div class="item">
-                                                <a>Servicios</a>
-                                            </div>
-                                        </button>
-                                      </h2>
-                                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-item"><a href="marketing-digital.php">Marketing Digital</a></div>
-                                        <div class="accordion-item"><a href="ds-web.php">Diseño Web</a></div>
-                                        <div class="accordion-item "><a href="rd-sociales.php">Redes Sociales</a></div>
-                                      </div>
-                                    </div>        
-                                </div>
-                            </div>
-
-
-                            <div class="modal-line">
-                                <a href="contacto.php">Cont&aacute;ctanos</a>
+                        <div class="modal-line">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <div class="item">
+                                            <a>Servicios</a>
+                                        </div>
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-item"><a href="marketing-digital.php">Marketing Digital</a></div>
+                                    <div class="accordion-item"><a href="ds-web.php">Diseño Web</a></div>
+                                    <div class="accordion-item "><a href="rd-sociales.php">Redes Sociales</a></div>
+                                  </div>
+                                </div>        
                             </div>
                         </div>
 
-                        <div class="mobile-modal-footer">
-
-                            <a target="_blank" href="https://www.instagram.com/digimediamkt/"><i class="fa-brands fa-instagram"></i></a>
-                            <a target="_blank" href="https://pe.linkedin.com/in/digimedia-marketing?trk=public_post_feed-actor-name"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a target="_blank" href="https://www.youtube.com/@digimediamarketing2636"><i class="fa-brands fa-youtube"></i></a>
-                            <a target="_blank" href="https://www.tiktok.com/@digimediamkt?lang=es"><i class="fab fa-tiktok"></i></a>
-                            <a target="_blank" href="https://www.facebook.com/DigiMedia.Marketing1"><i class="fa-brands fa-facebook"></i></a>
+                        <div class="modal-line">
+                            <a href="contacto.php">Cont&aacute;ctanos</a>
                         </div>
+                    </div>
+
+                    <div class="mobile-modal-footer">
+
+                        <a target="_blank" href="https://www.instagram.com/digimediamkt/"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://pe.linkedin.com/in/digimedia-marketing?trk=public_post_feed-actor-name"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/@digimediamarketing2636"><i class="fa-brands fa-youtube"></i></a>
+                        <a target="_blank" href="https://www.tiktok.com/@digimediamkt?lang=es"><i class="fab fa-tiktok"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/DigiMedia.Marketing1"><i class="fa-brands fa-facebook"></i></a>
                     </div>
                 </div>
             </div>
+        </div>
 
-        </nav>
-        
-    </header>
+    </nav>
+    
+</header>
