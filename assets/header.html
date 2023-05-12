@@ -1,88 +1,87 @@
-    <header>
-         <!-- Fontawesome -->
+<header>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- Stylos Css propios -->
-<link rel="stylesheet" href="css/header.css?78s95">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <nav class="container-fluid">
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylos Css propios -->
+    <link rel="stylesheet" href="../css/header.css?1501023">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/stylos.css?125895">
+    
+    <nav class="container-fluid">
+        <div>
+            <a class="navbar-brand" href="../index.php">
+                <img src="../img/logo_header.webp" class="logoimagen"  alt="Logo">
+            </a>
+        </div>
 
-            <div>
-                <a class="navbar-brand" href="index.php">
-                    <img src="img/logo_header.svg" class="logoimagen"  alt="Logo">
-                </a>
+        <div class="navb-items d-none d-xl-flex">
+
+            <div class="item">
+                <a href="../index.php"><p style="text-align: center; line-height: 37px;">HOME</p></a>
             </div>
-
-            <div class="navb-items d-none d-xl-flex">
-
-                <div class="item">
-                    <a href="index.php">Inicio</a>
-                </div>
-                <div class="item">
-                    <a href="View/nosotros.php" role="button" >
-                        Nosotros
-                    </a>
-                </div>
-
-                <div class="item">
-                    <a href="View/servicios.php">Servicios</a>
-                </div>
-                <div class="item">
-                    <a href="View/contacto.php">Cont&aacute;ctanos</a>
-                </div>
+            <div class="item">
+                <a href="../View/servicios.php"><p style="text-align: center; line-height: 37px;">SERVICIOS</p></a>
             </div>
-
-            <!-- Button trigger modal -->
-            <div class="mobile-toggler d-lg-none">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
+            <div class="item">
+                <a href="../View/nosotros.php"><p style="text-align: center; line-height: 37px;">NOSOTROS</p></a>
             </div>
+            <div class="item">
+                <a href="../View/contacto.php"><p style="text-align: center; line-height: 37px;">MORE</p></a>
+            </div>
+        </div>
 
-            <!-- Modal -->
-            <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" id="ventanaemergente">
-                    <div class="modal-content" id="modal-content">
+        <!-- Button trigger modal -->
+        <div class="mobile-toggler d-lg-none">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
 
-                        <div class="modal-header" id="modal-header">
-                            <img src="img/logo_header.svg" alt="Logo" style="width: 150px;">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
-                                    class="fa-solid fa-xmark"></i></button>
+        <!-- Modal -->
+        <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" id="ventanaemergente">
+                <div class="modal-content" id="modal-content">
+
+                    <div class="modal-header" id="modal-header">
+                        <img src="../img/logo_header.svg" alt="Logo" style="width: 150px;">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                                class="fa-solid fa-xmark"></i></button>
+                    </div>
+
+                    <div class="modal-body" id="modal-body">
+
+                        <div class="modal-line sa">
+                            <a href="../index.php">Inicio</a>
                         </div>
 
-                        <div class="modal-body" id="modal-body">
-
-                            <div class="modal-line sa">
-                                <a href="index.php">Inicio</a>
-                            </div>
-
-                            <div class="modal-line">
-            
-                                    <a href="#" >Nosotros</a>
-                               
-                            </div>
-
-                            <div class="modal-line">
-                                <a href="View/blog.php">Servicios</a>
-                            </div>
-
-                            <div class="modal-line">
-                                <a href="View/contacto.php">Cont&aacute;ctanos</a>
-                            </div>
+                        <div class="modal-line">
+                                <a href="../View/nosotros.php" >Nosotros</a>
                         </div>
 
-                        <div class="mobile-modal-footer">
+                        <div class="modal-line">
+                            <a href="../View/blog.php">Servicios</a>
+                        </div>
 
-                            <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a>
-                            <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <div class="modal-line">
+                            <a href="../View/contacto.php">Cont&aacute;ctanos</a>
                         </div>
                     </div>
+
+                    <!-- <div class="mobile-modal-footer">
+
+                        <a target="_blank" href="https://www.instagram.com/digimediamkt/"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a target="_blank" href="https://www.tiktok.com/@digimediamkt?lang=es"><i class="fab fa-tiktok"></i></a>
+                        <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div> -->
                 </div>
             </div>
+        </div>
 
-        </nav>
-        
-    </header>
+    </nav>
+    
+</header>

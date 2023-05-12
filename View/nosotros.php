@@ -32,7 +32,7 @@
   .contenedor-imagen {
     background-color: #6a27b5;
     width: 100%;
-    height: 32%;
+    height: 40%;
     display: flex;
     justify-content: center;
   }
