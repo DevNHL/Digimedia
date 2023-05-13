@@ -122,36 +122,30 @@
             
                 <!--====Solicitud Pop-up====-->
                 <div class="registration-form">
+                    <div class="close"><img src="../img/nos_cerrar.png"></div>
                     <h5 class="text-center">Contactanos</h5>
                     
                     <p class="text-success text-center"></p> <form action="" method="post">
 
                     <!--//Nombre//-->
                     <div class="form-group">
-                    <label for="email">Nombre</label>
-                        
-                        <input type="text" class="form-control" placeholder="Ingresar Nombre Completo" name="first_name" value="">
-
-                    <p class="err-msg">
-                    </p>
+                    <label for="name">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Ingresar Nombre Completo" name="name" id="name">
+                    <p class="err-msg"></p>
                     </div>
+                    
                     <!--//Telefono//-->
                     <div class="form-group">
-                        <label for="email">Telefono</label>
-                            
-                        <input type="text" class="form-control" placeholder="Ingresar Telefono Personal" name="last_name" value="">
-                        <p class="err-msg"> 
-                
-                        </p>
+                        <label for="phone">Telefono</label>
+                        <input type="text" class="form-control" placeholder="Ingresar Telefono Personal" name="phone" id="phone">
+                        <p class="err-msg"></p>
                     </div>
                     
                     <!--//Correo//-->
                     <div class="form-group">
                         <label for="email">Correo:</label>
-                            
-                    <input type="text" class="form-control" id="email" placeholder="Ingresar Correo" name="email" value="">
-                        <p class="err-msg">
-                        </p>
+                    <input type="text" class="form-control" id="email" placeholder="Ingresar Correo" name="email" id="email">
+                        <p class="err-msg"></p>
                     </div>
                 
                     <button type="submit" class="btn btn-danger" name="submit">Enviar</button>
@@ -161,6 +155,21 @@
         </div>
     </div>
 
+    <!-- Script para mostrar el pop-up -->
+    <script>
+        const popup = document.querySelector('.col-sm-4')
+        const close =document.querySelector('.close')
+        
+        window.onload = function(){
+            setTimeout(function(){
+                popup.style.display = "block";
+            }, 1000);
+        }
+
+        close.addEventListener('click', () => {
+            popup.style.display = "none";
+        })
+    </script>
 </body>
 <script src="../js/maquina_dw.js"></script> 
 </html>
