@@ -17,13 +17,13 @@
     <?php include 'header.html' ?>
 
     <center >
-        <h4 class="h1">Contactanos</h4>
+        <h4 class="h1">Contáctanos</h4>
     </center>
     <div class="principal">
         <div class="pos">
             <div class="imagen">
                 
-                <h4 class="h1x">Contactanos</h4>
+                <h4 class="h1x">Contáctanos</h4>
             </div>
             <div class="formulario">
                 <div class="col-md-10 offset-md-1">
@@ -121,17 +121,15 @@
            
             <div class="cont">
                 <div class="grande">
-                    <h2 style="font-weight: bold;">Openig Hours</h2>
+                    <h2 style="font-weight: bold;">Horario de atención</h2>
                 </div>
                 <div>
-                    <p>Mon-Fri</p>
-                    <p>Saturday</p>
-                    <p>Sunday</p>
+                    <p>Lunes - Viernes</p>
+                    <p>Sábado</p>
                 </div>
                 <div>
                     <p>8:00 am - 8:00 pm</p>
                     <p>9:00 am - 7:00 pm</p>
-                    <p>9:00 am - 9:00 pm</p>
                 </div>
             </div>
             
