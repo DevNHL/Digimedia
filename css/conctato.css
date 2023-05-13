@@ -5,6 +5,8 @@
 .h1{
   
     font-size: 2.5rem;
+    color: white;
+    background-color: #9e7fe2;
 }
 .pos{
     display: flex;
