@@ -20,6 +20,7 @@
 
 <body>
 <?php include 'header.html' ?>
+<?php include 'pregunt.html' ?>
 
 <div class="banner-image2" id="banner2">
     <div class="contenedor-principal2">
