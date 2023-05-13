@@ -141,12 +141,12 @@
 
     <div class="pyme">
         <img src="../img/pyme.webp">
-        <p>Soy una PYME y quiero<br>una asesor&iacute;a y<br>cotizaci&oacute;n.<br><a href="#">ESCR&Iacute;BENOS</a></p>
+        <p>Soy una PYME y quiero<br>una asesor&iacute;a y<br>cotizaci&oacute;n.<br><a style="color: #6434d1;" href="#">ESCR&Iacute;BENOS</a></p>
     </div>
 
     <div class="mype">
         <img src="../img/mype.webp">
-        <p>Necesito informaci&oacute;n<br>de un servicio en<br>espec&iacute;fico.<br><a href="#">ESCR&Iacute;BENOS</a></p>
+        <p>Necesito informaci&oacute;n<br>de un servicio en<br>espec&iacute;fico.<br><a style="color: #6434d1;" href="#">ESCR&Iacute;BENOS</a></p>
     </div>
 </div>
 
