@@ -112,11 +112,11 @@ if (!isset($_SESSION['usuario'])) {
       </tbody>
     </table>
   </div>
-  <div class="cen">
+  <center><div class="cen">
   <button class="btn btn-success"  onclick="exportToExcel()"><i class="fa-solid fa-file-excel fa-beat"></i></button>
-    <button  class="btn btn-danger"  id="pdfout"><i class="fa-solid fa-file-pdf fa-beat"></i></button>
-    <button class="btn btn-primary"  onclick="imprimirParteDePagina()"><i class="fa-solid fa-print fa-beat"></i></button>
-    </div>
+  <button  class="btn btn-danger"  id="pdfout"><i class="fa-solid fa-file-pdf fa-beat"></i></button>
+  <button class="btn btn-primary"  onclick="imprimirParteDePagina()"><i class="fa-solid fa-print fa-beat"></i></button>
+    </div></center>
   </main>
   
       </thead>
