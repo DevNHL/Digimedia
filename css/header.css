@@ -50,17 +50,63 @@ header .navb-items {
 }
 
 header .item {
+    width: 152px;
+    height: 37px;
     font-weight: bold;
     text-align: center;
     font-size: 15px;
     padding: 0 40px;
-    margin-bottom: -18px;
     margin-left: 15px;
     transition: all .1s ease;
     cursor: pointer;
 }
 
 header .item:hover {
+    background-color: rgb(255,12,125);
+}
+
+/* Estilos para la barra desplegable */
+.navb-items .item .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6A27B5;
+    width: 220px;
+    border-radius: 10px;
+}
+
+.navb-items .item .dropdown-content .op{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.navb-items .item:hover .dropdown-content {
+    display: block;
+}
+.navb-items .item .dropdown-content .op:hover{
+    background-color: rgb(255,12,125);
+}
+
+.navb-items .item .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #6A27B5;
+    width: 140px;
+    border-radius: 10px;
+}
+
+.navb-items .item .dropdown-content2 .op2{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.navb-items .item:hover .dropdown-content2 {
+    display: block;
+}
+.navb-items .item .dropdown-content2 .op2:hover{
     background-color: rgb(255,12,125);
 }
 
@@ -370,6 +416,11 @@ header.abajo ul li a {
     font-size: 1rem;
   }
 
+  .pyme a{
+    color: #009bff;
+    text-decoration: underline;
+  }
+
   .mype{
     margin-left: 5%;
     border-radius: 80px 80px 80px 80px;
@@ -384,6 +435,11 @@ header.abajo ul li a {
   .mype p{
     margin-top: 2.5%;
     font-size: 1rem;
+  }
+
+  .mype a{
+    color: #009bff;
+    text-decoration: underline;
   }
 
 .whatsapp{
