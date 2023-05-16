@@ -17,7 +17,7 @@
     
 </head>
 
-<body style="background: #0092F1; background-size: cover;">
+<body>
     <?php include 'assets/header.html' ?>
     
     <div class="banner-image" id="banner">
@@ -30,7 +30,7 @@
                     <br>
                     <p class="digimedias">¿No sabes por dónde empezar?</p>
                 </div>
-                <div class="">
+                <div>
                     <div class="creativa" id="creativa">
                         <p>Contáctanos e impulsa tu presencia en la web con una <b>asesoría gratuita</b></p>
                     </div>
@@ -40,44 +40,29 @@
                     </div>
                     </div>
         </div>
-            
-        </div>
     </div> 
     <div class="banner-imag">
     <div class="container">  
     <div class="pt-3"></div>
         <center><h4 class="letra2-subs">Servicios de Marketing</h4></center>
         <div class="pt-4"></div>
-        <div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
-        <div class="vdlnAC wixui-box" data-testid="container-bg"></div>
-        <div data-mesh-id="comp-lfiuazkxinlineContent" data-testid="inline-content" class="">
-            <div data-mesh-id="comp-lfiuazkxinlineContent-gridContainer" data-testid="mesh-container-content">
-                <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
-                    <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
-                        <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:269,&quot;targetHeight&quot;:174,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
-                            <img src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="width: 269px; height: 174px; object-fit: cover;">
-                        </wow-image>
-                    </a>
-                </div>
-                <div id="comp-j6c378qv" class="KcpHeO tz5f0K comp-j6c378qv wixui-rich-text" data-testid="richTextElement">
-                    <p class="font_7 wixui-rich-text__text" style="font-size:20px; line-height:normal;">
-                        <span style="color:#009BFF;" class="wixui-rich-text__text">
-                            <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
-                            <span style="font-size:20px;" class="wixui-rich-text__text">
-                                <span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color: ##00A8FF">DISEÑO Y DESARROLLO WEB</b></span>
+        <div >
+            <img src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="width: 280px; height: 194px; object-fit: cover;">
+                <div data-testid="richTextElement">
+                    <p class="font_7 " style="font-size:20px; line-height:normal;">
+                        <span style="color:#059EFF;">
+                            <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self">
+                            <span style="font-size:20px;">
+                                <span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; "><b style="color:#059EFF">DISEÑO Y DESARROLLO WEB</b></span>
                             </span>
                             </a>
                         </span>
                     </p>
                 </div>
-            <div id="comp-j6c3a6m8" class="comp-j6c3a6m8 aVng1S wixui-horizontal-line" data-angle="0" data-angle-style-location="style" style="visibility: inherit;" data-screen-in-hide="done"></div>
+                </div>
         </div>
-        </div>
-        </div>
-    </div>
     </div>
     <div class="pt-4"></div>
-
     <div class="con-anun1" style="background: linear-gradient(to right,  rgb(235, 80, 255),rgb(162, 0, 255));">
         <div class="parrafos1">
             <h5 class="titulo1">¿Tienes alguna duda sobre nuestros servicios?</h5>
