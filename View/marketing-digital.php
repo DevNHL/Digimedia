@@ -13,6 +13,8 @@
     <!-- Stylos Css propios -->
     <!-- <link rel="stylesheet" href="../css/dw.css?2002e23"> -->
     <link rel="stylesheet" href="../css/mk.css">
+    <!-- Stylos Css para ventana emergente(Prueba 1) -->
+    <link rel="stylesheet" type="text/css" href="../css/vent_emrgnt.css">
 
 </head>
 
@@ -75,7 +77,50 @@
 
     <div class="pt-5"></div>
     <?php include 'footer.html' ?>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
 
+                <!--====Solicitud Pop-up====-->
+                <div class="registration-form">
+                    <h5 class="text-center">Brindanos tus datos</h5>
+
+                    <p class="text-success text-center"></p> <form action="" method="post">
+
+                    <!--//Nombre//-->
+                    <div class="form-group">
+                    <label for="email">Nombre</label>
+
+                        <input type="text" class="form-control" placeholder="Ingresar Nombre Completo" name="first_name" value="">
+
+                    <p class="err-msg">
+                    </p>
+                    </div>
+                    <!--//Telefono//-->
+                    <div class="form-group">
+                        <label for="email">Telefono</label>
+
+                        <input type="text" class="form-control" placeholder="Ingresar Telefono Personal" name="last_name" value="">
+                        <p class="err-msg"> 
+
+                        </p>
+                    </div>
+
+                    <!--//Correo//-->
+                    <div class="form-group">
+                        <label for="email">Correo:</label>
+
+                    <input type="text" class="form-control" id="email" placeholder="Ingresar Correo" name="email" value="">
+                        <p class="err-msg">
+                        </p>
+                    </div>
+
+                    <button type="submit" class="btn btn-danger" name="submit" style="margin: 10px;">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="../js/maquina_mk.js"></script> 
 </html>

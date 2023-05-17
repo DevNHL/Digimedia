@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 
-
 }
 
 /* ------------- Mis variables----------- */
@@ -18,16 +17,13 @@
 /* ------------- Reseteo ---------------- */
 
 
-
 /* ------------- estilos generales ---------------- */
 body,
 html {
     margin: 0;
     height: 100%;
 
-
 }
-
 
 /* ---------------Stylos de Bootstrap ------------- */
 .bg-dark {
@@ -60,7 +56,6 @@ html {
 .text-reset {
     text-decoration: none;
 }
-
 
 
 /* ----------------- Mis Stylos--------------------- */
@@ -162,7 +157,6 @@ small {
     opacity: 1;
 }
 
-
 #formulario button {
     background: #7ac2f1;
     border: none;
@@ -179,7 +173,6 @@ small {
 .ale {
     display: none !important;
 
-
 }
 
 .ale-env {
@@ -188,11 +181,9 @@ small {
     font-size: 15px;
 }
 
-
 .boton2:hover{
     color: white;
 }
-
 
 /*---estilos para el footer---*/
 .footer {
@@ -200,7 +191,6 @@ small {
    
 
 }
-
 
 .ul {
     list-style: none;
@@ -276,7 +266,6 @@ small {
     text-transform: capitalize;
     position: relative;
 }
-
 
 
 .footer-col ul li:not(:last-child) {
@@ -433,7 +422,6 @@ small {
 }
 
 
-
 @keyframes neon {
     0% {
         text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
@@ -453,7 +441,6 @@ small {
             0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
     }
 }
-
 
 
 #img-fluid{
@@ -607,7 +594,6 @@ small {
     
 }
 
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .hv:hover {
@@ -619,7 +605,6 @@ small {
     }
     
 }
-
 
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -711,7 +696,6 @@ small {
     }
 }
 
-
 /*x-large devices (large deskots ,599px and up)*/
 @media (max-width:1280px) {
     .m{
@@ -754,7 +738,6 @@ small {
     }
     
 }
-
 
 
 /* XX-Large devices (larger desktops, 1400px and up) */

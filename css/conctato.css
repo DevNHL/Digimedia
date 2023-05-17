@@ -3,8 +3,11 @@
     padding: 0;
 }
 .h1{
-  
-    font-size: 2.5rem;
+    font-size: 4rem;
+    /*font-size: 2.5rem;  */
+    color: white;
+    background-color: #6A27B5;
+    margin: 0px;
 }
 .pos{
     display: flex;
@@ -66,7 +69,7 @@
     border: 1px solid red;
 }
 .col{
-    background-color: azure;
+    background-color: #6A27B5;
     opacity: 1;
     width: 100%;
     height: 250px;
@@ -76,13 +79,13 @@
     display: flex;
     
     justify-content: space-around;
-    padding-top: 60px;
+    padding-top: 85px;
     flex-wrap: wrap;
-    
+    color: white;
 }
 .mapa{
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .map{
     height: 100%;

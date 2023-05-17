@@ -10,20 +10,20 @@
     <!-- CSS only -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/conctato.css?2000">
+    <link rel="stylesheet" href="../css/conctato.css">
 </head>
 
 <body>
     <?php include 'header.html' ?>
 
     <center >
-        <h4 class="h1">Contactanos</h4>
+        <h4 class="h1">Contáctanos</h4>
     </center>
     <div class="principal">
         <div class="pos">
             <div class="imagen">
                 
-                <h4 class="h1x">Contactanos</h4>
+                <h4 class="h1x">Contáctanos</h4>
             </div>
             <div class="formulario">
                 <div class="col-md-10 offset-md-1">
@@ -81,7 +81,6 @@
                             </div>
                         </div>
 
-
                         <div class="mb-3">
                             <div class="pt-3">Mensaje</div>
                             <textarea name="mensaje" class="form-control" id="mensaje" cols="30" rows="4" placeholder="Mensaje" required></textarea>
@@ -113,7 +112,6 @@
 
 
 
-
                     </form>
 
                 </div>
@@ -123,17 +121,15 @@
            
             <div class="cont">
                 <div class="grande">
-                    <h2 style="font-weight: bold;">Openig Hours</h2>
+                    <h2 style="font-weight: bold;">Horario de atención</h2>
                 </div>
                 <div>
-                    <p>Mon-Fri</p>
-                    <p>Saturday</p>
-                    <p>Sunday</p>
+                    <p>Lunes - Viernes</p>
+                    <p>Sábado</p>
                 </div>
                 <div>
                     <p>8:00 am - 8:00 pm</p>
                     <p>9:00 am - 7:00 pm</p>
-                    <p>9:00 am - 9:00 pm</p>
                 </div>
             </div>
             
@@ -161,14 +157,11 @@ $(document).ready(function() {
     date = new Date().toLocaleDateString();
     campofecha.value=date
 
-
     const hora=document.getElementById("hora");
     var today=new Date();
     var horas=today.toLocaleTimeString('en-Us');
     hora.value=horas
 
-
 </script>
-
 
 </html>

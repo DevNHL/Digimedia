@@ -20,26 +20,26 @@
 
 <body>
     <?php include 'header.html' ?>
-    <header class="fondo"></header>
+
   <div class="contenedor-imagen">
     <div class="contenedor-texto">
-    <span style="text-transform: uppercase; font-weight: normal;  color: white; animation: neon 3s infinite; opacity: 1.2;">¿Quienes somos?</span>
+      ¿Quienes somos?
     </div>
-    <span class="letra">Digimedia es una empresa de marketing&nbsp; digital, que se enfoca en potenciar tu&nbsp; emprendimiento a nivel online. Además, le&nbsp; brinda a tu emprendimiento estrategias que&nbsp; ayuden a cumplir los objetivos de manera&nbsp; eficaz. Somos un grupo de personas&nbsp; comprometidas con el desarrollo de cada&nbsp; marca que nos contacta.</span>
-</div>
+    <span>Digimedia es una empresa de marketing&nbsp; digital, que se enfoca en potenciar tu&nbsp; emprendimiento a nivel online. Además, le&nbsp; brinda a tu emprendimiento estrategias que&nbsp; ayuden a cumplir los objetivos de manera&nbsp; eficaz. Somos un grupo de personas&nbsp; comprometidas con el desarrollo de cada&nbsp; marca que nos contacta.</span>
+  </div>
 
 <style>
   .contenedor-imagen {
-    background: linear-gradient(to right,  #ec25a3,#3079e6);
+    background-color: #6a27b5;
     width: 100%;
-    height: 38%;
+    height: 32%;
     display: flex;
     justify-content: center;
   }
 
   .contenedor-texto {
     position: absolute;
-    top: 50%;
+    top: 18%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -48,22 +48,6 @@
     width: 100%;
     margin: 0;
     font-weight: 600;
-    font-family: Arial, sans-serif;
-  }
-  .purple {
-  color: rgb(170, 7, 170);
-  }
-  .letra{
-    
-    top: 100%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: justify;
-    font-size: 1.2rem;
-    width: 70%;
-    margin: 0;
     font-family: Arial, sans-serif;
   }
   span{
@@ -91,7 +75,7 @@
       width: 88%;
     }
     .contenedor-imagen {
-      height: 40%;
+      height: 60%;
     }
   }
 
@@ -128,20 +112,20 @@
 <div class="pt-5"></div>
 
 <div class="banner">
-  <img src="../img/somos la agencia.webp" alt="Descripción de la imagen">
+  <img src="../img/nos_mision.webp" alt="Descripción de la imagen">
   <div class="content">
-    <h1 Style="color:rgb(170, 7, 170);">Misión</h1>
-    <p Style="color:rgb(170, 7, 170);">Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
+    <h1>Misi&oacute;n</h1>
+    <p>Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
   </div>
 </div>
 <div class="pt-5"></div>
 
 <div class="banner">
   <div class="content">
-    <h1 Style="color:rgb(170, 7, 170);">Visión</h1>
-    <p Style="color:rgb(170, 7, 170);">Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
+    <h1>Visi&oacute;n</h1>
+    <p>Ser aliado de los emprendimientos en su posicionamiento digital; mediante la generación de contenido estratégico que garantice el cumplimiento de los objetivos planteados.</p>
   </div>
-  <img src="../img/servicio creacion de marca.webp" alt="Descripción de la imagen">
+  <img src="../img/nos_vision.webp" alt="Descripción de la imagen">
 </div>
 
 <div class=conten>
@@ -160,28 +144,61 @@
     <div class="pt-5"></div>
 
     <div class="container">
-      <div class="columna-img">
-        <img src="https://static.wixstatic.com/media/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_6ddd8c6aca364f9ebd016b3f40250276~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
-        <img src="https://static.wixstatic.com/media/ec738b_2c43825705e541f98206802b4cf36783~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_2c43825705e541f98206802b4cf36783~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
-        <img src="https://static.wixstatic.com/media/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_c24ad69f431c4d219788e836bb1cf36f~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
-        <img src="https://static.wixstatic.com/media/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_a0899ceb641e4baeb541afae4655b09e~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
-        <img src="https://static.wixstatic.com/media/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png/v1/fill/w_85,h_85,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ec738b_f4af369389dc47828073f21b4ff37919~mv2.png" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+
+      <div class="img">
+      <img src="../img/nos_responsabilidad.webp" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+        <div class="tit">
+          <b><p>Responsabilidad</p></b>
+        </div>
+        <div class="con">
+          <p class="a">Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
+        </div>
       </div>
-      <div class="columna-izquierda">
-        <b><p>Responsabilidad</p></b>
-        <b><p>Innovación</p></b>
-        <b><p>Adaptavilidad</p></b>
-        <b><p>Trabajo en equipo</p></b>
-        <b><p>Compromiso</p></b>
+
+      <div class="img">
+      <img src="../img/nos_innovacion.webp" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+        <div class="tit">
+          <b><p>Innovación</p></b>
+        </div>
+        <div class="con">
+          <p class="b">Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
+        </div>
       </div>
-      <div class="columna-derecha">
-        <p>Nos esforzamos por ser responsables con nuestros clientes, nuestro personal y nuestro medio ambiente.</p>
-        <p>Creemos en la importancia de pensar fuera de la caja y ser pioneros en la implementación de soluciones innovadoras.</p>
-        <p>Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
-        <p>Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
-        <p>Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
+
+      <div class="img">
+      <img src="../img/nos_adaptavilidad.webp" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+        <div class="tit">
+          <b><p>Adaptavilidad</p></b>
+        </div>
+        <div class="con">
+          <p class="c">Somos flexibles y estamos dispuestos a aprender y cambiar para tener éxito en un entorno en constante cambio.</p>
+        </div>
       </div>
-    
+
+      <div class="img">
+      <img src="../img/nos_trabajo.webp" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/><br>
+        <div class="tit">
+          <b><p>Trabajo en equipo</p></b>
+        </div>
+        <div class="con">
+          <p class="e">Fomentamos un ambiente de colaboración y apoyo en el que todos puedan prosperar y alcanzar su máximo potencial.</p>
+        </div>
+      </div>
+
+      <div class="img">
+      <img src="../img/nos_compromiso.webp" alt="" style="width: 85px; height: 85px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high"/>
+        <div class="tit">
+          <b><p>Compromiso</p></b>
+        </div>
+        <div class="con">
+          <p class="f">Estamos comprometidos con nuestro trabajo y con lograr un impacto positivo en la comunidad.</p>
+        </div>
+      </div>
+
+      <div class="whatsapp">
+        <a href="https://wa.me/51936910425" target="_blank"><img src="../img/whatsapp.svg" style="width: 50px; height: 50px;"><p>Whatsapp</p></a>
+      </div>
+
 </div>
 
     <br><br><br>

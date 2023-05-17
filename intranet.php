@@ -32,33 +32,58 @@ if (!isset($_SESSION['usuario'])) {
     background-color: red;
     border: none;
     color: white;
-    padding: 8px;
-    width:150px;
+    padding: 6px;
+    width:40px;
     border-radius: 6px;
+    margin-left: 10px;
     
    }
-
+   .señ{
+    
+    background-color: greenyellow;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+    
+   }
+   .at{
+    background-color: red;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+   }
 
 </style>
-
 
 </head>
 
 <body>
     <br>
     <h1 class="text-center">Contactos Lista</h1>
-    <div class="cen">
+    <center><div class="cen">
     <a type="button" class="btn btn-primary " href="admin/cerrar.php" id="cer">Cerrar Sesion</a>
     <a type="button" class="btn btn-primary" href="admin/usuarios/index.php">Lista Usuarios</a>
    
-    </div>
+    </div></center>
    
-
 
     <br>
 
     <div class="table-responsive px-5 " id="sx">
+   
     <table class="table table-striped table-bordered" id="miTabla">
+    <?php
+        # si hay un mensaje, mostrarlo
+        if (isset($_GET["mensaje"])) { ?>
+           <div class="alert alert-primary des" role="alert">
+                <?php echo $_GET["mensaje"] ?>
+            </div>
+    <?php } ?>
+
       <thead>
         <tr>
             <th scope="col">ID</th>
@@ -72,6 +97,7 @@ if (!isset($_SESSION['usuario'])) {
             <th scope="col">PRODUCTION</th>
             <th scope="col">Fecha</th>
             <th scope="col">Hora</th>
+            <th scope="col">ESTADO</th>
             <th scope="col">ACCION</th>
         </tr>
       </thead>
@@ -87,25 +113,11 @@ if (!isset($_SESSION['usuario'])) {
             // Conexión a bd - MySQL
             $conn = mysqli_connect($server, $user, $pass, $db);
 
-            //Paginador
-            $sql_registe = mysqli_query($conn, "SELECT COUNT(*) as total_registro FROM contactanos");
-            $result_register = mysqli_fetch_array($sql_registe);
-            $total_registro = $result_register['total_registro'];
+            
+            
+           
 
-            $por_pagina = 50;
-
-            if (empty($_GET['pagina'])) {
-                $pagina = 1;
-            } else {
-                $pagina = $_GET['pagina'];
-            }
-
-            $desde = ($pagina - 1) * $por_pagina;
-            $total_paginas = ceil($total_registro / $por_pagina);
-
-            $query = mysqli_query($conn, "SELECT * FROM contactanos 
-                                     ORDER BY id 
-                                     ASC LIMIT $desde,$por_pagina");
+            $query = mysqli_query($conn, "SELECT * FROM contactanos  ORDER BY estado DESC; ");
 
             mysqli_close($conn);
 
@@ -113,6 +125,11 @@ if (!isset($_SESSION['usuario'])) {
             if ($result > 0) {
 
                 while ($data = mysqli_fetch_array($query)) {
+                if ($data['estado'] == 1) {
+                    $estado = '<span class="señ">Pendiente</span>';
+                } else {
+                    $estado = '<span class="at">Atendido</span>';
+                }
             ?>
                     <tr>
 
@@ -134,10 +151,15 @@ if (!isset($_SESSION['usuario'])) {
                                 <button type="submit" class="btn btn-danger" onclick="return confirm('&iquest Esta seguro de que desea dar por atendido?');">Atendido</button>
                             </form>
                         </td>-->
+                        <td><?php echo $estado ?></td>
+                        <?php if ($data['estado'] == 1) { ?>
                         <td>
-                           <button class="btnsx pendiente ">Pendiente</button>
+                           <form action="View/atendido.php" method="POST">
+                                 <input type="hidden" name="id" value="<?php echo $data['id'] ?>">
+                               <button type="submit" class="btnsx pendiente " onclick="return confirm('&iquest Esta seguro de que desea dar por atendido?');"><i class="fa-solid fa-trash"></i></button>
+                           </form>
                         </td>
-
+                        <?php } ?>
                     </tr>
             <?php
                 }
@@ -146,11 +168,11 @@ if (!isset($_SESSION['usuario'])) {
     </table>
     
     </div>
-    <div class="cen">
+    <center><div class="cen">
     <button class="btn btn-success"  onclick="exportToExcel()"><i class="fa-solid fa-file-excel fa-beat"></i></button>
     <button  class="btn btn-danger"  id="pdfout"><i class="fa-solid fa-file-pdf fa-beat"></i></button>
     <button class="btn btn-primary"  onclick="imprimirParteDePagina()"><i class="fa-solid fa-print fa-beat"></i></button>
-    </div>
+    </div></center>
 
     </main>
      
@@ -162,7 +184,7 @@ if (!isset($_SESSION['usuario'])) {
 
 <script>
     
-    var bton=document.getElementsByClassName("pendiente");
+   /* var bton=document.getElementsByClassName("pendiente");
    
     
     
@@ -174,21 +196,22 @@ if (!isset($_SESSION['usuario'])) {
           this.style.backgroundColor = "orange";
           this.innerText="Atendido";
           
-          //localStorage.setItem('colorBoton', this.style.backgroundColor);
+         
         };
         
-        /*const colorGuardado = localStorage.getItem('colorBoton');
-       // console.log(colorGuardado)
-        if (!colorGuardado) {
-          
-        }else{
-            //this.style.backgroundColor = colorGuardado;
-            bton[i].style.backgroundColor=colorGuardado;
-            console.log(bton[i].innerHTML)
-           
-       }*/
+      
         
-    }
+    }*/
       
 </script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      setTimeout(function() {
+        $(".des").fadeOut(1500);
+      }, 6000);
+    });
+  </script>
+
 </html>
