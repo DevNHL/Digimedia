@@ -60,6 +60,22 @@ html {
 .text-reset {
     text-decoration: none;
 }
+.mapa{
+    height: 500px;
+    margin-bottom: 0px;
+}
+.map{
+    height: 100%;
+    width: 100%;
+}
+.VideoPlayer2054936319__playerContainer {
+    border: var(--borderSize) solid rgba(var(--borderColor,0,0,0),var(--alpha-borderColor,1));
+    box-shadow: var(--boxShadow);
+    display: block;
+    margin-left: calc(-1 * var(--borderSize));
+    margin-top: calc(-1 * var(--borderSize));
+    position: absolute;
+}
 
 
 
@@ -503,6 +519,12 @@ small {
 .con-anun1{
     background-color: var(--second-color);
     height: 40%;
+    color: white;
+    text-align: center;
+}
+.con-anun1{
+    background-color: var(--second-color);
+    height: 30%;
     color: white;
     text-align: center;
 }

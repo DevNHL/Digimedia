@@ -50,10 +50,10 @@
         <div class="pt-4"></div>
         <table>
         <thead>
-            <th class="col-1"></th>
-            <th class="col-4"></th>
-            <th class="col-4"></th>
-            <th class="col-4"></th>
+            <th class="col-2"></th>
+            <th class="col-5"></th>
+            <th class="col-2"></th>
+            <th class="col-5"></th>
             <th></th>
         </thead>
         <tbody>
@@ -93,7 +93,7 @@
                 <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
                     <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
                         <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:469,&quot;targetHeight&quot;:574,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
-                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="background:white; width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_268,h_169,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg 1x, https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_536,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg" alt="2 (1).webp" fetchpriority="high" style="background:white; width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
                         </wow-image>
                     </a>
                 </div>
@@ -102,7 +102,7 @@
                         <span style="color:#059EFF;" class="wixui-rich-text__text">
                             <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
                             <span style="font-size:20px;" class="wixui-rich-text__text">
-                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color:#059EFF; background: white">DISEÑO Y DESARROLLO WEB</b></span></center>
+                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color:#059EFF; background: white"> GESTIÓN DE REDES SOCIALES</b></span></center>
                             </span>
                             </a>
                         </span>
@@ -114,7 +114,7 @@
         </div></td>
         </tr>
         <tr>
-        <td><br><br></td>
+        <td><br><br><br></td>
         <td></td>
         <td></td>
         <td></td>
@@ -129,7 +129,7 @@
                 <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
                     <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
                         <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:269,&quot;targetHeight&quot;:174,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
-                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="background:white; width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_aacf6bda467b4572910c5f249ddf8570~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="background:white; width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
                         </wow-image>
                     </a>
                 </div>
@@ -138,7 +138,7 @@
                         <span style="color:#059EFF;" class="wixui-rich-text__text">
                             <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
                             <span style="font-size:20px;" class="wixui-rich-text__text">
-                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color:#059EFF; background: white">DISEÑO Y DESARROLLO WEB</b></span></center>
+                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color:#059EFF; background: white">MARKETING Y GESTIÓN DIGITAL</b></span></center>
                             </span>
                             </a>
                         </span>
@@ -156,7 +156,7 @@
                 <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
                     <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
                         <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:469,&quot;targetHeight&quot;:574,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
-                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="background:white; width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_ef0be97a329f45399a08e2169e7f4998~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="background:white; width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
                         </wow-image>
                     </a>
                 </div>
@@ -165,7 +165,7 @@
                         <span style="color:#059EFF;" class="wixui-rich-text__text">
                             <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
                             <span style="font-size:20px;" class="wixui-rich-text__text">
-                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color:#059EFF; background: white">DISEÑO Y DESARROLLO WEB</b></span></center>
+                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color:#059EFF; background: white">BRANDING & DISEÑO</b></span></center>
                             </span>
                             </a>
                         </span>
@@ -194,6 +194,41 @@
         <div class="bota1">
             <a href="View/preguntas.php" class="boton__1">Preguntas Frecuentes</a>
         </div>
+    </div>
+    <div class="con-anun1" style="background: #FF0C7D;">
+        <table>
+        <thead>
+            <th class="col-1"></th>
+            <th class="col-4"></th>
+            <th class="col-1"></th>
+            <th class="col-5"></th>
+            <th class="col-1"></th>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td>
+            <h5 class="titulo1 parrafos1"><Big>¿Tienes alguna duda sobre nuestros servicios?</Big></h5></td>
+            <td></td>
+            <td><div class="VideoPlayer2054936319__playerContainer" data-player-name="YouTube" data-testid="youtube"><iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="5️⃣consejos para gestionar el social media para empresas✅" width="100%" height="100%" src="https://www.youtube.com/embed/3IT7lLRzs8Y?autoplay=1&amp;mute=1&amp;controls=1&amp;loop=0&amp;origin=https%3A%2F%2Fdigimediamkt.wixsite.com&amp;playsinline=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2"></iframe></div></td>
+            <td></td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+    <div class="con-anun1" style="background: linear-gradient(to right,#0199FE,#672BB7);">
+        <div class="parrafos1">
+            <h5 class="titulo1">¿Tienes alguna duda sobre nuestros servicios?</h5>
+            <p class="ten">¡Tenemos la respuesta!</p>
+            <p class="texto1">Echa un vistazo a nuestra secci&oacute;n de <span class="negrita"> Preguntas Frecuentes</span> donde encontrar&aacute;s respuestas a las preguntas m&aacute;s comunes .</p>
+            <p class="infer">Haz clic en el boton "Ver preguntas Frecuentes" para acceder a esta informaci&oacute;n valiosa.</p>
+        </div>
+        <div class="bota1">
+            <a href="View/preguntas.php" class="boton__1">Preguntas Frecuentes</a>
+        </div>
+    </div>
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126777.96020960424!2d-79.72782079999999!3d-6.7928064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1681256123713!5m2!1ses!2spe"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
     </div>
     <?php include 'assets/footer.html' ?>
 
