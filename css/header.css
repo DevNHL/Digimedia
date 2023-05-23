@@ -392,6 +392,7 @@ header.abajo ul li a {
     width: 200px; 
     height: 20px;
     border-color: #6A27B5;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
     
 }
 .letra2-subs{
@@ -507,8 +508,9 @@ div {
     transform-origin: center 2px;
 }
 .comp-j6c3a6m8 {
-    width: 210px;
+    width: 270px;
     height: 5px;
+    
 }
 [data-mesh-id=comp-lfiuazkxinlineContent-gridContainer] > [id="comp-j6c3a6m8"] {
     position: relative;

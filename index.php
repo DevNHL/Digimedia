@@ -28,15 +28,15 @@
             <div class="banners-letra" id="banners-letra">
                 <div class="digimedia" id="digimedia">
                     <br>
-                    <p class="digimedias">¿No sabes por dónde empezar?</p>
+                    <p class="digimedias"style="text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;">¿No sabes por dónde empezar?</p>
                 </div>
                 <div class="">
                     <div class="creativa" id="creativa">
-                        <p>Contáctanos e impulsa tu presencia en la web con una <b>asesoría gratuita</b></p>
+                        <p>Contáctanos e impulsa tu presencia en la web con una <b style="text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;">asesoría gratuita</b></p>
                     </div>
                     <br>
                     <div class="bt" id="bt">
-                    <a href="View/contacto.php" class="boton" id="prima"><b>Comenzar hoy mismo</b></a>
+                    <a href="View/contacto.php" class="boton" id="prima" style="text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;"><b>Comenzar hoy mismo</b></a>
                     </div>
                     </div>
         </div>
@@ -45,13 +45,16 @@
     </div> 
     <div class="banner-imag">
     <div class="container">  
-    <div class="pt-3"></div>
-    <center><h4 class="letra2-subs">Servicios de Marketing</h4></center>
-        <div class="pt-4"></div>
+    <div class="pt-4"></div>
+        <center><div style="box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px; background:#FF0C7D; width:450px; height:70px; border-radius:50px"><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif;">
+        <div class="pt-2"></div>
+        <b style="font-size:40px; line-height:normal; color: white; padding: 0px 0px 0px 0px; text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;">Nuestros Servicios</b>
+        </span></div></center>
+        <div class="pt-5"></div>
         <table>
         <thead>
             <th class="col-2"></th>
-            <th class="col-5"></th>
+            <th class="col-3"></th>
             <th class="col-2"></th>
             <th class="col-5"></th>
             <th></th>
@@ -59,24 +62,24 @@
         <tbody>
         <tr>
             <td></td>
-            <td><div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
-        
+            <td><div style ="background: white; width: 320px; height: 264px; box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px; border: 2px solid rgba(17, 0, 255, 0.8); border-radius: 5px;">
+            <div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
         <div data-mesh-id="comp-lfiuazkxinlineContent" data-testid="inline-content" class="">
-            <div data-mesh-id="comp-lfiuazkxinlineContent-gridContainer" data-testid="mesh-container-content">
+            <div data-mesh-id="comp-lfiuazkxinlineContent-gridContainer" data-testid="mesh-container-content" >
                 <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
                     <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
                         <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:269,&quot;targetHeight&quot;:174,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
-                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="background:white; width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
                         </wow-image>
                     </a>
                 </div>
                 <div id="comp-j6c378qv" class="KcpHeO tz5f0K comp-j6c378qv wixui-rich-text" data-testid="richTextElement">
-                    <p class="font_7 wixui-rich-text__text" style="font-size:20px; line-height:normal;">
+                    <p class="font_7 wixui-rich-text__text" style="">
                         <span style="color:#059EFF;" class="wixui-rich-text__text">
                             <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
                             <span style="font-size:20px;" class="wixui-rich-text__text">
-                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color:#059EFF; background: white">DISEÑO Y DESARROLLO WEB</b></span></center>
-                            </span>
+                            <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="font-size:20px; line-height:normal; color:#059EFF; padding: 20px ">DISEÑO Y DESARROLLO WEB</b></span></center>
+                            </span>    
                             </a>
                         </span>
                     </p>
@@ -84,16 +87,17 @@
             <div id="comp-j6c3a6m8" class="comp-j6c3a6m8 aVng1S wixui-horizontal-line" data-angle="0" data-angle-style-location="style" style="visibility: inherit;" data-screen-in-hide="done"></div>
         </div>
         </div>
-        </div></td>
+        </div></div></td>
             <td></td>
-            <td><div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
+            <td><div style ="background: white; width: 320px; height: 264px;box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px; border: 2px solid rgba(17, 0, 255, 0.8); border-radius: 5px;">
+            <div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
         
         <div data-mesh-id="comp-lfiuazkxinlineContent" data-testid="inline-content" class="">
         <div data-mesh-id="comp-lfiuazkxinlineContent-gridContainer" data-testid="mesh-container-content">
                 <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
                     <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
                         <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:469,&quot;targetHeight&quot;:574,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
-                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_268,h_169,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg 1x, https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_536,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg" alt="2 (1).webp" fetchpriority="high" style="background:white; width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_268,h_169,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg 1x, https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_536,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg" alt="2 (1).webp" fetchpriority="high" style="width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
                         </wow-image>
                     </a>
                 </div>
@@ -102,7 +106,7 @@
                         <span style="color:#059EFF;" class="wixui-rich-text__text">
                             <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
                             <span style="font-size:20px;" class="wixui-rich-text__text">
-                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color:#059EFF; background: white"> GESTIÓN DE REDES SOCIALES</b></span></center>
+                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="font-size:20px; line-height:normal; color:#059EFF; padding: 20px "> GESTIÓN DE REDES SOCIALES</b></span></center>
                             </span>
                             </a>
                         </span>
@@ -122,14 +126,15 @@
         </tr>
         <tr>
             <td></td>
-            <td><div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
+            <td><div style ="background: white; width: 320px; height: 264px; box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;border: 2px solid rgba(17, 0, 255, 0.8); border-radius: 5px;">
+            <div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
         
-        <div data-mesh-id="comp-lfiuazkxinlineContent" data-testid="inline-content" class="">
-            <div data-mesh-id="comp-lfiuazkxinlineContent-gridContainer" data-testid="mesh-container-content">
+        <div data-mesh-id="comp-lfiuazkxinlineContent" data-testid="inline-content" class="" style ="background: white">
+            <div data-mesh-id="comp-lfiuazkxinlineContent-gridContainer" data-testid="mesh-container-content" >
                 <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
                     <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
                         <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:269,&quot;targetHeight&quot;:174,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
-                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_aacf6bda467b4572910c5f249ddf8570~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="background:white; width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_aacf6bda467b4572910c5f249ddf8570~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
                         </wow-image>
                     </a>
                 </div>
@@ -138,7 +143,7 @@
                         <span style="color:#059EFF;" class="wixui-rich-text__text">
                             <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
                             <span style="font-size:20px;" class="wixui-rich-text__text">
-                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color:#059EFF; background: white">MARKETING Y GESTIÓN DIGITAL</b></span></center>
+                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="font-size:20px; line-height:normal; color:#059EFF; padding: 20px ">MARKETING Y GESTIÓN DIGITAL</b></span></center>
                             </span>
                             </a>
                         </span>
@@ -149,14 +154,15 @@
         </div>
         </div></td>
             <td></td>
-            <td><div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
+            <td><div style ="background: white; width: 320px; height: 264px; box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;border: 2px solid rgba(17, 0, 255, 0.8); border-radius: 5px;">
+            <div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
         
         <div data-mesh-id="comp-lfiuazkxinlineContent" data-testid="inline-content" class="">
         <div data-mesh-id="comp-lfiuazkxinlineContent-gridContainer" data-testid="mesh-container-content">
                 <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
                     <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
                         <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:469,&quot;targetHeight&quot;:574,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
-                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_ef0be97a329f45399a08e2169e7f4998~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="background:white; width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_ef0be97a329f45399a08e2169e7f4998~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
                         </wow-image>
                     </a>
                 </div>
@@ -165,7 +171,7 @@
                         <span style="color:#059EFF;" class="wixui-rich-text__text">
                             <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
                             <span style="font-size:20px;" class="wixui-rich-text__text">
-                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="color:#059EFF; background: white">BRANDING & DISEÑO</b></span></center>
+                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="font-size:20px; line-height:normal; color:#059EFF; padding: 20px ">BRANDING & DISEÑO</b></span></center>
                             </span>
                             </a>
                         </span>
