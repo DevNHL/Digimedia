@@ -190,51 +190,64 @@
         
     </div>
     </div>
-    <div class="con-anun1" style="background: linear-gradient(to right,  rgb(235, 80, 255),rgb(162, 0, 255));">
-        <div class="parrafos1">
-            <h5 class="titulo1">¿Tienes alguna duda sobre nuestros servicios?</h5>
-            <p class="ten">¡Tenemos la respuesta!</p>
-            <p class="texto1">Echa un vistazo a nuestra secci&oacute;n de <span class="negrita"> Preguntas Frecuentes</span> donde encontrar&aacute;s respuestas a las preguntas m&aacute;s comunes .</p>
-            <p class="infer">Haz clic en el boton "Ver preguntas Frecuentes" para acceder a esta informaci&oacute;n valiosa.</p>
-        </div>
-        <div class="bota1">
-            <a href="View/preguntas.php" class="boton__1">Preguntas Frecuentes</a>
-        </div>
-    </div>
-    <div class="con-anun1" style="background: #FF0C7D;">
+    <div class="con-anun2" style="background: linear-gradient(333deg, rgba(4,151,252,1) 0%, rgba(106,39,181,1) 34%);">
         <table>
         <thead>
+            <th class="col-2"></th>
+            <th class="col-2"></th>
             <th class="col-1"></th>
-            <th class="col-4"></th>
+            <th class="col-2"></th>
             <th class="col-1"></th>
-            <th class="col-5"></th>
-            <th class="col-1"></th>
+            <th class="col-2"></th>
+            <th class="col-2"></th>
         </thead>
         <tbody>
         <tr>
             <td></td>
-            <td>
-            <h5 class="titulo1 parrafos1"><Big>¿Tienes alguna duda sobre nuestros servicios?</Big></h5></td>
+            <td><div class="pt-4"></div><h5 class="titulo1"><Big>!Dejanos un mensaje¡</Big></h5></td>
             <td></td>
-            <td><div class="VideoPlayer2054936319__playerContainer" data-player-name="YouTube" data-testid="youtube"><iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="5️⃣consejos para gestionar el social media para empresas✅" width="100%" height="100%" src="https://www.youtube.com/embed/3IT7lLRzs8Y?autoplay=1&amp;mute=1&amp;controls=1&amp;loop=0&amp;origin=https%3A%2F%2Fdigimediamkt.wixsite.com&amp;playsinline=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2"></iframe></div></td>
+            <td><div style="background: white;color:black">hola</div></td>
+            <td></td>
+            <td><div style="background: white; color: black">hola</div></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+    <div class="con-anun1" style="background: #FF0C7D;">
+        <table>
+        <thead>
+            <th class="col-2"></th>
+            <th class="col-3"><h5 class="titulo1" style="margin: 50px">¿Por qué necesitas una agencia de marketing?</h5></th>
+            <th class="col-1"></th>
+            <th class="col-4"><span>
+                <iframe width="560" height="315" allowfullscreen="1" src="https://www.youtube.com/embed/3IT7lLRzs8Y?autoplay=1"></iframe></th>
+            <th class="col-2"></th>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
             <td></td>
         </tr>
         </tbody>
         </table>
     </div>
-    <div class="con-anun1" style="background: linear-gradient(to right,#0199FE,#672BB7);">
+    <div class="con-anun3" style="background: linear-gradient(to right,#0199FE,#672BB7);">
         <div class="parrafos1">
-            <h5 class="titulo1">¿Tienes alguna duda sobre nuestros servicios?</h5>
-            <p class="ten">¡Tenemos la respuesta!</p>
-            <p class="texto1">Echa un vistazo a nuestra secci&oacute;n de <span class="negrita"> Preguntas Frecuentes</span> donde encontrar&aacute;s respuestas a las preguntas m&aacute;s comunes .</p>
-            <p class="infer">Haz clic en el boton "Ver preguntas Frecuentes" para acceder a esta informaci&oacute;n valiosa.</p>
+            <h5 class="titulo1" style="text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;"><Big><Big>¿Quieres iniciarte en el mundo digital?</Big></Big></h5>
+            <div class="pt-3"></div>
+            <p style="font-size:20px; line-height:normal;"><b>En DIGIMEDIA te ayudamos a emprender o hacer crecer tu negocio.</b></p>
         </div>
+        <div class="pt-3"></div>
         <div class="bota1">
-            <a href="View/preguntas.php" class="boton__1">Preguntas Frecuentes</a>
+            <a href="View/preguntas.php" class="boton__2" style="box-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;"><b>Contactar</b></a>
         </div>
     </div>
     <div class="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126777.96020960424!2d-79.72782079999999!3d-6.7928064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1681256123713!5m2!1ses!2spe"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1950.8987069125076!2d-77.02606474445085!3d-12.057455445100679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8bb866ba571%3A0xb89ce2c672f2aa0c!2sNeon%20House%20Led!5e0!3m2!1ses!2spe!4v1684938474396!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <?php include 'assets/footer.html' ?>
 

@@ -78,7 +78,21 @@ html {
 }
 
 
-
+.sect {
+  width: 100%;
+  min-height: 500px;
+}   
+#sect1 {
+  position: relative;
+  overflow: hidden;
+}
+video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+}
 /* ----------------- Mis Stylos--------------------- */
 
 .fa-comments {
@@ -539,6 +553,11 @@ small {
     padding: 10px;
     border-radius: 50px;
 }
+.boton__2{
+    background-color: #FF0C7D;
+    padding: 10px;
+    border-radius: 50px;
+}
 .bota1{
     padding: 0;
     padding-top: 20px;
@@ -585,6 +604,14 @@ small {
         border-radius: 50px;
         
     }
+
+    .boton__2{
+        background-color: #FF0C7D;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 50px;
+    }
     
     .boton__1{
         background-color: white;
@@ -600,6 +627,13 @@ small {
     }
     .titulo1{
         font-size: 1.2rem;
+    }
+    .parrafos2{
+        padding: 0;
+        padding-top: 0;
+    }
+    .titulo2{
+        font-size: 2.2rem;
     }
     .texto{
         font-size: 1rem;
@@ -689,12 +723,31 @@ small {
         color: white;
         text-align: center;
     }
+    .con-anun2{
+    
+        height: 20%;
+        color: white;
+        text-align: center;
+    }
+    .con-anun3{
+    
+        height: 30%;
+        color: white;
+        text-align: center;
+    }
     .parrafos1{
         padding: 0;
         padding-top:45px ;
     }
     .titulo1{
         font-size: 2rem;
+    }
+    .parrafos2{
+        padding: 0;
+        padding-top:0 ;
+    }
+    .titulo2{
+        font-size: 3rem;
     }
     .ten,.texto1,.infer{
         font-size: 1.3rem
@@ -707,6 +760,15 @@ small {
     .bota1{
         padding: 0;
         padding-top: 15px;
+    }
+    
+    .boton__2{
+        background-color: #FF0C7D;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        border-radius: 50px;
+        width: 150px;
     }
     .boton__1{
         background-color: white;
