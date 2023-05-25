@@ -204,9 +204,12 @@
         <tbody>
         <tr>
             <td></td>
-            <td><div class="pt-4"></div><h5 class="titulo1"><Big>!Dejanos un mensaje¡</Big></h5></td>
+            <td><h5 class="titulo1"><Big>!Dejanos un mensaje¡</Big></h5></td>
             <td></td>
-            <td><div style="background: white;color:black">hola</div></td>
+            <td><div style="background: white;color:black">
+                <img src="img/circulo1.webp" style="border-radius: 100px" width="110" height="100">
+                <span >Soy una PYME y quiero una asesoría y cotización.</span>
+</div></td>
             <td></td>
             <td><div style="background: white; color: black">hola</div></td>
             <td></td>
@@ -215,13 +218,20 @@
     </table>
     </div>
     <div class="con-anun1" style="background: #FF0C7D;">
-        <table>
+    <div class="col-4">
+        <h5><p style="padding: 140px 0px 0px 200px" class="titulo1">¿Por qué necesitas una agencia de marketing?<div class="col-4" style="padding: 0px 0px 100px 900px" float="right">
+            <iframe width="560" height="315" allowfullscreen="1" src="https://www.youtube.com/embed/3IT7lLRzs8Y?autoplay=1"></iframe>
+        </div></p>
+        </h5>
+    </div>
+    <div></div>
+        <!--<table>
         <thead>
             <th class="col-2"></th>
-            <th class="col-3"><h5 class="titulo1" style="margin: 50px">¿Por qué necesitas una agencia de marketing?</h5></th>
+            <th class="col-3"></th>
             <th class="col-1"></th>
             <th class="col-4"><span>
-                <iframe width="560" height="315" allowfullscreen="1" src="https://www.youtube.com/embed/3IT7lLRzs8Y?autoplay=1"></iframe></th>
+                </th>
             <th class="col-2"></th>
         </thead>
         <tbody>
@@ -233,7 +243,7 @@
             <td></td>
         </tr>
         </tbody>
-        </table>
+        </table>-->
     </div>
     <div class="con-anun3" style="background: linear-gradient(to right,#0199FE,#672BB7);">
         <div class="parrafos1">

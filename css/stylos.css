@@ -77,6 +77,11 @@ html {
     position: absolute;
 }
 
+video.derecha {
+    background: url('https://www.youtube.com/embed/3IT7lLRzs8Y?autoplay=1');
+    float: right;
+    
+}
 
 .sect {
   width: 100%;
