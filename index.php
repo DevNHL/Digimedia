@@ -190,60 +190,57 @@
         
     </div>
     </div>
-    <div class="con-anun2" style="background: linear-gradient(333deg, rgba(4,151,252,1) 0%, rgba(106,39,181,1) 34%);">
+    <div class="con-anun3" style="background: linear-gradient(333deg, rgba(4,151,252,1) 0%, rgba(106,39,181,1) 34%);">
         <table>
         <thead>
-            <th class="col-2"></th>
-            <th class="col-2"></th>
+            <th class="col-3"></th>
             <th class="col-1"></th>
-            <th class="col-2"></th>
+            <th class="col-3"></th>
+            <th class="col-3"></th>
             <th class="col-1"></th>
-            <th class="col-2"></th>
-            <th class="col-2"></th>
         </thead>
         <tbody>
         <tr>
+            <td><h5 class="titulo1" style="font-size:48px; padding: 40px 0px 0px 200px; width:500px; height:500px; text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;">!Dejanos un mensaje¡</h5></td>
             <td></td>
-            <td><h5 class="titulo1"><Big>!Dejanos un mensaje¡</Big></h5></td>
-            <td></td>
-            <td><div style="background: white;color:black">
-                <img src="img/circulo1.webp" style="border-radius: 100px" width="110" height="100">
-                <span >Soy una PYME y quiero una asesoría y cotización.</span>
-</div></td>
-            <td></td>
-            <td><div style="background: white; color: black">hola</div></td>
+            <td><div style="background: white; color: black; width:360px; height:150px; border-radius:100px">
+                <img src="img/circulo1.webp" style="border-radius: 100px;float:left" width="150" height="140">
+                <div style="padding:10px 20px 10px 10px; font-size:20px; text-align:left">
+                    <span >Soy una PYME y quiero una asesoría y cotización.</span>
+                    <div></div>
+                    <span style="color:blue;" href="https://wa.me/+51936910425"><u>ESCRIBENOS</u></span>
+                </div>
+            </div></td>
+            <td><div style="background: white; color: black; width:360px; height:150px; border-radius:100px">
+                    <img src="img/circulo2.webp" style="border-radius: 100px; float:left" width="150" height="140">
+                    <div style="padding:10px 20px 10px 10px; font-size:20px; text-align:left">
+                        <span >Necesito información de un servicio en especifico.</span>
+                        <div></div>
+                        <span style="color:blue;" href="https://wa.me/+51936910425"><u>ESCRIBENOS</u></span>
+                    </div>
+            </div></td>
             <td></td>
         </tr>
         </tbody>
     </table>
     </div>
     <div class="con-anun1" style="background: #FF0C7D;">
-    <div class="col-4">
-        <h5><p style="padding: 140px 0px 0px 200px" class="titulo1">¿Por qué necesitas una agencia de marketing?<div class="col-4" style="padding: 0px 0px 100px 900px" float="right">
-            <iframe width="560" height="315" allowfullscreen="1" src="https://www.youtube.com/embed/3IT7lLRzs8Y?autoplay=1"></iframe>
-        </div></p>
-        </h5>
-    </div>
-    <div></div>
-        <!--<table>
+    <div class="col-5"></div>
+        <table>
         <thead>
-            <th class="col-2"></th>
-            <th class="col-3"></th>
             <th class="col-1"></th>
-            <th class="col-4"><span>
-                </th>
-            <th class="col-2"></th>
+            <th class="col-11"></th>
         </thead>
         <tbody>
         <tr>
             <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><div>
+                <iframe style="padding: 60px 300px 0px 0px; float:right" width="860" height="375" allowfullscreen="1" src="https://www.youtube.com/embed/3IT7lLRzs8Y?autoplay=1"></iframe>
+                <h2 style="padding: 100px 1000px 0px 0px; font-size:60px;text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;" class="titulo1">¿Por qué necesitas una agencia de marketing?</h5>
+            </div></td>
         </tr>
         </tbody>
-        </table>-->
+        </table>
     </div>
     <div class="con-anun3" style="background: linear-gradient(to right,#0199FE,#672BB7);">
         <div class="parrafos1">
