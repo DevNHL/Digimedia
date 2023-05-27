@@ -30,17 +30,17 @@
             </div>
         </div>
    </div>
-   <div class="cp">
-    <div class="tx">
-        <center><div class="texg">
-            <h3 class="no">¿No sabes por d&oacute;nde empezar?</h3><div class="pt-3"></div>
-            <p class="parr">En Digimedia, te brindamos asesor&iacute;a perssonalizada para emprender o hacer crecer tu negocio.</p>
-            <div class="btr">
-            <a href="contacto.php" ><button class="b">Contactanos</button></a>
-            </div>
-        </div></center>
+   <div class="con-anun3" style="background: linear-gradient(to right,#0199FE,#672BB7);">
+        <div class="parrafos1">
+            <h5 class="titulo1" style="text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;"><Big><Big>¿Quieres iniciarte en el mundo digital?</Big></Big></h5>
+            <div class="pt-3"></div>
+            <p style="font-size:20px; line-height:normal;"><b>En DIGIMEDIA te ayudamos a emprender o hacer crecer tu negocio.</b></p>
+        </div>
+        <div class="pt-3"></div>
+        <div class="bota1">
+            <a href="View/preguntas.php" class="boton__2" style="box-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;"><b>Contactar</b></a>
+        </div>
     </div>
-   </div>
    
    <div class="">
         <div class="ser">
@@ -87,6 +87,24 @@
         </div>
    </div>
    </div> 
+   <div class="con-anun1" style="background: #FF0C7D;">
+    <div class="col-5"></div>
+        <table>
+        <thead>
+            <th class="col-1"></th>
+            <th class="col-11"></th>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td><div>
+                <iframe style="padding: 60px 300px 0px 0px; float:right" width="860" height="375" allowfullscreen="1" src="https://www.youtube.com/embed/3IT7lLRzs8Y?autoplay=1"></iframe>
+                <h2 style="padding: 100px 1000px 0px 0px; font-size:60px;text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;" class="titulo1">¿Por qué necesitas una agencia de marketing?</h5>
+            </div></td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
    <div class="pt-5"></div>
        <div class="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126777.96020960424!2d-79.72782079999999!3d-6.7928064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1681256123713!5m2!1ses!2spe"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
