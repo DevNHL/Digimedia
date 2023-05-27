@@ -20,7 +20,11 @@
 </head>
 
 <body>
-    <?php include 'header.html' ?>
+    <?php
+    include 'header.html';
+    include("../bd/registrar.php");//Para hacer enviar el registro
+    ?>
+
     <div class="banerprincipal" >
         <div class="padre">
         <div class="contenedors">
@@ -129,14 +133,14 @@
 
                     <!--//Nombre//-->
                     <div class="form-group">
-                    <label for="name">Nombre</label>
+                    <label for="name">Nombre:</label>
                         <input type="text" class="form-control" placeholder="Ingresar Nombre Completo" name="name" id="name">
                     <p class="err-msg"></p>
                     </div>
                     
                     <!--//Telefono//-->
                     <div class="form-group">
-                        <label for="phone">Telefono</label>
+                        <label for="phone">Telefono:</label>
                         <input type="text" class="form-control" placeholder="Ingresar Telefono Personal" name="phone" id="phone">
                         <p class="err-msg"></p>
                     </div>

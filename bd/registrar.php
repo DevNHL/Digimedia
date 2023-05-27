@@ -1,4 +1,5 @@
 <?php
+
 //Include "conexion"
 include ("conexion.php");
 
@@ -10,8 +11,14 @@ $numero =trim($_POST['phone']);
 $email =trim($_POST['email']);
 
 //Query
-$consulta = "INSERT INTO DB(campo1,campo2,campo3,...) VALUES ('$nombre','$numero','$email',...)";
+$consulta = "INSERT INTO contpopup(nombre,telefono,correo)
+             VALUES ('$nombre','$numero','$email')";
 $respuesta = mysqli_query($conectar1,$consulta);
+if ($respuesta) {
+    ?><h3>Correcto</h3> <?php 
+}else{
+    ?><h3>Error</h3> <?php 
+}
 
 }
 
