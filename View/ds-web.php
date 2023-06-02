@@ -42,28 +42,7 @@
         </div>
     </div>
    
-   <div class="">
-        <div class="ser">
-        <h4 style="color: white; font-weight: bold;">Servicios de Marketing</h4>
-        </div>
-        <div class="co" id="">
-            <div class="mar">
-               
-                <a href="marketing-digital.php" class="hover">
-                    <p>Marketing Digital</p>
-                    <img src="../img/servicio_marketing_digital.webp" alt="">
-                </a>
-                <a href="img-corp.php" class="hover">
-                    <p>Imagen Corporativa</p>
-                    <img src="../img/imagen_coorporativa.webp" alt="">
-                </a>
-                <a href="rd-sociales.php" class="hover">
-                    <p>Gesti&oacute; de Redes Sociales</p>
-                    <img src="../img/servicio_de_getion_de_redes_sociales.webp" alt="">
-                </a>
-            </div>
-        </div>
-   </div>
+   
    </div> 
    <div class="con-anun1" style="background: #009BFF;">
     <div class="col-5"></div>
@@ -162,7 +141,7 @@
         </div>
         </div></div></td>
             <td></td>
-            <td><div style ="background: white; width: 320px; height: 264px;box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px; border: 2px solid rgba(17, 0, 255, 0.8); border-radius: 5px;">
+            <td><div style ="background: #009BFF; width: 323px; height: 264px;box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px; border: 2px solid rgba(17, 0, 255, 0.8); border-radius: 5px;">
             <div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
         
         <div data-mesh-id="comp-lfiuazkxinlineContent" data-testid="inline-content" class="">
@@ -170,7 +149,7 @@
                 <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
                     <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
                         <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:469,&quot;targetHeight&quot;:574,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
-                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_268,h_169,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg 1x, https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_536,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg" alt="2 (1).webp" fetchpriority="high" style="width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_268,h_169,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg 1x, https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_536,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg" alt="2 (1).webp" fetchpriority="high" style="width: 320px; height: 194px; object-fit: cover;">
                         </wow-image>
                     </a>
                 </div>
@@ -179,7 +158,7 @@
                         <span style="color:#059EFF;" class="wixui-rich-text__text">
                             <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
                             <span style="font-size:20px;" class="wixui-rich-text__text">
-                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="font-size:20px; line-height:normal; color:#059EFF; padding: 20px "> GESTIÓN DE REDES SOCIALES</b></span></center>
+                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="font-size:20px; line-height:normal; color:white; padding: 20px "> GESTIÓN DE REDES SOCIALES</b></span></center>
                             </span>
                             </a>
                         </span>
