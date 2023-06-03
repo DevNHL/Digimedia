@@ -26,7 +26,7 @@
    
         <div class="principal">
             <div class="letra_titulo">
-                <h1 class="d" style="text-transform: uppercase; font-weight: normal; color: white; animation: neon 3s infinite; opacity: 1.2;">DISEÑO Y DESARROLLO WEB</h1>
+                <h1 class="d" style="text-transform: uppercase; font-weight: normal; color: white; opacity: 1.2;text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;"><b>DISEÑO Y DESARROLLO WEB</b></h1>
             </div>
         </div>
    </div>
@@ -41,7 +41,106 @@
             <a href="View/preguntas.php" class="boton__2" style="box-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;"><b>Contactar</b></a>
         </div>
     </div>
-   
+    <div class="con-anun5" style="background: linear-gradient(to right,  rgba(106,39,181,1), rgba(4,151,252,1));">
+    <div class="parrafos1">
+            <h5 class="titulo1" style="font-size:50px; text-shadow:rgba(0, 0, 0, 0.4) 0px 4px 5px;">Te garantizamos</h5>
+        </div>
+    <div class="pt-5"></div>
+    <table>
+        <thead>
+            <th class="col-2"></th>
+            <th class="col-3"></th>
+            <th class="col-0.5"></th>
+            <th class="col-3"></th>
+            <th class="col-0.5"></th>
+            <th class="col-3"></th>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td><div style ="background: #009BFF; width: 323px; height: 265px; box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px; border: 2px solid rgba(17, 0, 255, 0.8); border-radius: 5px;">
+            <div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
+        <div data-mesh-id="comp-lfiuazkxinlineContent" data-testid="inline-content" class="">
+            <div data-mesh-id="comp-lfiuazkxinlineContent-gridContainer" data-testid="mesh-container-content" >
+                <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
+                    <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
+                        <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:269,&quot;targetHeight&quot;:174,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="width: 320px; height: 194px; object-fit: cover;">
+                        </wow-image>
+                    </a>
+                </div>
+                <div id="comp-j6c378qv" class="KcpHeO tz5f0K comp-j6c378qv wixui-rich-text" data-testid="richTextElement">
+                    <p class="font_7 wixui-rich-text__text" style="">
+                        <span style="color:#059EFF;" class="wixui-rich-text__text">
+                            <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
+                            <span style="font-size:20px;" class="wixui-rich-text__text">
+                            <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="font-size:20px; line-height:normal; color:white; padding: 20px ">DISEÑO Y DESARROLLO WEB</b></span></center>
+                            </span>    
+                            </a>
+                        </span>
+                    </p>
+                </div>
+        </div>
+        </div>
+        </div></div></td>
+            <td></td>
+            <td><div style ="background: #009BFF; width: 323px; height: 264px;box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px; border: 2px solid rgba(17, 0, 255, 0.8); border-radius: 5px;">
+            <div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
+        
+        <div data-mesh-id="comp-lfiuazkxinlineContent" data-testid="inline-content" class="">
+        <div data-mesh-id="comp-lfiuazkxinlineContent-gridContainer" data-testid="mesh-container-content">
+                <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
+                    <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
+                        <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:469,&quot;targetHeight&quot;:574,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_268,h_169,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg 1x, https://static.wixstatic.com/media/ec738b_82384bac0eff4512af071e688fb13599~mv2.jpg/v1/fill/w_536,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DigiMedia-agencia-de-marketing-gesti%C3%B3n-de-redes-sociales.jpg" alt="2 (1).webp" fetchpriority="high" style="width: 320px; height: 194px; object-fit: cover;">
+                        </wow-image>
+                    </a>
+                </div>
+                <div id="comp-j6c378qv" class="KcpHeO tz5f0K comp-j6c378qv wixui-rich-text" data-testid="richTextElement">
+                    <p class="font_7 wixui-rich-text__text" style="font-size:20px; line-height:normal;">
+                        <span style="color:#059EFF;" class="wixui-rich-text__text">
+                            <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
+                            <span style="font-size:20px;" class="wixui-rich-text__text">
+                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="font-size:20px; line-height:normal; color:white; padding: 20px "> GESTIÓN DE REDES SOCIALES</b></span></center>
+                            </span>
+                            </a>
+                        </span>
+                    </p>
+                </div>
+        </div>   
+        </div>
+        </div></td>
+        <td></td>
+        <td> <div style ="background: white; width: 320px; height: 264px; box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;border: 2px solid rgba(17, 0, 255, 0.8); border-radius: 5px;">
+            <div id="comp-lfiuazkx" class="IA2mJx comp-lfiuazkx">
+        
+        <div data-mesh-id="comp-lfiuazkxinlineContent" data-testid="inline-content" class="" style ="background: white">
+            <div data-mesh-id="comp-lfiuazkxinlineContent-gridContainer" data-testid="mesh-container-content" >
+                <div id="comp-lfiu0eh4" class="AGM571 comp-lfiu0eh4 wixui-image rYiAuL">
+                    <a data-testid="linkElement" href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="oIRgAP">
+                        <wow-image id="img_comp-lfiu0eh4" class="HlRz5e nZuqoz" data-image-info="{&quot;containerId&quot;:&quot;comp-lfiu0eh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:269,&quot;targetHeight&quot;:174,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:1800,&quot;height&quot;:1190,&quot;uri&quot;:&quot;af1527_f856f68636d740da9e8c89236e693420~mv2.webp&quot;,&quot;name&quot;:&quot;2 (1).webp&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" style="--wix-img-max-width:max(1800px, 100%);" data-src="https://static.wixstatic.com/media/af1527_f856f68636d740da9e8c89236e693420~mv2.webp">
+                            <img  href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" src="https://static.wixstatic.com/media/ec738b_aacf6bda467b4572910c5f249ddf8570~mv2.webp" alt="2 (1).webp" fetchpriority="high" style="width: 320px; height: 194px; object-fit: cover;padding: 20px 20px 20px 20px">
+                        </wow-image>
+                    </a>
+                </div>
+                <div id="comp-j6c378qv" class="KcpHeO tz5f0K comp-j6c378qv wixui-rich-text" data-testid="richTextElement">
+                    <p class="font_7 wixui-rich-text__text" style="font-size:20px; line-height:normal;">
+                        <span style="color:#059EFF;" class="wixui-rich-text__text">
+                            <a href="https://digimediamkt.wixsite.com/digimedia/copy-of-home" target="_self" class="wixui-rich-text__text">
+                            <span style="font-size:20px;" class="wixui-rich-text__text">
+                                <center><span style="font-family:avenir-lt-w01_85-heavy1475544,sans-serif; letter-spacing:0.05em; " class="wixui-rich-text__text"><b style="font-size:20px; line-height:normal; color:#059EFF; padding: 20px ">MARKETING Y GESTIÓN DIGITAL</b></span></center>
+                            </span>
+                            </a>
+                        </span>
+                    </p>
+                </div>
+        </div>
+        </div>
+        </div></td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
    
    </div> 
    <div class="con-anun1" style="background: #009BFF;">
