@@ -20,9 +20,11 @@
 </head>
 
 <body>
+    
     <?php
     include 'header.html';
     include("../bd/registrar.php");//Para hacer enviar el registro
+    include("../whatsapp/whtsp.php");//Para hacer enviar el Whatsapp
     ?>
 
     <div class="banerprincipal" >
